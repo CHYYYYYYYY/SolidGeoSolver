@@ -1,9 +1,9 @@
-# FGPS - FormalGeo Problem Solver
+# SolidGeoSolver
 
 [![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
-FGPS (FormalGeo Problem Solver) is an automated geometric problem-solving system based on the FormalGeo framework. It formally represents geometric problems and automatically solves them using various search strategies. The project also integrates AI models for generating Condition Description Language (CDL).
+SolidGeoSolver is an automated geometric problem-solving system based on the FormalGeo framework. It formally represents geometric problems and automatically solves them using various search strategies. The project also integrates AI models for generating Condition Description Language (CDL).
 
 ## ✨ Key Features
 
@@ -18,7 +18,7 @@ FGPS (FormalGeo Problem Solver) is an automated geometric problem-solving system
 The core implementation is located in the `src/` directory.
 
 ```
-FGPS-main/
+SolidGeoSolver/
 ├── src/fgps/              # Main Package
 │   ├── search.py         # Search Algorithms Implementation
 │   ├── run.py            # Execution & Auto-Solver Scripts
