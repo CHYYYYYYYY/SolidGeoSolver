@@ -1,0 +1,33 @@
+{
+  "problem_id": 1121,
+  "annotation": "ShiyuShen_2025-08-23",
+  "annotation_img": "ShiyuShen_2025-08-23",
+  "source": "SolidGeo",
+  "problem_text_cn": "已知一个圆柱体的表面积为60200平方毫米，底面半径为85毫米。请问该圆柱体的高度$h$应该是多少毫米？答案四舍五入到最接近的整数。",
+  "problem_text_en": "Given a cylinder with a surface area of 60200 mm² and a radius of 85 mm. What must the height $h$ of the cylinder be in mm?\n\nRound your answer to the nearest whole number.",
+  "problem_img": "images\\145.png",
+  "construction_cdl": [
+    "Shape(PQ,QP)",
+    "Cocircular(P)",
+    "Cocircular(Q)"
+  ],
+  "text_cdl": [
+    "Equal(Add(AreaOfCircle(P),AreaOfCircle(Q),LateralareaOfCylinder(P,Q)),60200)",
+    "Equal(RadiusOfCircle(P),85)",
+    "Equal(HeightOfCylinder(P,Q),h)"
+  ],
+  "image_cdl": [
+    "Cylinder(P,Q)",
+    "IsCentreOfCircle(P,P)",
+    "IsCentreOfCircle(Q,Q)",
+    "Equal(RadiusOfCircle(P),85)",
+    "Equal(HeightOfCylinder(P,Q),h)"
+  ],
+  "goal_cdl": "Value(h)",
+  "problem_answer": "28",
+  "theorem_seqs": [],
+  "theorem_seqs_dag": {
+    "START": []
+  }
+}
+

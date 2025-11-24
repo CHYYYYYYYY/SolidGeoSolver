@@ -1,0 +1,32 @@
+{
+  "problem_id": 507,
+  "annotation": "RuoranXu_2025-07-18",
+  "annotation_img": "RuoranXu_2025-07-18",
+  "source": "SolidGeo",
+  "problem_text_cn": "如图，AB、CD分别在平面U、V上且平面U平行于平面V。证明AB平行CD.",
+  "problem_text_en": "As shown in the figure, AB and CD are on plane U and parallel to plane V. Prove that plane V is parallel to plane U.",
+  "problem_img": [
+    "images\\507.jpg"
+  ],
+  "construction_cdl": [
+    "Shape(AB,BA)",
+    "Shape(CD,DC)",
+    "Coplanar(W,ABCD)",
+    "Coplanar(U,AB)",
+    "Coplanar(V,CD)"
+  ],
+  "text_cdl": [
+    "ParallelBetweenPlane(U,V)"
+  ],
+  "image_cdl": [
+    "ParallelBetweenPlane(U,V)"
+  ],
+  "goal_cdl": "Relation(ParallelBetweenLine(AB,CD))",
+  "problem_answer": "0",
+  "theorem_seqs": [
+    "parallel_property1_between_line_and_line(AB,CD,U,V,W)"
+  ],
+  "theorem_seqs_dag": {
+    "START": []
+  }
+}

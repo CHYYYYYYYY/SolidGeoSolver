@@ -1,0 +1,37 @@
+{
+  "problem_id": 66,
+  "annotation": "",
+  "source": "SolidGeo",
+  "problem_text_en": "Find the surface area of the rectangular prism with length equal to 12 m.",
+  "construction_cdl": [
+    "Shape(AB,BC,CD,DA)",
+    "Shape(EF,FG,GH,HE)",
+    "Shape(AE,EF,FB,BA)",
+    "Shape(CD,DH,HG,GC)",
+    "Shape(AE,EH,HD,DA)",
+    "Shape(BC,CG,GF,FB)",
+    "Coplanar(U,ABCD)",
+    "Coplanar(V,EFGH)",
+    "Coplanar(W,AEFB)",
+    "Coplanar(X,ADHE)",
+    "Coplanar(Y,CBFG)",
+    "Coplanar(Z,CGHD)"
+  ],
+  "text_cdl": [
+    "Cuboid(ABCDEFGH)",
+    "Equal(LengthOfLine(AD),12)"
+  ],
+  "image_cdl": [
+    "Cuboid(ABCDEFGH)",
+    "Equal(LengthOfLine(AB),6)",
+    "Equal(LengthOfLine(AE),4)"
+  ],
+  "goal_cdl": "Value(AreaOfCuboid(ABCDEFGH))",
+  "problem_answer": "288",
+  "problem_type": [
+    "Solid Geometry"
+  ],
+  "complexity_level": "Level 1",
+  "theorem_seqs": [],
+  "theorem_seqs_dag": "{\"START\": []}"
+}

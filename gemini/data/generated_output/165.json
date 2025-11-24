@@ -1,0 +1,46 @@
+{
+  "problem_id": 165,
+  "annotation": "The user provided an image of a prism and text describing a cube. This is a mismatch. I will process the problem based on the provided image, as the text seems to be from a different problem.",
+  "source": "SolidGeo",
+  "problem_text_en": "All edges of the following cube are 7 cm long.Find z, the size of \\angle AGH, correct to 2 decimal places.",
+  "construction_cdl": [
+    "Shape(AB,BC,CF,FE,EA)",
+    "Shape(AD,DC,CB,BA)",
+    "Shape(DC,CF,FE,ED)",
+    "Shape(AD,DE,EA)",
+    "Shape(BC,CF,FB)",
+    "Coplanar(U,ABCD)",
+    "Coplanar(V,EFCB)",
+    "Coplanar(W,ADE)",
+    "Coplanar(X,BCF)"
+  ],
+  "text_cdl": [
+    "Cube(ABCDEF)",
+    "Equal(LengthOfLine(AB),7)",
+    "Equal(LengthOfLine(BC),7)",
+    "Equal(LengthOfLine(CF),7)",
+    "Equal(LengthOfLine(FE),7)",
+    "Equal(LengthOfLine(EA),7)",
+    "Equal(LengthOfLine(AD),7)",
+    "Equal(LengthOfLine(DC),7)",
+    "Equal(MeasureOfAngle(A,G,H),z)"
+  ],
+  "image_cdl": [
+    "QuadrangularPrism(ABCDEF)",
+    "Rectangle(ABCD)",
+    "IsMidpointOfLine(X,E,F)",
+    "Equal(LengthOfLine(AB),10)",
+    "Equal(LengthOfLine(BC),3)",
+    "Equal(LengthOfLine(CF),15)",
+    "PerpendicularBetweenLine(A,D,D,C)",
+    "PerpendicularBetweenLine(B,C,C,F)"
+  ],
+  "goal_cdl": "Value(z)",
+  "problem_answer": "48.19",
+  "problem_type": [
+    "Solid Geometry"
+  ],
+  "complexity_level": "Level 3",
+  "theorem_seqs": [],
+  "theorem_seqs_dag": "{\"START\": []}"
+}

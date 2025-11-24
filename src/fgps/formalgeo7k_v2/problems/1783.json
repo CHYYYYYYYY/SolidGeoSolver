@@ -1,0 +1,35 @@
+{
+  "problem_id": 1783,
+  "annotation": "",
+  "annotation_img": "",
+  "source": "SolidGeo",
+  "problem_text_cn": "",
+  "problem_text_en": "Find the surface area of the sphere shown. The radius is 30.1 cm.\n\nRound your answer to two decimal places.",
+  "problem_img": [
+    "images\\30.png"
+  ],
+  "construction_cdl": [
+    "Shape(O)",
+    "Cospherical(O)"
+  ],
+  "text_cdl": [
+    "Sphere(O)",
+    "Equal(RadiusOfSphere(O),30.1)"
+  ],
+  "image_cdl": [
+    "Sphere(O)",
+    "IsCentreOfSphere(O,O)",
+    "Equal(RadiusOfSphere(O),30.1)"
+  ],
+  "goal_cdl": "Value(AreaOfSphere(O))",
+  "problem_answer": "11379.36",
+  "problem_type": [
+    "Measurement of Solid Geometric Forms"
+  ],
+  "complexity_level": "Level 1",
+  "theorem_seqs": [],
+  "theorem_seqs_dag": {
+    "START": []
+  }
+}
+

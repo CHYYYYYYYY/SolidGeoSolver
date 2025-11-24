@@ -1,0 +1,33 @@
+{
+  "problem_id": 1218,
+  "annotation": "",
+  "annotation_img": "",
+  "source": "SolidGeo",
+  "problem_text_cn": "一个空心圆锥的外圆锥母线长为18米，内圆锥母线长为9米，外圆锥底面半径为2米，内圆锥底面半径为1米。求该空心圆锥的表面积（包括内外侧面积和底部圆环面积）。",
+  "problem_text_en": "A hollow cone has an outer cone slant height of 18 m, inner cone slant height of 9 m, outer cone base radius of 2 m, and inner cone base radius of 1 m. Find the surface area of the hollow cone (including outer and inner lateral areas and the bottom annulus area).",
+  "problem_img": [
+    "images\\315.jpg"
+  ],
+  "construction_cdl": [
+    "Shape(VP,PQ,QP,PV)"
+  ],
+  "text_cdl": [],
+  "image_cdl": [
+    "Equal(RadiusOfCircle(P),1)",
+    "Cone(V,P)",
+    "Equal(BusbarOfCone(V,P),9)",
+    "Equal(BusbarOfCone(V,Q),18)",
+    "Equal(RadiusOfCircle(Q),2)",
+    "Cone(V,Q)"
+  ],
+  "goal_cdl": "Value(Add(Sub(Mul(pi,RadiusOfCircle(Q),BusbarOfCone(V,Q)),Mul(pi,RadiusOfCircle(P),BusbarOfCone(V,P))),Mul(pi,Pow(RadiusOfCircle(P),2)),Mul(pi,Pow(RadiusOfCircle(Q),2))))",
+  "problem_answer": "141.37",
+  "problem_type": [
+    "Measurement of Solid Geometric Forms"
+  ],
+  "complexity_level": "Level 1",
+  "theorem_seqs": [],
+  "theorem_seqs_dag": {
+    "START": []
+  }
+}

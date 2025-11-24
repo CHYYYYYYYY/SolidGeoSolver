@@ -1,0 +1,30 @@
+{
+  "problem_id": 1217,
+  "annotation": "",
+  "annotation_img": "",
+  "source": "SolidGeo",
+  "problem_text_cn": "一个圆锥的母线长为12米，底面半径为4米。求该圆锥的表面积（包括底面积和侧面积）。",
+  "problem_text_en": "A cone has a slant height of 12 m and a base radius of 4 m. Find the surface area of the cone (including base area and lateral area).",
+  "problem_img": [
+    "images\\314.jpg"
+  ],
+  "construction_cdl": [
+    "Shape(OP,PO)"
+  ],
+  "text_cdl": [],
+  "image_cdl": [
+    "Equal(BusbarOfCone(O,P),12)",
+    "Cone(O,P)",
+    "Equal(RadiusOfCircle(O),4)"
+  ],
+  "goal_cdl": "Value(Add(Mul(pi,Pow(RadiusOfCircle(O),2)),Mul(pi,RadiusOfCircle(O),BusbarOfCone(O,P))))",
+  "problem_answer": "201.06",
+  "problem_type": [
+    "Measurement of Solid Geometric Forms"
+  ],
+  "complexity_level": "Level 1",
+  "theorem_seqs": [],
+  "theorem_seqs_dag": {
+    "START": []
+  }
+}

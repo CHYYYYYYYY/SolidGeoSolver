@@ -1,0 +1,39 @@
+{
+  "problem_id": 1577,
+  "annotation": "",
+  "annotation_img": "",
+  "source": "SolidGeo",
+  "problem_text_cn": "",
+  "problem_text_en": "Find the volume of the cylinder shown. The radius is 14.5 cm and height is 32 cm.\n\nRound your answer to two decimal places.",
+  "problem_img": [
+    "images\\7.png"
+  ],
+  "construction_cdl": [
+    "Shape(PQ,QP)",
+    "Cocircular(Q)",
+    "Cocircular(P)"
+  ],
+  "text_cdl": [
+    "Cylinder(P,Q)",
+    "Equal(RadiusOfCircle(P),14.5)",
+    "Equal(HeightOfCylinder(P,Q),32)"
+  ],
+  "image_cdl": [
+    "Cylinder(P,Q)",
+    "IsCentreOfCircle(P,P)",
+    "IsCentreOfCircle(Q,Q)",
+    "Equal(RadiusOfCircle(P),14.5)",
+    "Equal(HeightOfCylinder(P,Q),32)"
+  ],
+  "goal_cdl": "Value(VolumeOfCylinder(P,Q))",
+  "problem_answer": "21124.42",
+  "problem_type": [
+    "Measurement of Solid Geometric Forms"
+  ],
+  "complexity_level": "Level 1",
+  "theorem_seqs": [],
+  "theorem_seqs_dag": {
+    "START": []
+  }
+}
+

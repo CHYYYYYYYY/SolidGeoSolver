@@ -1,0 +1,55 @@
+{
+  "problem_id": 1810,
+  "annotation": "",
+  "annotation_img": "",
+  "source": "SolidGeo",
+  "problem_text_cn": "",
+  "problem_text_en": "As shown in the figure, 2 of segments are cylinders on each side of the solid with radius of 24. Calculate the volume of the solid. Round your answer to one decimal place.",
+  "problem_img": [
+    "images\\100.png"
+  ],
+  "construction_cdl": [
+    "Shape(AB,BA)",
+    "Shape(PQ,QP)",
+    "Shape(CD,DC)",
+    "Cocircular(A)",
+    "Cocircular(B)",
+    "Cocircular(C)",
+    "Cocircular(D)",
+    "Cocircular(P)",
+    "Cocircular(Q)",
+    "Coplanar(U,A)",
+    "Coplanar(V,BC)",
+    "Coplanar(W,DP)",
+    "Coplanar(X,Q)"
+  ],
+  "text_cdl": [
+    "Cylinder(A,B)",
+    "Cylinder(P,Q)",
+    "Equal(RadiusOfCircle(A),24)",
+    "Equal(RadiusOfCircle(B),24)",
+    "Equal(RadiusOfCircle(P),24)",
+    "Equal(RadiusOfCircle(Q),24)"
+  ],
+  "image_cdl": [
+    "Cylinder(P,Q)",
+    "Cylinder(A,B)",
+    "Cylinder(C,D)",
+    "Equal(HeightOfCylinder(A,B),21)",
+    "Equal(HeightOfCylinder(P,Q),21)",
+    "Equal(HeightOfCylinder(C,D),20)",
+    "Equal(DiameterOfCircle(C),17)",
+    "Equal(DiameterOfCircle(D),17)"
+  ],
+  "goal_cdl": "Value(Add(VolumeOfCylinder(P,Q),VolumeOfCylinder(C,D),VolumeOfCylinder(A,B)))",
+  "problem_answer": "15840.0",
+  "problem_type": [
+    "Composite Solid Structures"
+  ],
+  "complexity_level": "Level 1",
+  "theorem_seqs": [],
+  "theorem_seqs_dag": {
+    "START": []
+  }
+}
+

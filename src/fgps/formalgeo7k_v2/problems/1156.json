@@ -1,0 +1,37 @@
+{
+  "problem_id": 1156,
+  "annotation": "",
+  "annotation_img": "",
+  "source": "SolidGeo",
+  "problem_text_cn": "",
+  "problem_text_en": "Calculate the volume of the cylinder shown, rounding your answer to two decimal places.",
+  "problem_img": [
+    "images\\210.jpg"
+  ],
+  "construction_cdl": [
+    "Shape(PQ,QP)",
+    "Cocircular(P)",
+    "Cocircular(Q)"
+  ],
+  "text_cdl": [
+    "Equal(RadiusOfCircle(P),7)",
+    "Equal(RadiusOfCircle(Q),7)",
+    "Equal(HeightOfCylinder(P,Q),10)"
+  ],
+  "image_cdl": [
+    "Cylinder(P,Q)",
+    "Equal(RadiusOfCircle(P),7)",
+    "Equal(RadiusOfCircle(Q),7)"
+  ],
+  "goal_cdl": "Value(VolumeOfCylinder(P,Q))",
+  "problem_answer": "1539.38",
+  "problem_type": [
+    "Measurement of Solid Geometric Forms"
+  ],
+  "complexity_level": "Level 1",
+  "theorem_seqs": [],
+  "theorem_seqs_dag": {
+    "START": []
+  }
+}
+

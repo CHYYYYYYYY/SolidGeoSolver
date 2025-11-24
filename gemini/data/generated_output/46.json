@@ -1,0 +1,47 @@
+{
+  "problem_id": 46,
+  "annotation": "",
+  "source": "SolidGeo",
+  "problem_text_en": "A triangular prism has as dimensions those labelled on the diagram. The AB edge has length of 10. The BC edge has length of 3. The CF edge has length of 15. The EX edge and FX edge have the equal length. Find z, the size of \\angle BXC, correct to 2 decimal places.",
+  "construction_cdl": [
+    "Shape(AB,BC,CD,DA)",
+    "Shape(AD,DE,EA)",
+    "Shape(AB,BF,FX,XE,EA)",
+    "Shape(BC,CF,FB)",
+    "Shape(CX,XF,FC)",
+    "Shape(CD,DE,EX,XC)",
+    "Shape(BC,CX,XB)",
+    "Coplanar(U,ABCD)",
+    "Coplanar(V,CDEXF)",
+    "Coplanar(W,ADE)",
+    "Coplanar(X,CBF)",
+    "Coplanar(Y,ABFXE)",
+    "Collinear(E,X,F)"
+  ],
+  "text_cdl": [
+    "RightTriangularPrism(ADE,BCF)",
+    "Prism(W,X)",
+    "Equal(LengthOfLine(A,B),10)",
+    "Equal(LengthOfLine(B,C),3)",
+    "Equal(LengthOfLine(C,F),15)",
+    "Equal(LengthOfLine(E,X),LengthOfLine(F,X))",
+    "Equal(MeasureOfAngle(BXC),z)"
+  ],
+  "image_cdl": [
+    "RightTriangularPrism(ADE,BCF)",
+    "Prism(W,X)",
+    "Equal(LengthOfLine(A,B),10)",
+    "Equal(LengthOfLine(B,C),3)",
+    "Equal(MeasureOfAngle(A,D,C),90)",
+    "Equal(MeasureOfAngle(B,C,F),90)",
+    "IsMidpointOfLine(X,E,F)"
+  ],
+  "goal_cdl": "Value(z)",
+  "problem_answer": "10.74",
+  "problem_type": [
+    "Solid Geometry"
+  ],
+  "complexity_level": "Level 3",
+  "theorem_seqs": [],
+  "theorem_seqs_dag": "{\"START\": []}"
+}

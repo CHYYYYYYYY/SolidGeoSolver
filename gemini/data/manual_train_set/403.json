@@ -1,0 +1,35 @@
+{
+  "problem_id": 403,
+  "annotation": "AI_Assistant_2025-09-30",
+  "annotation_img": "AI_Assistant_2025-09-30",
+  "source": "SolidGeo",
+  "problem_text_cn": "",
+  "problem_text_en": "As shown in the figure, plane V is parallel to plane U. Determine whether plane U is parallel to plane V.",
+  "problem_img": [
+    "images\\403.jpg"
+  ],
+  "construction_cdl": [
+    "Coplanar(V)",
+    "Coplanar(U)"
+  ],
+  "text_cdl": [
+    "Plane(U)",
+    "Plane(V)",
+    "ParallelBetweenPlane(V,U)"
+  ],
+  "image_cdl": [
+    "Plane(U)",
+    "Plane(V)",
+    "ParallelBetweenPlane(V,U)"
+  ],
+  "goal_cdl": "Relation(ParallelBetweenPlane(U,V))",
+  "problem_answer": "0",
+  "problem_type": [
+    "Spatial Metric Relations"
+  ],
+  "complexity_level": "Level 1",
+  "theorem_seqs": [],
+  "theorem_seqs_dag": {
+    "START": []
+  }
+}

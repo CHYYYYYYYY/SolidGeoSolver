@@ -1,0 +1,38 @@
+{
+  "problem_id": 1749,
+  "annotation": "",
+  "annotation_img": "",
+  "source": "SolidGeo",
+  "problem_text_cn": "",
+  "problem_text_en": "Find the volume of the cone shown. The slant height is 42 centimeters and radius is 19 centimeters.\n\nRound your answer to two decimal places.",
+  "problem_img": [
+    "images\\10.png"
+  ],
+  "construction_cdl": [
+    "Shape(OP,PO)",
+    "Cocircular(O)"
+  ],
+  "text_cdl": [
+    "Cone(O,P)",
+    "IsCentreOfCircle(O,O)",
+    "Equal(RadiusOfCircle(O),19)",
+    "Equal(BusbarOfCone(O,P),42)"
+  ],
+  "image_cdl": [
+    "Cone(O,P)",
+    "IsCentreOfCircle(O,O)",
+    "Equal(RadiusOfCircle(O),19)",
+    "Equal(BusbarOfCone(O,P),42)"
+  ],
+  "goal_cdl": "Value(VolumeOfCone(O,P))",
+  "problem_answer": "6809.36",
+  "problem_type": [
+    "Measurement of Solid Geometric Forms"
+  ],
+  "complexity_level": "Level 1",
+  "theorem_seqs": [],
+  "theorem_seqs_dag": {
+    "START": []
+  }
+}
+

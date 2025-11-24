@@ -1,0 +1,36 @@
+{
+  "problem_id": 29,
+  "annotation": "",
+  "source": "SolidGeo",
+  "problem_text_en": "Write an equation for the surface area of the above cylinder if the length is $L$. You must factorise this expression fully.",
+  "construction_cdl": [
+    "Shape(PQ,QP)",
+    "Shape(AB,BA)",
+    "Coplanar(U,AP)",
+    "Coplanar(V,BQ)",
+    "Cocircular(P)",
+    "Cocircular(Q)",
+    "Cocircular(A)",
+    "Cocircular(B)"
+  ],
+  "text_cdl": [
+    "Cylinder(A,B)",
+    "Cylinder(P,Q)",
+    "Equal(HeightOfCylinder(P,Q),L)"
+  ],
+  "image_cdl": [
+    "Cylinder(A,B)",
+    "Cylinder(P,Q)",
+    "Equal(RadiusOfCircle(Q),R)",
+    "Equal(RadiusOfCircle(A),r)",
+    "Equal(HeightOfCylinder(P,Q),L)"
+  ],
+  "goal_cdl": "Value(Add(Sub(AreaOfCircle(Q),AreaOfCircle(A)), Sub(AreaOfCircle(P),AreaOfCircle(B)), LateralareaOfCylinder(P,Q), LateralareaOfCylinder(A,B)))",
+  "problem_answer": "2*pi*(R-r)*(R+r+L)",
+  "problem_type": [
+    "Solid Geometry"
+  ],
+  "complexity_level": "Level 3",
+  "theorem_seqs": [],
+  "theorem_seqs_dag": "{\"START\": []}"
+}

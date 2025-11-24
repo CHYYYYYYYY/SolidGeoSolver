@@ -1,0 +1,15 @@
+{
+  "problem_id": 74,
+  "annotation": "The user wants to find the surface area of a T-shaped object composed of two rectangular prisms. The dimensions are provided in the text and image. The key is to calculate the surface area of both prisms and subtract the overlapping area twice.",
+  "source": "SolidGeo",
+  "problem_text_en": "Find the surface area of the figure shown. The two marked edges have the same length. The top rectangular prism has sides length of 12cm, 1cm and 1cm. The bottom rectangular prism has sides length of 7cm, 4cm and 1cm.",
+  "construction_cdl": [],
+  "text_cdl": [],
+  "image_cdl": [],
+  "goal_cdl": "",
+  "problem_answer": "",
+  "problem_type": [],
+  "complexity_level": "",
+  "theorem_seqs": [],
+  "theorem_seqs_dag": "{\"START\": []}"
+}

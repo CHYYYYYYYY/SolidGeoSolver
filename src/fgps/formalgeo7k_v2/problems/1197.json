@@ -1,0 +1,34 @@
+{
+  "problem_id": 1197,
+  "annotation": "",
+  "annotation_img": "",
+  "source": "SolidGeo",
+  "problem_text_cn": "球体的半径为7米，其大圆的面积为多少？",
+  "problem_text_en": "A sphere has a radius of 7 m. What is the area of its great circle?",
+  "problem_img": [
+    "images\\271.jpg"
+  ],
+  "construction_cdl": [
+    "Shape(O)",
+    "Cospherical(O)",
+    "Cocircular(O)"
+  ],
+  "text_cdl": [],
+  "image_cdl": [
+    "Sphere(O)",
+    "Circle(O)",
+    "IsCentreOfSphere(O,O)",
+    "IsCentreOfCircle(O,O)",
+    "Equal(RadiusOfSphere(O),7)"
+  ],
+  "goal_cdl": "Value(AreaOfCircle(O))",
+  "problem_answer": "153.938",
+  "problem_type": [
+    "Measurement of Solid Geometric Forms"
+  ],
+  "complexity_level": "Level 1",
+  "theorem_seqs": [],
+  "theorem_seqs_dag": {
+    "START": []
+  }
+}

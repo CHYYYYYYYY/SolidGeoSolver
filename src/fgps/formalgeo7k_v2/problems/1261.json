@@ -1,0 +1,35 @@
+{
+  "problem_id": 1261,
+  "annotation": "AI_Assistant_2025-09-30",
+  "annotation_img": "AI_Assistant_2025-09-30",
+  "source": "SolidGeo",
+  "problem_text_cn": "",
+  "problem_text_en": "What is the volume of this azure right square pyramid?",
+  "problem_img": [
+    "images\\431.jpg"
+  ],
+  "construction_cdl": [
+    "Shape(AB,BC,CD,DA)",
+    "Shape(AO,BO,CO,DO)",
+    "Coplanar(U,ABCD)"
+  ],
+  "text_cdl": [
+    "Equal(LengthOfLine(AB),9)",
+    "Equal(LengthOfLine(BC),9)",
+    "Equal(HeightOfQuadrangularPyramid(ABCD,O),11)"
+  ],
+  "image_cdl": [
+    "RegularQuadrangularPyramid(ABCD,O)"
+  ],
+  "goal_cdl": "Value(VolumeOfQuadrangularPyramid(ABCD,O))",
+  "problem_answer": "297.0",
+  "problem_type": [
+    "Measurement of Solid Geometric Forms"
+  ],
+  "complexity_level": "Level 1",
+  "theorem_seqs": [],
+  "theorem_seqs_dag": {
+    "START": []
+  }
+}
+

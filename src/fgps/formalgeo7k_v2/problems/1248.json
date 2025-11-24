@@ -1,0 +1,43 @@
+{
+  "problem_id": 1248,
+  "annotation": "AI_Assistant_2025-09-30",
+  "annotation_img": "AI_Assistant_2025-09-30",
+  "source": "SolidGeo",
+  "problem_text_cn": "",
+  "problem_text_en": "A three-quarter sector of a circle of radius 10 inches together with its interior can be rolled up to form the lateral surface area of a right circular cone by taping together along the two radii shown. What is the volume of the cone in cubic inches? ",
+  "problem_img": [
+    "images\\395.jpg"
+  ],
+  "construction_cdl": [
+    "Shape(OA,AO)",
+    "Shape(OB,BO)",
+    "Shape(CD,DC)",
+    "Cocircular(O)",
+    "Cocircular(C)",
+    "Cocircular(D)",
+    "Coplanar(U,O)",
+    "Coplanar(V,C)",
+    "Coplanar(W,D)"
+  ],
+  "text_cdl": [
+    "Equal(RadiusOfCircle(O),10)"
+  ],
+  "image_cdl": [
+    "Circle(O)",
+    "Cone(C,D)",
+    "Equal(RadiusOfCircle(O),10)",
+    "Equal(Mul(Div(3,4),Mul(2,3.14159,RadiusOfCircle(O))),Mul(2,3.14159,RadiusOfCircle(C)))",
+    "Equal(BusbarOfCone(C,D),RadiusOfCircle(O))"
+  ],
+  "goal_cdl": "Value(VolumeOfCone(C,D))",
+  "problem_answer": "310.89",
+  "problem_type": [
+    "Composite Solid Structures"
+  ],
+  "complexity_level": "Level 2",
+  "theorem_seqs": [],
+  "theorem_seqs_dag": {
+    "START": []
+  }
+}
+

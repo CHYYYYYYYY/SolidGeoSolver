@@ -1,0 +1,48 @@
+{
+  "problem_id": 1458,
+  "annotation": "",
+  "annotation_img": "",
+  "source": "SolidGeo",
+  "problem_text_cn": "",
+  "problem_text_en": "Find the surface area of this prism. The thickness of the prism is 4cm.",
+  "problem_img": "images\\70.png",
+  "construction_cdl": [
+    "Shape(AB,BC,CD,DA)",
+    "Shape(EF,FG,GH,HE)",
+    "Shape(AE,EF,FB,BA)",
+    "Shape(CD,DH,HG,GC)",
+    "Shape(AE,EH,HD,DA)",
+    "Shape(BC,CG,GF,FB)",
+    "Shape(IJ,JK,KL,LI)",
+    "Shape(IJ,JN,NM,MI)",
+    "Shape(JK,KO,ON,NJ)",
+    "Shape(KL,LP,PO,OK)",
+    "Shape(IL,LP,PM,MI)",
+    "Shape(MN,NO,OP,PM)",
+    "Coplanar(U,ABCD)",
+    "Coplanar(V,EFGH)"
+  ],
+  "text_cdl": [
+    "Equal(LengthOfLine(AE),4)",
+    "Equal(LengthOfLine(IM),4)"
+  ],
+  "image_cdl": [
+    "Cuboid(ABCD,EFGH)",
+    "Cuboid(IJKL,MNOP)",
+    "Equal(LengthOfLine(AB),18)",
+    "Equal(LengthOfLine(BC),17)",
+    "Equal(Sub(LengthOfLine(AD),LengthOfLine(IL)),5)",
+    "Equal(Sub(LengthOfLine(AB),LengthOfLine(IJ)),9)"
+  ],
+  "goal_cdl": "Value(Sub(AreaOfCuboid(ABCD,EFGH),AreaOfCuboid(IJKL,MNOP)))",
+  "problem_answer": "562",
+  "problem_type": [
+    "Measurement of Solid Geometric Forms"
+  ],
+  "complexity_level": "Level 1",
+  "theorem_seqs": [],
+  "theorem_seqs_dag": {
+    "START": []
+  }
+}
+

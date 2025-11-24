@@ -1,0 +1,45 @@
+{
+  "problem_id": 101,
+  "annotation": "The problem describes a composite solid which is a prism. The base of the prism is a T-shaped polygon. The problem states that seven marked edges have the same length, and one of these edges is labeled as 7 cm. This means all seven marked edges are 7 cm long. The height of the prism is given as 16 cm. The goal is to find the volume of this composite solid. The base can be decomposed into two rectangles. One rectangle has dimensions 21 cm by 7 cm, and the other has dimensions 7 cm by 7 cm. The total area of the base is the sum of the areas of these two rectangles. The volume of the prism is the area of the base multiplied by the height.",
+  "source": "SolidGeo",
+  "problem_text_en": "As the solid shown in the figure, the seven marked edges have the same length. The height of the prism of 16 cm. Find the volume of the composite solid shown.",
+  "construction_cdl": [
+    "Shape(AB,BC,CD,DE,EF,FG,GA)",
+    "Shape(HI,IJ,JK,KL,LM,MN,NH)",
+    "Shape(AB,BI,IH,HA)",
+    "Shape(BC,CJ,JI,IB)",
+    "Shape(CD,DK,KJ,JC)",
+    "Shape(DE,EL,LK,KD)",
+    "Shape(EF,FM,ML,LE)",
+    "Shape(FG,GN,NM,MF)",
+    "Shape(GA,AH,HN,NG)",
+    "Coplanar(U,ABCDEFG)",
+    "Coplanar(V,HIJKLMN)"
+  ],
+  "text_cdl": [
+    "Equal(LengthOfLine(AB),LengthOfLine(BC))",
+    "Equal(LengthOfLine(BC),LengthOfLine(CD))",
+    "Equal(LengthOfLine(CD),LengthOfLine(DE))",
+    "Equal(LengthOfLine(DE),LengthOfLine(EF))",
+    "Equal(LengthOfLine(EF),LengthOfLine(FG))",
+    "Equal(LengthOfLine(FG),LengthOfLine(GA))",
+    "Equal(HeightOfPrism(U,V),16)"
+  ],
+  "image_cdl": [
+    "Equal(LengthOfLine(GA),7)",
+    "Equal(LengthOfLine(AB),LengthOfLine(BC))",
+    "Equal(LengthOfLine(BC),LengthOfLine(CD))",
+    "Equal(LengthOfLine(CD),LengthOfLine(DE))",
+    "Equal(LengthOfLine(DE),LengthOfLine(EF))",
+    "Equal(LengthOfLine(EF),LengthOfLine(FG))",
+    "Equal(LengthOfLine(FG),LengthOfLine(GA))"
+  ],
+  "goal_cdl": "Value(VolumeOfQuadrangularPrism(U,V))",
+  "problem_answer": "3136",
+  "problem_type": [
+    "Solid Geometry"
+  ],
+  "complexity_level": "Level 2",
+  "theorem_seqs": [],
+  "theorem_seqs_dag": "{\"START\": []}"
+}

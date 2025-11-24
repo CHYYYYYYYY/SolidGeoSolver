@@ -1,0 +1,21 @@
+{
+  "problem_id": 53,
+  "annotation": "The image is missing the label for the diameter. Based on the problem's context from its original source, the diameter is 7 cm. The CDL is generated assuming the diameter is 7 cm.",
+  "source": "SolidGeo",
+  "problem_text_en": "Calculate the volume of the solid. Correct to one decimal place.",
+  "construction_cdl": [
+    "Shape(PQ,QP)",
+    "Cocircular(P)",
+    "Cocircular(Q)",
+    "Cospherical(P)",
+    "Cospherical(Q)"
+  ],
+  "text_cdl": [],
+  "image_cdl": [],
+  "goal_cdl": "",
+  "problem_answer": "",
+  "problem_type": [],
+  "complexity_level": "",
+  "theorem_seqs": [],
+  "theorem_seqs_dag": "{\"START\": []}"
+}

@@ -1,0 +1,36 @@
+{
+  "problem_id": 1449,
+  "annotation": "",
+  "annotation_img": "",
+  "source": "SolidGeo",
+  "problem_text_cn": "",
+  "problem_text_en": "The solid is 4 cm thick. Calculate the volume of the solid, correct to one decimal places.",
+  "problem_img": [
+    "images\\61.jpg"
+  ],
+  "construction_cdl": [
+    "Shape(PQ,QP)",
+    "Cocircular(Q)",
+    "Cocircular(P)"
+  ],
+  "text_cdl": [
+    "Equal(HeightOfCylinder(P,Q),4)"
+  ],
+  "image_cdl": [
+    "Cylinder(P,Q)",
+    "IsCentreOfCircle(P,P)",
+    "IsCentreOfCircle(Q,Q)",
+    "Equal(RadiusOfCircle(P),10)"
+  ],
+  "goal_cdl": "Value(Mul(42/360,VolumeOfCylinder(P,Q)))",
+  "problem_answer": "146.6",
+  "problem_type": [
+    "Measurement of Solid Geometric Forms"
+  ],
+  "complexity_level": "Level 1",
+  "theorem_seqs": [],
+  "theorem_seqs_dag": {
+    "START": []
+  }
+}
+

@@ -1,0 +1,28 @@
+{
+  "problem_id": 153,
+  "annotation": "",
+  "source": "SolidGeo",
+  "problem_text_en": "Find the total surface area.\n\nRound your answer to three decimal places.",
+  "construction_cdl": [
+    "Shape(O)",
+    "Cospherical(O)",
+    "Cocircular(O)"
+  ],
+  "text_cdl": [],
+  "image_cdl": [
+    "Sphere(O)",
+    "IsCentreOfSphere(O,O)",
+    "Equal(RadiusOfSphere(O),8)",
+    "Circle(O)",
+    "IsCentreOfCircle(O,O)",
+    "Equal(RadiusOfCircle(O),8)"
+  ],
+  "goal_cdl": "Value(Add(Mul(1/2,AreaOfSphere(O)),AreaOfCircle(O)))",
+  "problem_answer": "603.186",
+  "problem_type": [
+    "Solid Geometry"
+  ],
+  "complexity_level": "Level 2",
+  "theorem_seqs": [],
+  "theorem_seqs_dag": "{\"START\": []}"
+}

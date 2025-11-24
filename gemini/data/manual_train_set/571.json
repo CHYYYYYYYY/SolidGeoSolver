@@ -1,0 +1,31 @@
+{
+  "problem_id": 571,
+  "annotation": "RuoranXu_2025-08-08",
+  "annotation_img": "RuoranXu_2025-08-08",
+  "source": "SolidGeo",
+  "problem_text_cn": "如图是一个圆锥，高度为3,OA长度为4,求母线长度。",
+  "problem_text_en": "As shown in the figure, it is a cone with a height of 3 and an OA length of 4. Find the length of the busbar.",
+  "problem_img": [
+    "images\\571.jpg"
+  ],
+  "construction_cdl": [
+    "Shape(OP,PA,AO)",
+    "Cocircular(O,A)"
+  ],
+  "text_cdl": [
+    "Cone(O,P)",
+    "Equal(HeightOfCone(O,P),3)",
+    "Equal(LengthOfLine(OA),4)"
+  ],
+  "image_cdl": [
+    "Cone(O,P)",
+    "IsCentreOfCircle(O,O)",
+    "Equal(LengthOfLine(O,A),RadiusOfCircle(O))"
+  ],
+  "goal_cdl": "Value(BusbarOfCone(O,P))",
+  "problem_answer": "5",
+  "theorem_seqs": [],
+  "theorem_seqs_dag": {
+    "START": []
+  }
+}

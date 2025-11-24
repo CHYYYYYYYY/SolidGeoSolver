@@ -1,0 +1,54 @@
+{
+  "problem_id": 1234,
+  "annotation": "AI_Assistant_2025-01-01",
+  "annotation_img": "AI_Assistant_2025-01-01",
+  "source": "SolidGeo",
+  "problem_text_cn": "",
+  "problem_text_en": "The curved surfaces of two identical cylinders are cut open along the vertical dotted line, as shown and then stuck together to create the curved surface of one big cylinder. What can be said about the volume of the resulting cylinder compared to the volume of one of the small cylinders?\n<image1> A. It is 2-times as big.\n B. It is 3-times as big.\n C. It is $\\pi$-times as big.\n D. It is 4-times as big.\n E. It is 8-times as big.\n",
+  "problem_img": [
+    "images\\359.jpg"
+  ],
+  "construction_cdl": [
+    "Shape(AB,BA)",
+    "Shape(CD,DC)",
+    "Shape(EF,FE)",
+    "Cocircular(A)",
+    "Cocircular(B)",
+    "Cocircular(C)",
+    "Cocircular(D)",
+    "Cocircular(E)",
+    "Cocircular(F)",
+    "Coplanar(U,A)",
+    "Coplanar(V,B)",
+    "Coplanar(W,C)",
+    "Coplanar(X,D)",
+    "Coplanar(Y,E)",
+    "Coplanar(Z,F)"
+  ],
+  "text_cdl": [
+    "Cylinder(A,B)",
+    "Cylinder(C,D)",
+    "Equal(RadiusOfCircle(A),RadiusOfCircle(C))",
+    "Equal(HeightOfCylinder(A,B),HeightOfCylinder(C,D))"
+  ],
+  "image_cdl": [
+    "Cylinder(A,B)",
+    "Cylinder(C,D)",
+    "Cylinder(E,F)",
+    "Equal(RadiusOfCircle(A),RadiusOfCircle(C))",
+    "Equal(HeightOfCylinder(A,B),HeightOfCylinder(C,D))",
+    "Equal(Mul(RadiusOfCircle(E),2),Add(Mul(RadiusOfCircle(A),2),Mul(RadiusOfCircle(C),2)))",
+    "Equal(HeightOfCylinder(E,F),HeightOfCylinder(A,B))"
+  ],
+  "goal_cdl": "Value(Div(VolumeOfCylinder(E,F),VolumeOfCylinder(A,B)))",
+  "problem_answer": "4",
+  "problem_type": [
+    "Composite Solid Structures"
+  ],
+  "complexity_level": "Level 2",
+  "theorem_seqs": [],
+  "theorem_seqs_dag": {
+    "START": []
+  }
+}
+

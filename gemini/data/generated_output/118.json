@@ -1,0 +1,40 @@
+{
+  "problem_id": 118,
+  "annotation": "",
+  "source": "SolidGeo",
+  "problem_text_en": "The figure above shows a triangular prism whose base is a equilateral triangle with side lengths $x$ and height $\\sqrt{3} x$. If the volume of the prism is $\\frac{81}{4}$, what is the value of $x$ ? A. 3\n B. 4\n C. 5\n D. 6",
+  "construction_cdl": [
+    "Shape(AB,BC,CA)",
+    "Shape(DE,EF,FD)",
+    "Shape(AD,DE,EB,BA)",
+    "Shape(BE,EF,FC,CB)",
+    "Shape(AC,CF,FD,DA)",
+    "Coplanar(U,ABC)",
+    "Coplanar(V,DEF)"
+  ],
+  "text_cdl": [
+    "TriangularPrism(ABC,DEF)",
+    "EquilateralTriangle(ABC)",
+    "Equal(LengthOfLine(A,B),x)",
+    "Equal(HeightOfTriangularPrism(ABC,DEF), Mul(sqrt(3),x))",
+    "Equal(VolumeOfTriangularPrism(ABC,DEF), Div(81,4))"
+  ],
+  "image_cdl": [
+    "TriangularPrism(ABC,DEF)",
+    "EquilateralTriangle(ABC)",
+    "Equal(LengthOfLine(A,B),x)",
+    "Equal(LengthOfLine(B,C),x)",
+    "Equal(LengthOfLine(A,D),x)"
+  ],
+  "goal_cdl": "Value(x)",
+  "problem_answer": "3",
+  "problem_type": [
+    "Solid Geometry"
+  ],
+  "complexity_level": "Level 2",
+  "theorem_seqs": [
+    "area_of_equilateral_triangle(side) = sqrt(3)/4 * side^2",
+    "volume_of_prism(base_area, height) = base_area * height"
+  ],
+  "theorem_seqs_dag": "{\"START\": []}"
+}

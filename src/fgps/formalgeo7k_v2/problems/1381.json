@@ -1,0 +1,40 @@
+{
+  "problem_id": 1381,
+  "annotation": "AI_Assistant_2025-09-30",
+  "annotation_img": "AI_Assistant_2025-09-30",
+  "source": "SolidGeo",
+  "problem_text_cn": "",
+  "problem_text_en": "The height h of the cylinder is 45. Find the surface area of the cylinder.",
+  "problem_img": [
+    "images\\425.jpg"
+  ],
+  "construction_cdl": [
+    "Shape(PQ,QP)",
+    "Cocircular(Q)",
+    "Cocircular(P)"
+  ],
+  "text_cdl": [
+    "Cylinder(P,Q)",
+    "IsCentreOfCircle(P,P)",
+    "IsCentreOfCircle(Q,Q)",
+    "Equal(HeightOfCylinder(P,Q),45)"
+  ],
+  "image_cdl": [
+    "Cylinder(P,Q)",
+    "IsCentreOfCircle(P,P)",
+    "IsCentreOfCircle(Q,Q)",
+    "Equal(HeightOfCylinder(P,Q),45)",
+    "Equal(RadiusOfCircle(Q),19)"
+  ],
+  "goal_cdl": "Value(Add(LateralareaOfCylinder(P,Q),AreaOfCircle(P),AreaOfCircle(Q)))",
+  "problem_answer": "7634.07",
+  "problem_type": [
+    "Measurement of Solid Geometric Forms"
+  ],
+  "complexity_level": "Level 1",
+  "theorem_seqs": [],
+  "theorem_seqs_dag": {
+    "START": []
+  }
+}
+

@@ -1,0 +1,36 @@
+{
+  "problem_id": 1186,
+  "annotation": "",
+  "annotation_img": "",
+  "source": "SolidGeo",
+  "problem_text_cn": "一个圆柱体的高度为40厘米，底面半径为12厘米。求该圆柱体的总表面积（包括两个底面和侧面）。",
+  "problem_text_en": "A cylinder has a height of 40 cm and a base radius of 12 cm. Find the total surface area of the cylinder (including both bases and the lateral surface).",
+  "problem_img": [
+    "images\\259.jpg"
+  ],
+  "construction_cdl": [
+    "Shape(PQ,QP)",
+    "Cocircular(P)",
+    "Cocircular(Q)"
+  ],
+  "text_cdl": [
+    "Equal(HeightOfCylinder(P,Q),40)"
+  ],
+  "image_cdl": [
+    "Cylinder(P,Q)",
+    "IsCentreOfCircle(P,P)",
+    "IsCentreOfCircle(Q,Q)",
+    "Equal(HeightOfCylinder(P,Q),40)",
+    "Equal(RadiusOfCircle(P),12)"
+  ],
+  "goal_cdl": "Value(Add(AreaOfCircle(P),AreaOfCircle(Q),LateralareaOfCylinder(P,Q)))",
+  "problem_answer": "3922.51",
+  "problem_type": [
+    "Measurement of Solid Geometric Forms"
+  ],
+  "complexity_level": "Level 1",
+  "theorem_seqs": [],
+  "theorem_seqs_dag": {
+    "START": []
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "problem_id": 516,
+  "annotation": "RuoranXu_2025-07-18",
+  "annotation_img": "RuoranXu_2025-07-18",
+  "source": "SolidGeo",
+  "problem_text_cn": "如图，平面V垂直于平面U，判断平面U是否垂直平面V.",
+  "problem_text_en": "As shown in the figure, plane V is perpendicular to plane U. Determine whether plane U is perpendicular to plane V.",
+  "problem_img": [
+    "images\\516.jpg"
+  ],
+  "construction_cdl": [
+    "Coplanar(V)",
+    "Coplanar(U)"
+  ],
+  "text_cdl": [
+    "Plane(U)",
+    "Plane(V)",
+    "PerpendicularBetweenPlane(V,U)"
+  ],
+  "image_cdl": [
+    "Plane(U)",
+    "Plane(V)",
+    "PerpendicularBetweenPlane(V,U)"
+  ],
+  "goal_cdl": "Relation(PerpendicularBetweenPlane(U,V))",
+  "problem_answer": "0",
+  "theorem_seqs": [],
+  "theorem_seqs_dag": {
+    "START": []
+  }
+}

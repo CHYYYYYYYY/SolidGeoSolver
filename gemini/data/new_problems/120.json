@@ -1,0 +1,24 @@
+{
+  "problem_id": 120,
+  "annotation": "",
+  "annotation_img": "",
+  "source": "SolidGeo",
+  "problem_text_cn": "",
+  "problem_text_en": "Find the length of the diameter of the cone's base.",
+  "problem_img": [
+    "images\\120.jpg"
+  ],
+  "construction_cdl": [],
+  "text_cdl": [],
+  "image_cdl": [],
+  "goal_cdl": "",
+  "problem_answer": "diameter $=10 \\mathrm{~m}$",
+  "problem_type": [
+    "Measurement of Solid Geometric Forms"
+  ],
+  "complexity_level": "Level 1",
+  "theorem_seqs": [],
+  "theorem_seqs_dag": {
+    "START": []
+  }
+}

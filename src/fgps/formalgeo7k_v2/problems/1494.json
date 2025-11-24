@@ -1,0 +1,35 @@
+{
+  "problem_id": 1494,
+  "annotation": "",
+  "annotation_img": "",
+  "source": "SolidGeo",
+  "problem_text_cn": "",
+  "problem_text_en": "A cone is sliced in half to produce the solid shown. The diameter is 5 centimeters.\n\nFind the volume of the solid, correct to two decimal places.",
+  "problem_img": [
+    "images\\11.png"
+  ],
+  "construction_cdl": [
+    "Shape(OP,PO)",
+    "Cocircular(O)"
+  ],
+  "text_cdl": [
+    "Equal(DiameterOfCircle(O),5)"
+  ],
+  "image_cdl": [
+    "Cone(O,P)",
+    "IsCentreOfCircle(O,O)",
+    "Equal(DiameterOfCircle(O),5)",
+    "Equal(BusbarOfCone(O,P),11)"
+  ],
+  "goal_cdl": "Value(Mul(1/2,VolumeOfCone(O,P)))",
+  "problem_answer": "33.51",
+  "problem_type": [
+    "Measurement of Solid Geometric Forms"
+  ],
+  "complexity_level": "Level 1",
+  "theorem_seqs": [],
+  "theorem_seqs_dag": {
+    "START": []
+  }
+}
+

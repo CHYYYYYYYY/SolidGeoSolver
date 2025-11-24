@@ -1,0 +1,36 @@
+{
+  "problem_id": 1189,
+  "annotation": "",
+  "annotation_img": "",
+  "source": "SolidGeo",
+  "problem_text_cn": "已知圆柱体的高度为3.2米，底面半径为1.15米。求该圆柱体表面积的一半。",
+  "problem_text_en": "Given that a cylinder has a height of 3.2 m and a base radius of 1.15 m. Find half of the surface area of the cylinder.",
+  "problem_img": [
+    "images\\262.jpg"
+  ],
+  "construction_cdl": [
+    "Shape(PQ,QP)",
+    "Cocircular(P)",
+    "Cocircular(Q)"
+  ],
+  "text_cdl": [
+    "Equal(HeightOfCylinder(P,Q),3.2)"
+  ],
+  "image_cdl": [
+    "Cylinder(P,Q)",
+    "IsCentreOfCircle(P,P)",
+    "IsCentreOfCircle(Q,Q)",
+    "Equal(HeightOfCylinder(P,Q),3.2)",
+    "Equal(RadiusOfCircle(P),1.15)"
+  ],
+  "goal_cdl": "Value(Mul(Add(AreaOfCircle(P),AreaOfCircle(Q),LateralareaOfCylinder(P,Q)),1/2))",
+  "problem_answer": "16.93",
+  "problem_type": [
+    "Measurement of Solid Geometric Forms"
+  ],
+  "complexity_level": "Level 1",
+  "theorem_seqs": [],
+  "theorem_seqs_dag": {
+    "START": []
+  }
+}

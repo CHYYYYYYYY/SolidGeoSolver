@@ -1,0 +1,38 @@
+{
+  "problem_id": 125,
+  "annotation": "",
+  "source": "SolidGeo",
+  "problem_text_en": "A hollow cylindrical pipe has the dimensions shown in the figure. The outer diameter is 2.1 centimeters. The inner diameter is 1.8 centimeters. The length is 13 centimeters.\n\nThe pipe is made of a particularly strong metal.\n\nCalculate the weight of the pipe if 1 (cm)^3 of the metal weighs 5.3g , giving your answer correct to one decimal place.",
+  "construction_cdl": [
+    "Shape(OP,PO)",
+    "Shape(AB,BA)",
+    "Cocircular(O)",
+    "Cocircular(P)",
+    "Cocircular(A)",
+    "Cocircular(B)"
+  ],
+  "text_cdl": [
+    "Cylinder(O,P)",
+    "Cylinder(A,B)",
+    "Equal(DiameterOfCircle(O), 2.1)",
+    "Equal(DiameterOfCircle(A), 1.8)",
+    "Equal(HeightOfCylinder(O,P), 13)",
+    "Equal(HeightOfCylinder(A,B), 13)"
+  ],
+  "image_cdl": [
+    "Cylinder(O,P)",
+    "Cylinder(A,B)",
+    "Equal(DiameterOfCircle(O), 2.1)",
+    "Equal(DiameterOfCircle(A), 1.8)",
+    "Equal(HeightOfCylinder(O,P), 13)",
+    "Equal(HeightOfCylinder(A,B), 13)"
+  ],
+  "goal_cdl": "Value(Mul(Sub(VolumeOfCylinder(O,P),VolumeOfCylinder(A,B)),5.3))",
+  "problem_answer": "63.3",
+  "problem_type": [
+    "Solid Geometry"
+  ],
+  "complexity_level": "Level 2",
+  "theorem_seqs": [],
+  "theorem_seqs_dag": "{\"START\": []}"
+}

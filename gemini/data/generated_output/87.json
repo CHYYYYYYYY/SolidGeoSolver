@@ -1,0 +1,37 @@
+{
+  "problem_id": 87,
+  "annotation": "",
+  "source": "SolidGeo",
+  "problem_text_en": "Consider the solid shown with its height is 12m.\n\nWrite a fully expanded and simplified expression for the volume of the solid.",
+  "construction_cdl": [
+    "Shape(AB,BC,CD,DA)",
+    "Shape(EF,FG,GH,HE)",
+    "Shape(AE,EF,FB,BA)",
+    "Shape(CD,DH,HG,GC)",
+    "Shape(AD,DH,HE,EA)",
+    "Shape(BC,CG,GF,FB)",
+    "Coplanar(U,ABCD)",
+    "Coplanar(V,EFGH)",
+    "Coplanar(W,AEFB)",
+    "Coplanar(X,ADHE)",
+    "Coplanar(Y,BCGF)",
+    "Coplanar(Z,CDHG)"
+  ],
+  "text_cdl": [
+    "Cuboid(ABCDEFGH)",
+    "Equal(LengthOfLine(AE), 12)"
+  ],
+  "image_cdl": [
+    "Cuboid(ABCDEFGH)",
+    "Equal(LengthOfLine(EF), Add(x, 4))",
+    "Equal(LengthOfLine(EH), Add(x, 8))"
+  ],
+  "goal_cdl": "Value(VolumeOfCuboid(ABCDEFGH))",
+  "problem_answer": "12*x^2 + 144*x + 384",
+  "problem_type": [
+    "Solid Geometry"
+  ],
+  "complexity_level": "Level 2",
+  "theorem_seqs": [],
+  "theorem_seqs_dag": "{\"START\": []}"
+}

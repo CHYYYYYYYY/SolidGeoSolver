@@ -1,0 +1,29 @@
+{
+  "problem_id": 1106,
+  "annotation": "ShiyuShen_2025-08-23",
+  "annotation_img": "",
+  "source": "SolidGeo",
+  "problem_text_cn": "一个锥体被切成两半，就产生了如图所示的固体。直径是4厘米。求出固体的体积，精确到小数点后两位。",
+  "problem_text_en": "A cone is sliced in half to produce the solid shown. The diameter is 4 centimeters.\n\nFind the volume of the solid, correct to two decimal places.",
+  "problem_img": "images\\130.png",
+  "construction_cdl": [
+    "Shape(OP,PO)",
+    "Cocircular(O)"
+  ],
+  "text_cdl": [
+    "Equal(DiameterOfCircle(O),4)"
+  ],
+  "image_cdl": [
+    "Cone(O,P)",
+    "IsCentreOfCircle(O,O)",
+    "Equal(DiameterOfCircle(O),4)",
+    "Equal(BusbarOfCone(O,P),10)"
+  ],
+  "goal_cdl": "Value(Mul(1/2,VolumeOfCone(O,P)))",
+  "problem_answer": "21.77",
+  "theorem_seqs": [],
+  "theorem_seqs_dag": {
+    "START": []
+  }
+}
+

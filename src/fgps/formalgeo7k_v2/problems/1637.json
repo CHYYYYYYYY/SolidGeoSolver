@@ -1,0 +1,36 @@
+{
+  "problem_id": 1637,
+  "annotation": "",
+  "annotation_img": "",
+  "source": "SolidGeo",
+  "problem_text_cn": "",
+  "problem_text_en": "The cylindrical glass has radius of 15 cm.\n\nIf Xavier drinks 13 glasses for 20 days, how many litres of water would he drink altogether?\n\nRound your answer to one decimal place.",
+  "problem_img": [
+    "images\\60.png"
+  ],
+  "construction_cdl": [
+    "Shape(PQ,QP)",
+    "Cocircular(Q)",
+    "Cocircular(P)"
+  ],
+  "text_cdl": [
+    "Equal(RadiusOfCircle(P),15)"
+  ],
+  "image_cdl": [
+    "Cylinder(P,Q)",
+    "IsCentreOfCircle(P,P)",
+    "IsCentreOfCircle(Q,Q)",
+    "Equal(HeightOfCylinder(P,Q),38)"
+  ],
+  "goal_cdl": "Value(Mul(20,13,0.001,VolumeOfCylinder(P,Q)))",
+  "problem_answer": "349.2",
+  "problem_type": [
+    "Measurement of Solid Geometric Forms"
+  ],
+  "complexity_level": "Level 2",
+  "theorem_seqs": [],
+  "theorem_seqs_dag": {
+    "START": []
+  }
+}
+

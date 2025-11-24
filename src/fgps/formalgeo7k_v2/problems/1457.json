@@ -1,0 +1,55 @@
+{
+  "problem_id": 1457,
+  "annotation": "",
+  "annotation_img": "",
+  "source": "SolidGeo",
+  "problem_text_cn": "",
+  "problem_text_en": "Find the surface area of the trapezoidal prism. The bottom face has edges of 20cm and 9cm.",
+  "problem_img": "images\\69.png",
+  "construction_cdl": [
+    "Shape(AJ,JB,BC,CI,ID,DA)",
+    "Shape(EF,FG,GH,HE)",
+    "Shape(AE,EF,FB,BA)",
+    "Shape(CD,DH,HF,FC)",
+    "Shape(AD,DH,HE,EA)",
+    "Shape(BC,CG,GF,FB)",
+    "Coplanar(U,ABCDIJ)",
+    "Coplanar(V,EFGH)",
+    "Coplanar(W,AEFB)",
+    "Coplanar(X,ADHE)",
+    "Coplanar(Y,BCGF)",
+    "Coplanar(Z,CDHG)",
+    "Collinear(CID)",
+    "Collinear(AJB)"
+  ],
+  "text_cdl": [
+    "RightQuadrangularPrism(ABCD,EFGH)",
+    "Prism(U,V)",
+    "IsAltitudeOfQuadrilateral(IJ,DABC)",
+    "Equal(LengthOfLine(CD),20)",
+    "Equal(LengthOfLine(GH),20)",
+    "Equal(LengthOfLine(AE),9)",
+    "Equal(LengthOfLine(BF),9)",
+    "Equal(LengthOfLine(CG),9)",
+    "Equal(LengthOfLine(DH),9)"
+  ],
+  "image_cdl": [
+    "RightQuadrangularPrism(ABCD,EFGH)",
+    "Prism(U,V)",
+    "Equal(LengthOfLine(AB),11)",
+    "Equal(LengthOfLine(DA),6)",
+    "Equal(LengthOfLine(FG),6)",
+    "Equal(LengthOfLine(IJ),4)"
+  ],
+  "goal_cdl": "Value(SurfaceAreaOfTrigularPrism(ABCD,EFGH))",
+  "problem_answer": "426",
+  "problem_type": [
+    "Measurement of Solid Geometric Forms"
+  ],
+  "complexity_level": "Level 1",
+  "theorem_seqs": [],
+  "theorem_seqs_dag": {
+    "START": []
+  }
+}
+

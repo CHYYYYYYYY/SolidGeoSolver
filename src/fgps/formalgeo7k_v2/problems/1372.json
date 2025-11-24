@@ -1,0 +1,46 @@
+{
+  "problem_id": 1372,
+  "annotation": "AI_Assistant_2025-01-01",
+  "annotation_img": "AI_Assistant_2025-01-01",
+  "source": "SolidGeo",
+  "problem_text_cn": "",
+  "problem_text_en": "The truncated right circular cone below has a large base radius 9 cm and a small base radius of 5 cm. The height of the truncated cone is 7 cm.  The volume of this solid is $n \\pi$ cubic cm, where $n$ is an integer.  What is $n$? <image1>",
+  "problem_img": [
+    "images\\375.jpg"
+  ],
+  "construction_cdl": [
+    "Shape(AB,BA)",
+    "Shape(CD,DC)",
+    "Shape(EF,FE)",
+    "Cocircular(A)",
+    "Cocircular(B)",
+    "Cocircular(C)",
+    "Cocircular(D)",
+    "Coplanar(U,A)",
+    "Coplanar(V,B)",
+    "Coplanar(W,C)",
+    "Coplanar(X,D)"
+  ],
+  "text_cdl": [
+    "Equal(RadiusOfCircle(A),9)",
+    "Equal(RadiusOfCircle(C),5)",
+    "Equal(LengthOfLine(AB),7)"
+  ],
+  "image_cdl": [
+    "Circle(A)",
+    "Circle(C)",
+    "Equal(RadiusOfCircle(A),9)",
+    "Equal(RadiusOfCircle(C),5)"
+  ],
+  "goal_cdl": "Value(LengthOfLine(EF))",
+  "problem_answer": "291",
+  "problem_type": [
+    "Measurement of Solid Geometric Forms"
+  ],
+  "complexity_level": "Level 1",
+  "theorem_seqs": [],
+  "theorem_seqs_dag": {
+    "START": []
+  }
+}
+

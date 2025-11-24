@@ -1,0 +1,34 @@
+{
+  "problem_id": 1207,
+  "annotation": "",
+  "annotation_img": "",
+  "source": "SolidGeo",
+  "problem_text_cn": "圆柱体的高度为22米，底面直径为9米。计算该圆柱体体积的一半。",
+  "problem_text_en": "A cylinder has a height of 22 m and a base diameter of 9 m. Calculate half of the volume of the cylinder.",
+  "problem_img": [
+    "images\\294.jpg"
+  ],
+  "construction_cdl": [
+    "Shape(PQ,QP)",
+    "Cocircular(Q)",
+    "Cocircular(P)"
+  ],
+  "text_cdl": [],
+  "image_cdl": [
+    "Equal(HeightOfCylinder(P,Q),22)",
+    "Cylinder(P,Q)",
+    "IsCentreOfCircle(P,P)",
+    "Equal(DiameterOfCircle(P),9)",
+    "IsCentreOfCircle(Q,Q)"
+  ],
+  "goal_cdl": "Value(Mul(1/2,VolumeOfCylinder(P,Q)))",
+  "problem_answer": "699.85",
+  "problem_type": [
+    "Measurement of Solid Geometric Forms"
+  ],
+  "complexity_level": "Level 1",
+  "theorem_seqs": [],
+  "theorem_seqs_dag": {
+    "START": []
+  }
+}

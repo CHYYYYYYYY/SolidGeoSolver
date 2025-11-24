@@ -1,0 +1,54 @@
+{
+  "problem_id": 1237,
+  "annotation": "AI_Assistant_2025-01-01",
+  "annotation_img": "AI_Assistant_2025-01-01",
+  "source": "SolidGeo",
+  "problem_text_cn": "",
+  "problem_text_en": "Two identical cylindrical sheets are cut open along the dotted lines and glued together to form one bigger cylindrical sheet, as shown. The smaller sheets each enclose a volume of 125. What volume is enclosed by the larger\n<image1>",
+  "problem_img": [
+    "images\\368.jpg"
+  ],
+  "construction_cdl": [
+    "Shape(AB,BA)",
+    "Shape(CD,DC)",
+    "Shape(EF,FE)",
+    "Cocircular(A)",
+    "Cocircular(B)",
+    "Cocircular(C)",
+    "Cocircular(D)",
+    "Cocircular(E)",
+    "Cocircular(F)",
+    "Coplanar(U,A)",
+    "Coplanar(V,B)",
+    "Coplanar(W,C)",
+    "Coplanar(X,D)",
+    "Coplanar(Y,E)",
+    "Coplanar(Z,F)"
+  ],
+  "text_cdl": [
+    "Equal(VolumeOfCylinder(A,B),125)",
+    "Equal(VolumeOfCylinder(C,D),125)"
+  ],
+  "image_cdl": [
+    "Cylinder(A,B)",
+    "Cylinder(C,D)",
+    "Cylinder(E,F)",
+    "Equal(VolumeOfCylinder(A,B),125)",
+    "Equal(VolumeOfCylinder(C,D),125)",
+    "Equal(RadiusOfCircle(A),RadiusOfCircle(C))",
+    "Equal(HeightOfCylinder(A,B),HeightOfCylinder(C,D))",
+    "Equal(Mul(RadiusOfCircle(E),2),Add(Mul(RadiusOfCircle(A),2),Mul(RadiusOfCircle(C),2)))",
+    "Equal(HeightOfCylinder(E,F),HeightOfCylinder(A,B))"
+  ],
+  "goal_cdl": "Value(VolumeOfCylinder(E,F))",
+  "problem_answer": "500",
+  "problem_type": [
+    "Composite Solid Structures"
+  ],
+  "complexity_level": "Level 2",
+  "theorem_seqs": [],
+  "theorem_seqs_dag": {
+    "START": []
+  }
+}
+

@@ -1,0 +1,47 @@
+{
+  "problem_id": 1193,
+  "annotation": "",
+  "annotation_img": "",
+  "source": "SolidGeo",
+  "problem_text_cn": "一个空心圆柱体的外圆柱高度为28米，外半径为12米，内半径为11米。求该空心圆柱体的表面积（不包括内底面积）。",
+  "problem_text_en": "A hollow cylinder has an outer cylinder height of 28 m, outer radius of 12 m, and inner radius of 11 m. Find the surface area of the hollow cylinder (excluding the inner base area).",
+  "problem_img": [
+    "images\\266.jpg"
+  ],
+  "construction_cdl": [
+    "Shape(PQ,QP)",
+    "Shape(AB,BA)",
+    "Coplanar(U,AP)",
+    "Coplanar(V,BQ)",
+    "Cocircular(P)",
+    "Cocircular(Q)",
+    "Cocircular(A)",
+    "Cocircular(B)"
+  ],
+  "text_cdl": [
+    "Cylinder(A,B)",
+    "Cylinder(P,Q)",
+    "Equal(RadiusOfCircle(Q),12)",
+    "Equal(RadiusOfCircle(A),11)",
+    "Equal(HeightOfCylinder(P,Q),28)",
+    "Equal(HeightOfCylinder(A,B),28)"
+  ],
+  "image_cdl": [
+    "Cylinder(A,B)",
+    "Cylinder(P,Q)",
+    "Equal(RadiusOfCircle(Q),12)",
+    "Equal(RadiusOfCircle(A),11)",
+    "Equal(HeightOfCylinder(P,Q),28)",
+    "Equal(HeightOfCylinder(A,B),28)"
+  ],
+  "goal_cdl": "Value(Sub(Add(AreaOfCircle(P),AreaOfCircle(Q),LateralareaOfCylinder(P,Q),LateralareaOfCylinder(A,B)),Add(AreaOfCircle(A),AreaOfCircle(B))))",
+  "problem_answer": "3875.04",
+  "problem_type": [
+    "Measurement of Solid Geometric Forms"
+  ],
+  "complexity_level": "Level 1",
+  "theorem_seqs": [],
+  "theorem_seqs_dag": {
+    "START": []
+  }
+}

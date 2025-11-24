@@ -1,0 +1,15 @@
+{
+  "problem_id": 48,
+  "annotation": "The text states that the sloping edges are 12 cm long, which is used to calculate the height of the pyramid. The height is then used to find the angle. The calculation confirms that the length of the sloping edge (e.g., PA) is 12, not the height. The height PM is calculated as sqrt(112). Then, in the right triangle PMN, tan(Y) = PM / MN = sqrt(112) / 4, which gives Y ≈ 69.30 degrees.",
+  "source": "SolidGeo",
+  "problem_text_en": "All the sloping edges of the square pyramid are 12 cm long. The CN edge and DN edge have the equal length.\nFind Y, the size of \\angle PNM, correct to two decimal places.",
+  "construction_cdl": [],
+  "text_cdl": [],
+  "image_cdl": [],
+  "goal_cdl": "",
+  "problem_answer": "",
+  "problem_type": [],
+  "complexity_level": "",
+  "theorem_seqs": [],
+  "theorem_seqs_dag": "{\"START\": []}"
+}

@@ -1,0 +1,15 @@
+{
+  "problem_id": 71,
+  "annotation": "The user wants to find the surface area of a right prism with a trapezoidal base. The dimensions of the trapezoid are given as two parallel vertical sides of 10 cm and 3 cm, and a bottom base of 13 cm. The length of the prism is not explicitly stated, but the text mentions a 'right rectangle surface' with an edge of 10cm. This implies the prism's length is also 10cm, making the left face a 10x10 square. The goal is to calculate the total surface area.",
+  "source": "SolidGeo",
+  "problem_text_en": "Find the surface area of the following solid prism. The right rectangle surface has one edge of 10cm.\n\nGive your answer to the nearest one decimal place.",
+  "construction_cdl": [],
+  "text_cdl": [],
+  "image_cdl": [],
+  "goal_cdl": "",
+  "problem_answer": "",
+  "problem_type": [],
+  "complexity_level": "",
+  "theorem_seqs": [],
+  "theorem_seqs_dag": "{\"START\": []}"
+}

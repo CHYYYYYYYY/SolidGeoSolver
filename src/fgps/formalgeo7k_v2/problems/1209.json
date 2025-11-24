@@ -1,0 +1,40 @@
+{
+  "problem_id": 1209,
+  "annotation": "",
+  "annotation_img": "",
+  "source": "SolidGeo",
+  "problem_text_cn": "一个空心圆柱体的外圆柱高度为15米，外半径为7米，内半径为5米。求该空心圆柱体的体积。",
+  "problem_text_en": "A hollow cylinder has an outer cylinder height of 15 m, outer radius of 7 m, and inner radius of 5 m. Find the volume of the hollow cylinder.",
+  "problem_img": [
+    "images\\296.jpg"
+  ],
+  "construction_cdl": [
+    "Shape(PQ,QP)",
+    "Shape(AB,BA)",
+    "Coplanar(U,AP)",
+    "Coplanar(V,BQ)",
+    "Cocircular(P)",
+    "Cocircular(Q)",
+    "Cocircular(A)",
+    "Cocircular(B)"
+  ],
+  "text_cdl": [],
+  "image_cdl": [
+    "Equal(HeightOfCylinder(P,Q),15)",
+    "Equal(RadiusOfCircle(A),5)",
+    "Cylinder(A,B)",
+    "Cylinder(P,Q)",
+    "Equal(RadiusOfCircle(Q),7)",
+    "Equal(HeightOfCylinder(A,B),15)"
+  ],
+  "goal_cdl": "Value(Sub(VolumeOfCylinder(P,Q),VolumeOfCylinder(A,B)))",
+  "problem_answer": "1130.97",
+  "problem_type": [
+    "Measurement of Solid Geometric Forms"
+  ],
+  "complexity_level": "Level 1",
+  "theorem_seqs": [],
+  "theorem_seqs_dag": {
+    "START": []
+  }
+}

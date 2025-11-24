@@ -1,0 +1,42 @@
+{
+  "problem_id": 1301,
+  "annotation": "ShiyuShen_2025-08-23",
+  "annotation_img": "ShiyuShen_2025-08-23",
+  "source": "SolidGeo",
+  "problem_text_cn": "求长度为15米的混凝土管的体积。把你的答案写对到小数点后两位。",
+  "problem_text_en": "Find the volume of a concrete pipe with length 15 metres. Write your answer correct to two decimal places.",
+  "problem_img": "images\\124.png",
+  "construction_cdl": [
+    "Shape(PQ,QP)",
+    "Shape(AB,BA)",
+    "Coplanar(U,AP)",
+    "Coplanar(V,BQ)",
+    "Cocircular(P)",
+    "Cocircular(Q)",
+    "Cocircular(A)",
+    "Cocircular(B)"
+  ],
+  "text_cdl": [
+    "Cylinder(A,B)",
+    "Cylinder(P,Q)",
+    "Equal(RadiusOfCircle(Q),8)",
+    "Equal(RadiusOfCircle(A),4)",
+    "Equal(HeightOfCylinder(A,B),15)",
+    "Equal(HeightOfCylinder(P,Q),15)"
+  ],
+  "image_cdl": [
+    "Cylinder(A,B)",
+    "Cylinder(P,Q)",
+    "Equal(RadiusOfCircle(Q),8)",
+    "Equal(RadiusOfCircle(A),4)",
+    "Equal(HeightOfCylinder(P,Q),15)",
+    "Equal(HeightOfCylinder(A,B),15)"
+  ],
+  "goal_cdl": "Value(Sub(VolumeOfCylinder(P,Q),VolumeOfCylinder(A,B)))",
+  "problem_answer": "2261.95",
+  "theorem_seqs": [],
+  "theorem_seqs_dag": {
+    "START": []
+  }
+}
+

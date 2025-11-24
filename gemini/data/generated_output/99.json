@@ -1,0 +1,15 @@
+{
+  "problem_id": 99,
+  "annotation": "The problem statement 'the height of the base is 14cm' is ambiguous and likely erroneous. The label '14 cm' in the image clearly refers to the length of the top edge of the upper trapezoid. A plausible interpretation is that the total height of the hourglass-shaped base is 14 cm, making the height of each of the two identical trapezoids 7 cm. The volume is calculated based on this assumption.",
+  "source": "SolidGeo",
+  "problem_text_en": "As shown in the figure, the height of the base is 14cm. Find the volume of the prism.",
+  "construction_cdl": [],
+  "text_cdl": [],
+  "image_cdl": [],
+  "goal_cdl": "",
+  "problem_answer": "",
+  "problem_type": [],
+  "complexity_level": "",
+  "theorem_seqs": [],
+  "theorem_seqs_dag": "{\"START\": []}"
+}

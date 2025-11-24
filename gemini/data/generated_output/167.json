@@ -1,0 +1,34 @@
+{
+  "problem_id": 167,
+  "annotation": "The text description of a 'box' and its dimensions (19, 10, 7) is inconsistent with the provided image, which shows a pyramid. The geometric facts are extracted solely from the image. The goal 'Calculate the area of the divider' is interpreted as finding the area of the triangular cross-section PAC, as its altitude PM is explicitly marked in the diagram.",
+  "source": "SolidGeo",
+  "problem_text_en": "This box is to have a divider placed in as shown. The box has sides of length 19 cm, 10 cm and 7 cm.\nCalculate the area of the divider correct to two decimal places, using your rounded answer from the previous part.",
+  "construction_cdl": [
+    "Shape(AB,BC,CD,DA)",
+    "Shape(PA,AC,CP)",
+    "Shape(PM,MP)",
+    "Collinear(A,M,C)",
+    "Collinear(B,M,D)",
+    "Coplanar(U,ABCD)"
+  ],
+  "text_cdl": [],
+  "image_cdl": [
+    "Rhombus(A,B,C,D)",
+    "Equal(LengthOfLine(A,D),8)",
+    "Equal(LengthOfLine(P,C),12)",
+    "IsMidpointOfLine(N,C,D)",
+    "Equal(LengthOfLine(P,A),LengthOfLine(P,B))",
+    "PerpendicularBetweenLine(P,M,A,C)",
+    "IsMidpointOfLine(M,A,C)",
+    "IsMidpointOfLine(M,B,D)",
+    "PerpendicularBetweenLine(A,C,B,D)"
+  ],
+  "goal_cdl": "Value(AreaOfTriangle(P,A,C))",
+  "problem_answer": "59.87",
+  "problem_type": [
+    "Solid Geometry"
+  ],
+  "complexity_level": "Level 4",
+  "theorem_seqs": [],
+  "theorem_seqs_dag": "{\"START\": []}"
+}

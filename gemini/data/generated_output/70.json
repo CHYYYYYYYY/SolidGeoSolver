@@ -1,0 +1,43 @@
+{
+  "problem_id": 70,
+  "annotation": "The problem asks for the surface area of an L-shaped prism. The image provides the dimensions of the L-shaped face and the text provides the thickness (height) of the prism. The L-shape can be decomposed into two rectangles. One rectangle is 17cm by 8cm. The other rectangle has one side of 4cm. The total height of the L-shape is 16cm, so the other side of the second rectangle is 16cm - 8cm = 8cm. The total width is 17cm, so the other side of the first rectangle is 17cm - 4cm = 13cm. Let's define the vertices. Let the front face be ABCDEF where A is the top-left corner, B is the inner corner, C is the top-right corner, D is the bottom-right corner, E is the bottom-left corner, and F is the point on the left edge such that AF=8. The back face will be GHIJKL. The thickness is 3cm. The surface area is the sum of the areas of the two L-shaped faces and the areas of the six rectangular side faces.",
+  "source": "SolidGeo",
+  "problem_text_en": "Find the surface area of this prism. The thickness of the prism is 3cm.",
+  "construction_cdl": [
+    "Shape(AB,BC,CD,DE,EF,FA)",
+    "Shape(GH,HI,IJ,JK,KL,LG)",
+    "Shape(AG,GH,HB,BA)",
+    "Shape(BC,CI,IH,HB)",
+    "Shape(CD,DJ,JI,IC)",
+    "Shape(DE,EK,KJ,JD)",
+    "Shape(EF,FL,LK,KE)",
+    "Shape(FA,AG,GL,LF)",
+    "Coplanar(U,ABCDEF)",
+    "Coplanar(V,GHIJKL)"
+  ],
+  "text_cdl": [
+    "RightQuadrangularPrism(ABCDEF,GHIJKL)",
+    "Equal(LengthOfLine(AG),3)",
+    "Equal(LengthOfLine(BH),3)",
+    "Equal(LengthOfLine(CI),3)",
+    "Equal(LengthOfLine(DJ),3)",
+    "Equal(LengthOfLine(EK),3)",
+    "Equal(LengthOfLine(FL),3)"
+  ],
+  "image_cdl": [
+    "Equal(LengthOfLine(AF),8)",
+    "Equal(LengthOfLine(BC),4)",
+    "Equal(LengthOfLine(CD),16)",
+    "Equal(LengthOfLine(DE),17)",
+    "Equal(LengthOfLine(AB),13)",
+    "Equal(LengthOfLine(FE),8)"
+  ],
+  "goal_cdl": "Value(SurfaceAreaOfQuadrangularPrism(ABCDEF,GHIJKL))",
+  "problem_answer": "442",
+  "problem_type": [
+    "Solid Geometry"
+  ],
+  "complexity_level": "Level 2",
+  "theorem_seqs": [],
+  "theorem_seqs_dag": "{\"START\": []}"
+}

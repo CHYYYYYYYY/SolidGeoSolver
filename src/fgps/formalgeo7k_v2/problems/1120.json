@@ -1,0 +1,32 @@
+{
+  "problem_id": 1120,
+  "annotation": "ShiyuShen_2025-08-23",
+  "annotation_img": "ShiyuShen_2025-08-23",
+  "source": "SolidGeo",
+  "problem_text_cn": "若该封闭圆柱体的表面积(S)为30500平方毫米，半径为48毫米，请确定其高度$h$（单位：毫米）。答案四舍五入到最接近的整数。",
+  "problem_text_en": "If the surface area (S) of this closed cylinder is 30500 mm² and the radius is 48 mm, determine its height $h$ in mm.\n\nRound your answer to the nearest whole number.",
+  "problem_img": "images\\144.png",
+  "construction_cdl": [
+    "Shape(PQ,QP)",
+    "Cocircular(P)",
+    "Cocircular(Q)"
+  ],
+  "text_cdl": [
+    "Equal(Add(AreaOfCircle(P),AreaOfCircle(Q),LateralareaOfCylinder(P,Q)),30500)",
+    "Equal(HeightOfCylinder(P,Q),h)"
+  ],
+  "image_cdl": [
+    "Cylinder(P,Q)",
+    "IsCentreOfCircle(P,P)",
+    "IsCentreOfCircle(Q,Q)",
+    "Equal(RadiusOfCircle(P),48)",
+    "Equal(HeightOfCylinder(P,Q),h)"
+  ],
+  "goal_cdl": "Value(h)",
+  "problem_answer": "53",
+  "theorem_seqs": [],
+  "theorem_seqs_dag": {
+    "START": []
+  }
+}
+

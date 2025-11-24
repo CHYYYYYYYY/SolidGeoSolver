@@ -1,0 +1,40 @@
+{
+  "problem_id": 115,
+  "annotation": "",
+  "source": "SolidGeo",
+  "problem_text_en": "A solid has dimensions as labelled on the diagram. The height is 5.\nFind the length of AG. Leave your answer in surd form.",
+  "construction_cdl": [
+    "Shape(AB,BC,CD,DA)",
+    "Shape(EF,FG,GH,HE)",
+    "Shape(AE,EF,FB,BA)",
+    "Shape(DH,HG,GC,CD)",
+    "Shape(AD,DH,HE,EA)",
+    "Shape(BC,CG,GF,FB)",
+    "Shape(EH,HG,GE)",
+    "Shape(AE,EG,GA)",
+    "Coplanar(U,ABCD)",
+    "Coplanar(V,EFGH)",
+    "Coplanar(W,AEFB)",
+    "Coplanar(X,DHGC)",
+    "Coplanar(Y,ADHE)",
+    "Coplanar(Z,BCGF)",
+    "Coplanar(R,AEGC)"
+  ],
+  "text_cdl": [
+    "Cuboid(ABCDEFGH)",
+    "Equal(LengthOfLine(CG), 5)"
+  ],
+  "image_cdl": [
+    "Cuboid(ABCDEFGH)",
+    "Equal(LengthOfLine(HG), 9)",
+    "Equal(LengthOfLine(FG), 4)"
+  ],
+  "goal_cdl": "Value(LengthOfLine(A,G))",
+  "problem_answer": "sqrt(122)",
+  "problem_type": [
+    "Solid Geometry"
+  ],
+  "complexity_level": "Level 2",
+  "theorem_seqs": [],
+  "theorem_seqs_dag": "{\"START\": []}"
+}

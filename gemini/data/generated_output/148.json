@@ -1,0 +1,42 @@
+{
+  "problem_id": 148,
+  "annotation": "This problem is identical to problem 29. It asks for the surface area of a hollow cylinder. The surface area consists of the lateral surface area of the outer cylinder, the lateral surface area of the inner cylinder, and the area of the two annular rings at the ends. The area of one ring is pi*(R^2 - r^2). The total surface area is 2*pi*R*L + 2*pi*r*L + 2*pi*(R^2 - r^2). Factoring this gives 2*pi*(RL + rL + R^2 - r^2) = 2*pi*(L(R+r) + (R-r)(R+r)) = 2*pi*(R+r)(L+R-r). The provided answer `2*pi*(r+R)*(R+L-r)` is a correct factorization.",
+  "source": "SolidGeo",
+  "problem_text_en": "Write an equation for the surface area of the above cylinder if the length is $L$. You must factorise this expression fully.",
+  "construction_cdl": [
+    "Shape(PQ,QP)",
+    "Shape(AB,BA)",
+    "Cocircular(P)",
+    "Cocircular(Q)",
+    "Cocircular(A)",
+    "Cocircular(B)",
+    "Coplanar(U,PA)",
+    "Coplanar(V,QB)"
+  ],
+  "text_cdl": [
+    "Cylinder(P,Q)",
+    "Cylinder(A,B)",
+    "Equal(HeightOfCylinder(P,Q),L)",
+    "Equal(HeightOfCylinder(A,B),L)"
+  ],
+  "image_cdl": [
+    "Cylinder(P,Q)",
+    "Cylinder(A,B)",
+    "Equal(RadiusOfCircle(P),R)",
+    "Equal(RadiusOfCircle(Q),R)",
+    "Equal(RadiusOfCircle(A),r)",
+    "Equal(RadiusOfCircle(B),r)",
+    "Equal(HeightOfCylinder(P,Q),L)",
+    "Equal(HeightOfCylinder(A,B),L)"
+  ],
+  "goal_cdl": "Value(Add(LateralareaOfCylinder(P,Q),LateralareaOfCylinder(A,B),Sub(AreaOfCircle(P),AreaOfCircle(A)),Sub(AreaOfCircle(Q),AreaOfCircle(B))))",
+  "problem_answer": "2*pi*(r+R)*(R+L-r)",
+  "problem_type": [
+    "Solid Geometry"
+  ],
+  "complexity_level": "Level 3",
+  "theorem_seqs": [
+    "surface_area_of_hollow_cylinder(R, r, L)"
+  ],
+  "theorem_seqs_dag": "{\"START\": [\"surface_area_of_hollow_cylinder(R, r, L)\"]}"
+}

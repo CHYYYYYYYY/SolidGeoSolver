@@ -1,0 +1,46 @@
+{
+  "problem_id": 1331,
+  "annotation": "ShiyuShen_2025-08-23",
+  "annotation_img": "ShiyuShen_2025-08-23",
+  "source": "SolidGeo",
+  "problem_text_cn": "上方物体的半径为6mm。我们需要计算整个立体的表面积。如果一个区域未被其他物体遮挡，则称为"外露"区域。\n底部实心图形的外露表面积是多少？把你的答案精确到小数点后两位。",
+  "problem_text_en": "The top object has a radius of 6mm. We need to calculate the surface area of the entire solid. Note that an area is called 'exposed' if it is not covered by the other object.\nWhat is the exposed surface area of the bottom solid figure? Give your answer correct to two decimal places.",
+  "problem_img": "images\\155.png",
+  "construction_cdl": [
+    "Shape(PQ,QP)",
+    "Shape(AB,BC,CD,DA)",
+    "Shape(EF,FG,GH,HE)",
+    "Shape(AE,EF,FB,BA)",
+    "Shape(CD,DH,HG,GC)",
+    "Shape(AE,EH,HD,DA)",
+    "Shape(BC,CG,GF,FB)",
+    "Coplanar(R,P)",
+    "Cocircular(P)",
+    "Cocircular(Q)",
+    "Coplanar(U,ABCDQ)",
+    "Coplanar(V,EFGH)",
+    "Coplanar(W,AEFB)",
+    "Coplanar(X,ADHE)",
+    "Coplanar(Y,CBFG)",
+    "Coplanar(Z,CGHD)"
+  ],
+  "text_cdl": [
+    "Equal(RadiusOfCircle(Q),6)",
+    "Equal(RadiusOfCircle(P),6)"
+  ],
+  "image_cdl": [
+    "Cuboid(ABCDEFGH)",
+    "Cylinder(P,Q)",
+    "Equal(HeightOfCylinder(P,Q),13)",
+    "Equal(LengthOfLine(AB),68)",
+    "Equal(LengthOfLine(EH),23)",
+    "Equal(LengthOfLine(BF),12)"
+  ],
+  "goal_cdl": "Value(Sub(AreaOfCuboid(ABCDEFGH),AreaOfCircle(Q)))",
+  "problem_answer": "5195.33",
+  "theorem_seqs": [],
+  "theorem_seqs_dag": {
+    "START": []
+  }
+}
+

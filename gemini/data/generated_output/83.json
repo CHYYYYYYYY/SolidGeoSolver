@@ -1,0 +1,35 @@
+{
+  "problem_id": 83,
+  "annotation": "",
+  "source": "SolidGeo",
+  "problem_text_en": "Given the following square pyramid. The length of the base is 10cm.\nFind the volume of the square pyramid.",
+  "construction_cdl": [
+    "Shape(AB,BC,CD,DA)",
+    "Shape(AP,PB,BA)",
+    "Shape(BP,PC,CB)",
+    "Shape(CP,PD,DC)",
+    "Shape(DP,PA,AD)",
+    "Coplanar(U,ABCD)",
+    "Coplanar(V,ABP)",
+    "Coplanar(W,BCP)",
+    "Coplanar(X,CDP)",
+    "Coplanar(Y,DAP)"
+  ],
+  "text_cdl": [
+    "RegularQuadrangularPyramid(ABCD,P)",
+    "Equal(LengthOfLine(AB),10)"
+  ],
+  "image_cdl": [
+    "RegularQuadrangularPyramid(ABCD,P)",
+    "Equal(LengthOfLine(AB),10)",
+    "Equal(HeightOfQuadrangularPyramid(ABCD,P),6)"
+  ],
+  "goal_cdl": "Value(VolumeOfQuadrangularPyramid(ABCD,P))",
+  "problem_answer": "200",
+  "problem_type": [
+    "Solid Geometry"
+  ],
+  "complexity_level": "Level 1",
+  "theorem_seqs": [],
+  "theorem_seqs_dag": "{\"START\": []}"
+}

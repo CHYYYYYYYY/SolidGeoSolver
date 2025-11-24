@@ -1,0 +1,30 @@
+{
+  "problem_id": 16,
+  "annotation": "",
+  "source": "SolidGeo",
+  "problem_text_en": "The diameter of large solid figure is 12 centimeters. Find the volume of the solid.\n\nRound your answer to two decimal places.",
+  "construction_cdl": [
+    "Shape(O)",
+    "Shape(P)",
+    "Cospherical(O)",
+    "Cospherical(P)"
+  ],
+  "text_cdl": [
+    "Equal(DiameterOfSphere(O),12)"
+  ],
+  "image_cdl": [
+    "Sphere(O)",
+    "IsCentreOfSphere(O,O)",
+    "Sphere(P)",
+    "IsCentreOfSphere(P,P)",
+    "Equal(DiameterOfSphere(P),6)"
+  ],
+  "goal_cdl": "Value(Mul(1/2,Add(VolumeOfSphere(O),VolumeOfSphere(P))))",
+  "problem_answer": "508.94",
+  "problem_type": [
+    "Solid Geometry"
+  ],
+  "complexity_level": "Level 2",
+  "theorem_seqs": [],
+  "theorem_seqs_dag": "{\"START\": []}"
+}

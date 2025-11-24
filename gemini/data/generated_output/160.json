@@ -1,0 +1,36 @@
+{
+  "problem_id": 160,
+  "annotation": "",
+  "source": "SolidGeo",
+  "problem_text_en": "Let us find the surface area of the solid given (constructed by removing a hemisphere from a cylinder). The radius is 15 cm. The height of cylinder is 22 cm.\n\nHence, find the total surface area of the shape.\n\nGive our answer to two decimal places.",
+  "construction_cdl": [
+    "Shape(PQ,QP)",
+    "Shape(P)",
+    "Cocircular(P)",
+    "Cocircular(Q)",
+    "Cospherical(P)"
+  ],
+  "text_cdl": [
+    "Cylinder(P,Q)",
+    "Sphere(P)",
+    "Equal(RadiusOfCircle(Q),15)",
+    "Equal(RadiusOfCircle(P),15)",
+    "Equal(RadiusOfSphere(P),15)",
+    "Equal(HeightOfCylinder(P,Q),22)"
+  ],
+  "image_cdl": [
+    "Cylinder(P,Q)",
+    "Sphere(P)",
+    "Equal(HeightOfCylinder(P,Q),22)",
+    "Equal(RadiusOfCircle(Q),15)",
+    "Equal(RadiusOfSphere(P),15)"
+  ],
+  "goal_cdl": "Value(Add(AreaOfCircle(Q),LateralareaOfCylinder(P,Q),Mul(1/2,AreaOfSphere(P))))",
+  "problem_answer": "4199.34",
+  "problem_type": [
+    "Solid Geometry"
+  ],
+  "complexity_level": "Level 3",
+  "theorem_seqs": [],
+  "theorem_seqs_dag": "{\"START\": []}"
+}

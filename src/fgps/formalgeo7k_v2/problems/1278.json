@@ -1,0 +1,29 @@
+{
+  "problem_id": 1278,
+  "annotation": "RuoranXu_2025-07-18",
+  "annotation_img": "RuoranXu_2025-07-18",
+  "source": "SolidGeo",
+  "problem_text_cn": "如图，一球体直径为10，求其体积",
+  "problem_text_en": "As shown in the figure, a sphere with a diameter of 10, find its volume",
+  "problem_img": [
+    "images\\556.jpg"
+  ],
+  "construction_cdl": [
+    "Cospherical(A)"
+  ],
+  "text_cdl": [
+    "Sphere(A)",
+    "Equal(DiameterOfSphere(A),10)"
+  ],
+  "image_cdl": [
+    "Sphere(A)",
+    "Equal(DiameterOfSphere(A),10)"
+  ],
+  "goal_cdl": "Value(VolumeOfSphere(A))",
+  "problem_answer": "500*pi/3",
+  "theorem_seqs": [],
+  "theorem_seqs_dag": {
+    "START": []
+  }
+}
+

@@ -1,0 +1,32 @@
+{
+  "problem_id": 1405,
+  "annotation": "RuoranXu_2025-08-09",
+  "annotation_img": "RuoranXu_2025-08-09",
+  "source": "SolidGeo",
+  "problem_text_cn": "求所示圆锥体的体积。斜高为10厘米，半径为3厘米。把你的答案四舍五入到小数点后两位。",
+  "problem_text_en": "Find the volume of the cone shown. The slant height is 10 centimeters and radius is 3 centimeters. \n\nRound your answer to two decimal places.",
+  "problem_img": "images\\10.png",
+  "construction_cdl": [
+    "Shape(OP,PO)",
+    "Cocircular(O)"
+  ],
+  "text_cdl": [
+    "Cone(O,P)",
+    "IsCentreOfCircle(O,O)",
+    "Equal(RadiusOfCircle(O),3)",
+    "Equal(BusbarOfCone(O,P),10)"
+  ],
+  "image_cdl": [
+    "Cone(O,P)",
+    "IsCentreOfCircle(O,O)",
+    "Equal(RadiusOfCircle(O),3)",
+    "Equal(BusbarOfCone(O,P),10)"
+  ],
+  "goal_cdl": "Value(VolumeOfCone(O,P))",
+  "problem_answer": "72.26",
+  "theorem_seqs": [],
+  "theorem_seqs_dag": {
+    "START": []
+  }
+}
+

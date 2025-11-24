@@ -1,0 +1,31 @@
+{
+  "problem_id": 1117,
+  "annotation": "ShiyuShen_2025-08-23",
+  "annotation_img": "ShiyuShen_2025-08-23",
+  "source": "SolidGeo",
+  "problem_text_cn": "已知圆柱体的底面半径为24米，高度为52米。请计算其表面积，精确到小数点后两位。",
+  "problem_text_en": "Given a cylinder with a base radius of 24 m and height of 52 m. Calculate its surface area, correct to two decimal places.",
+  "problem_img": "images\\141.png",
+  "construction_cdl": [
+    "Shape(PQ,QP)",
+    "Cocircular(P)",
+    "Cocircular(Q)"
+  ],
+  "text_cdl": [
+    "Equal(RadiusOfCircle(P),24)"
+  ],
+  "image_cdl": [
+    "Cylinder(P,Q)",
+    "IsCentreOfCircle(P,P)",
+    "IsCentreOfCircle(Q,Q)",
+    "Equal(HeightOfCylinder(P,Q),52)",
+    "Equal(RadiusOfCircle(P),24)"
+  ],
+  "goal_cdl": "Value(Add(AreaOfCircle(P),AreaOfCircle(Q),LateralareaOfCylinder(P,Q)))",
+  "problem_answer": "11459.47",
+  "theorem_seqs": [],
+  "theorem_seqs_dag": {
+    "START": []
+  }
+}
+

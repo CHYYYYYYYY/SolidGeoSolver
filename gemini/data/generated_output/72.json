@@ -1,0 +1,43 @@
+{
+  "problem_id": 72,
+  "annotation": "",
+  "source": "SolidGeo",
+  "problem_text_en": "Find the total surface area of the solid figure shown.",
+  "construction_cdl": [
+    "Shape(AB,BC,CA)",
+    "Shape(DE,EF,FD)",
+    "Shape(AB,BD,DE,EA)",
+    "Shape(BC,CF,FE,EB)",
+    "Shape(AC,CF,FD,DA)",
+    "Coplanar(U,ABC)",
+    "Coplanar(V,DEF)",
+    "Coplanar(W,ABDE)",
+    "Coplanar(X,BCEF)",
+    "Coplanar(Y,ACFD)",
+    "IsMidpointOfLine(M,BC)",
+    "IsAltitudeOfTriangle(AM,ABC)"
+  ],
+  "text_cdl": [
+    "TriangularPrism(ABC,DEF)"
+  ],
+  "image_cdl": [
+    "TriangularPrism(ABC,DEF)",
+    "IsoscelesTriangle(ABC)",
+    "Equal(LengthOfLine(BC),12)",
+    "Equal(LengthOfLine(BD),10)",
+    "Equal(LengthOfLine(AE),10)",
+    "Equal(LengthOfLine(CF),10)",
+    "Equal(HeightOfTriangle(AM,ABC),x)",
+    "PerpendicularBetweenLine(AM,BC)"
+  ],
+  "goal_cdl": "Value(SurfaceAreaOfTrigularPrism(ABC,DEF))",
+  "problem_answer": "336",
+  "problem_type": [
+    "Solid Geometry"
+  ],
+  "complexity_level": "Level 2",
+  "theorem_seqs": [
+    "pythagorean_theorem(1,AMC)"
+  ],
+  "theorem_seqs_dag": "{\"START\": [\"pythagorean_theorem(1,AMC)\"]}"
+}

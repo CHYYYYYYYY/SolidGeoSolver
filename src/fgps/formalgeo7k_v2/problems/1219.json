@@ -1,0 +1,31 @@
+{
+  "problem_id": 1219,
+  "annotation": "",
+  "annotation_img": "",
+  "source": "SolidGeo",
+  "problem_text_cn": "一个正四棱锥的底面边长为11米，高为9米。求该正四棱锥的表面积。",
+  "problem_text_en": "A regular quadrangular pyramid has a base side length of 11 m and a height of 9 m. Find the surface area of the regular quadrangular pyramid.",
+  "problem_img": [
+    "images\\316.jpg"
+  ],
+  "construction_cdl": [
+    "Shape(A,B,C,D,O,N)"
+  ],
+  "text_cdl": [],
+  "image_cdl": [
+    "RegularQuadrangularPyramid(ABCD,O)",
+    "Equal(LengthOfLine(O,N),9)",
+    "Equal(LengthOfLine(B,C),11)",
+    "Equal(LengthOfLine(A,B),11)"
+  ],
+  "goal_cdl": "Value(Add(Mul(LengthOfLine(A,B),LengthOfLine(B,C)),Mul(4,Mul(Mul(LengthOfLine(A,B),Sqrt(Add(Pow(LengthOfLine(O,N),2),Pow(Mul(LengthOfLine(A,B),0.5),2)))),0.5))))",
+  "problem_answer": "395.01",
+  "problem_type": [
+    "Measurement of Solid Geometric Forms"
+  ],
+  "complexity_level": "Level 1",
+  "theorem_seqs": [],
+  "theorem_seqs_dag": {
+    "START": []
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "problem_id": 117,
+  "annotation": "",
+  "source": "SolidGeo",
+  "problem_text_en": "In the cylindrical tube shown above, the circumference of the circular base is 32 . If the tube is cut along $\\overline{A B}$ and laid out flat to make a rectangle, what is the length of $\\overline{A C}$ to the nearest whole number?",
+  "construction_cdl": [
+    "Cylinder(O,P)",
+    "Shape(OP,PO)",
+    "Cocircular(O,A,D)",
+    "Cocircular(P,B,C)",
+    "IsDiameterOfCircle(AD,O)",
+    "IsDiameterOfCircle(BC,P)"
+  ],
+  "text_cdl": [
+    "Equal(PerimeterOfCircle(O), 32)"
+  ],
+  "image_cdl": [
+    "Cylinder(O,P)",
+    "Equal(HeightOfCylinder(O,P), 30)",
+    "IsDiameterOfCircle(AD,O)",
+    "IsDiameterOfCircle(BC,P)"
+  ],
+  "goal_cdl": "Value(LengthOfLine(A,C))",
+  "problem_answer": "34",
+  "problem_type": [
+    "Solid Geometry"
+  ],
+  "complexity_level": "Level 3",
+  "theorem_seqs": [
+    "Pythagorean_theorem_3d"
+  ],
+  "theorem_seqs_dag": "{\"START\": [\"Pythagorean_theorem_3d\"]}"
+}

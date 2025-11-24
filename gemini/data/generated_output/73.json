@@ -1,0 +1,41 @@
+{
+  "problem_id": 73,
+  "annotation": "",
+  "source": "SolidGeo",
+  "problem_text_en": "Find the surface area of the figure shown. The height is 3 cm.\n\nGive your answer to the nearest two decimal places.",
+  "construction_cdl": [
+    "Shape(AB,BC,CD,DE,EA)",
+    "Shape(FG,GH,HI,IJ,JF)",
+    "Shape(AB,BG,GF,FA)",
+    "Shape(BC,CH,HG,GB)",
+    "Shape(CD,DI,IH,HC)",
+    "Shape(DE,EI,IJ,JD)",
+    "Shape(EA,AJ,JF,FE)",
+    "Coplanar(U,ABCDE)",
+    "Coplanar(V,FGHIJ)"
+  ],
+  "text_cdl": [
+    "Prism(ABCDE,FGHIJ)",
+    "Equal(LengthOfLine(AF),3)",
+    "Equal(LengthOfLine(BG),3)",
+    "Equal(LengthOfLine(CH),3)",
+    "Equal(LengthOfLine(DI),3)",
+    "Equal(LengthOfLine(EJ),3)"
+  ],
+  "image_cdl": [
+    "Prism(ABCDE,FGHIJ)",
+    "Equal(LengthOfLine(AB),9)",
+    "Equal(LengthOfLine(AE),5)",
+    "Equal(LengthOfLine(BC),12)",
+    "PerpendicularBetweenLine(A,E,E,D)",
+    "PerpendicularBetweenLine(A,B,A,E)"
+  ],
+  "goal_cdl": "Value(SurfaceAreaOfQuadrangularPrism(ABCDE,FGHIJ))",
+  "problem_answer": "231.00",
+  "problem_type": [
+    "Solid Geometry"
+  ],
+  "complexity_level": "Level 3",
+  "theorem_seqs": [],
+  "theorem_seqs_dag": "{\"START\": []}"
+}

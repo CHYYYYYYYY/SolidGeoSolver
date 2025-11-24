@@ -1,0 +1,47 @@
+{
+  "problem_id": 1340,
+  "annotation": "",
+  "annotation_img": "",
+  "source": "SolidGeo",
+  "problem_text_cn": "",
+  "problem_text_en": "A 15 cm concrete cylindrical pipe has an outer radius of 7 cm and an inner radius of 5 cm as shown. Find the volume of concrete required to make the pipe, correct to two decimal places.",
+  "problem_img": [
+    "images\\178.jpg"
+  ],
+  "construction_cdl": [
+    "Shape(PQ,QP)",
+    "Shape(AB,BA)",
+    "Coplanar(U,AP)",
+    "Coplanar(V,BQ)",
+    "Cocircular(P)",
+    "Cocircular(Q)",
+    "Cocircular(A)",
+    "Cocircular(B)"
+  ],
+  "text_cdl": [
+    "Cylinder(A,B)",
+    "Cylinder(P,Q)",
+    "Equal(RadiusOfCircle(Q),7)",
+    "Equal(RadiusOfCircle(A),5)",
+    "Equal(HeightOfCylinder(A,B),15)",
+    "Equal(HeightOfCylinder(P,Q),15)"
+  ],
+  "image_cdl": [
+    "Cylinder(A,B)",
+    "Cylinder(P,Q)",
+    "Equal(RadiusOfCircle(Q),7)",
+    "Equal(HeightOfCylinder(P,Q),15)",
+    "Equal(HeightOfCylinder(A,B),15)"
+  ],
+  "goal_cdl": "Value(Sub(VolumeOfCylinder(P,Q),VolumeOfCylinder(A,B)))",
+  "problem_answer": "1130.97",
+  "problem_type": [
+    "Measurement of Solid Geometric Forms"
+  ],
+  "complexity_level": "Level 1",
+  "theorem_seqs": [],
+  "theorem_seqs_dag": {
+    "START": []
+  }
+}
+

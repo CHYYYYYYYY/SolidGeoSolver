@@ -1,0 +1,42 @@
+{
+  "problem_id": 1423,
+  "annotation": "RuoranXu_2025-08-10",
+  "annotation_img": "RuoranXu_2025-08-10",
+  "source": "SolidGeo",
+  "problem_text_cn": "考虑图中的固体并回答以下问题：\n\n因此，总表面积是多少？外半径12厘米，内半径11厘米，长26厘米。把你的答案精确到小数点后两位。",
+  "problem_text_en": "Consider the solid pictured and answer the following:\n\nHence what is the total surface area? The outer radius is 12 cm, inner radius is 11 cm and length 26 cm.\n\nGive your answer to the nearest two decimal places.",
+  "problem_img": "images\\28.png",
+  "construction_cdl": [
+    "Shape(PQ,QP)",
+    "Shape(AB,BA)",
+    "Coplanar(U,AP)",
+    "Coplanar(V,BQ)",
+    "Cocircular(P)",
+    "Cocircular(Q)",
+    "Cocircular(A)",
+    "Cocircular(B)"
+  ],
+  "text_cdl": [
+    "Cylinder(A,B)",
+    "Cylinder(P,Q)",
+    "Equal(RadiusOfCircle(Q),12)",
+    "Equal(RadiusOfCircle(A),11)",
+    "Equal(HeightOfCylinder(P,Q),26)",
+    "Equal(HeightOfCylinder(A,B),26)"
+  ],
+  "image_cdl": [
+    "Cylinder(A,B)",
+    "Cylinder(P,Q)",
+    "Equal(RadiusOfCircle(Q),12)",
+    "Equal(RadiusOfCircle(A),11)",
+    "Equal(HeightOfCylinder(P,Q),26)",
+    "Equal(HeightOfCylinder(A,B),26)"
+  ],
+  "goal_cdl": "Value(Sub(Add(AreaOfCircle(P),AreaOfCircle(Q),LateralareaOfCylinder(P,Q),LateralareaOfCylinder(A,B)),Add(AreaOfCircle(A),AreaOfCircle(B))))",
+  "problem_answer": "3754.34",
+  "theorem_seqs": [],
+  "theorem_seqs_dag": {
+    "START": []
+  }
+}
+

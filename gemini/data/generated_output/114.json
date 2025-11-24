@@ -1,0 +1,39 @@
+{
+  "problem_id": 114,
+  "annotation": "",
+  "source": "SolidGeo",
+  "problem_text_en": "The following is a solid on a square base with side length 16cm. A right solid has its apex aligned directly above the centre of its base.\n\nFind the length of VW, the perpendicular height of the solid correct to two decimal places.",
+  "construction_cdl": [
+    "Shape(AB,BC,CD,DA)",
+    "Shape(VA,AB,BV)",
+    "Shape(VB,BC,CV)",
+    "Shape(VC,CD,DV)",
+    "Shape(VD,DA,AV)",
+    "Shape(VW,WA,AV)",
+    "Coplanar(U,ABCDW)",
+    "Coplanar(T,VAC)",
+    "Collinear(AWC)",
+    "Collinear(BWD)"
+  ],
+  "text_cdl": [
+    "RegularQuadrangularPyramid(ABCD,V)",
+    "Square(ABCD)",
+    "Equal(LengthOfLine(AB),16)",
+    "Equal(HeightOfQuadrangularPyramid(ABCD,V), LengthOfLine(V,W))"
+  ],
+  "image_cdl": [
+    "RegularQuadrangularPyramid(ABCD,V)",
+    "Equal(LengthOfLine(V,A),26)",
+    "Equal(LengthOfLine(A,W),z)",
+    "IsMidpointOfLine(W,AC)",
+    "PerpendicularBetweenLineAndPlane(VW,U)"
+  ],
+  "goal_cdl": "Value(LengthOfLine(V,W))",
+  "problem_answer": "23.41",
+  "problem_type": [
+    "Solid Geometry"
+  ],
+  "complexity_level": "Level 3",
+  "theorem_seqs": [],
+  "theorem_seqs_dag": "{\"START\": []}"
+}

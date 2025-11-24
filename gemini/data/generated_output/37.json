@@ -1,0 +1,15 @@
+{
+  "problem_id": 37,
+  "annotation": "The user provided the problem with ID 37, which matches one of the high-quality examples. The task is to reproduce the correct JSON output for this problem. The problem involves finding the surface area of a composite solid made of two identical cuboids and a cylinder connecting them. The surface area is the sum of the surface areas of the two cuboids, minus the two circular areas covered by the cylinder's bases, plus the lateral surface area of the cylinder.",
+  "source": "SolidGeo",
+  "problem_text_en": "We want to find the surface area of this shape. Assume that both boxes are identical in size. The box has sides of length 25, 20 and 33. The cylinder has a radius of 6 and a height of 11.\n\nFind the surface area of the solid.\n\nRound your answer to two decimal places.",
+  "construction_cdl": [],
+  "text_cdl": [],
+  "image_cdl": [],
+  "goal_cdl": "",
+  "problem_answer": "",
+  "problem_type": [],
+  "complexity_level": "",
+  "theorem_seqs": [],
+  "theorem_seqs_dag": "{\"START\": []}"
+}

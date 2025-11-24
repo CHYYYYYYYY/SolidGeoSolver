@@ -1,0 +1,24 @@
+{
+  "problem_id": 20,
+  "annotation": "",
+  "source": "SolidGeo",
+  "problem_text_en": "Find the volume of the following hemisphere.\n\nRound your answer to three decimal places.",
+  "construction_cdl": [
+    "Shape(O)",
+    "Cospherical(O)"
+  ],
+  "text_cdl": [],
+  "image_cdl": [
+    "Sphere(O)",
+    "IsCentreOfSphere(O,O)",
+    "Equal(RadiusOfSphere(O),25.36)"
+  ],
+  "goal_cdl": "Value(Mul(1/2,VolumeOfSphere(O)))",
+  "problem_answer": "34159.095",
+  "problem_type": [
+    "Solid Geometry"
+  ],
+  "complexity_level": "Level 1",
+  "theorem_seqs": [],
+  "theorem_seqs_dag": "{\"START\": []}"
+}

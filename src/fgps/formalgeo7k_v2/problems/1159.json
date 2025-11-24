@@ -1,0 +1,43 @@
+{
+  "problem_id": 1159,
+  "annotation": "",
+  "annotation_img": "",
+  "source": "SolidGeo",
+  "problem_text_cn": "",
+  "problem_text_en": "As shown in the figure, the solid is constructed by a cone and a hemisphere. Calculate the volume of the composite figure shown, correct to two decimal places.",
+  "problem_img": [
+    "images\\223.jpg"
+  ],
+  "construction_cdl": [
+    "Shape(OP,PO)",
+    "Cocircular(O)"
+  ],
+  "text_cdl": [
+    "Cone(O,P)",
+    "Sphere(O)",
+    "IsCentreOfCircle(O,O)",
+    "IsCentreOfSphere(O,O)",
+    "Equal(HeightOfCone(O,P),14)",
+    "Equal(RadiusOfCircle(O),4)",
+    "Equal(RadiusOfSphere(O),4)"
+  ],
+  "image_cdl": [
+    "Cone(O,P)",
+    "Sphere(O)",
+    "IsCentreOfCircle(O,O)",
+    "IsCentreOfSphere(O,O)",
+    "Equal(RadiusOfCircle(O),4)",
+    "Equal(RadiusOfSphere(O),4)"
+  ],
+  "goal_cdl": "Value(Add(VolumeOfCone(O,P),Mul(1/2,VolumeOfSphere(O))))",
+  "problem_answer": "301.59",
+  "problem_type": [
+    "Composite Solid Structures"
+  ],
+  "complexity_level": "Level 2",
+  "theorem_seqs": [],
+  "theorem_seqs_dag": {
+    "START": []
+  }
+}
+

@@ -1,0 +1,43 @@
+{
+  "problem_id": 50,
+  "annotation": "",
+  "source": "SolidGeo",
+  "problem_text_en": "This box is to have a divider placed in as shown. The box has sides of length 9cm, 9cm and 19cm.\nCalculate the area of the divider correct to two decimal places, using your rounded answer from the previous part.",
+  "construction_cdl": [
+    "Shape(AB,BC,CD,DA)",
+    "Shape(EF,FG,GH,HE)",
+    "Shape(AE,EF,FB,BA)",
+    "Shape(CD,DH,HG,GC)",
+    "Shape(AE,EH,HD,DA)",
+    "Shape(BC,CG,GF,FB)",
+    "Shape(AB,BC,CH,HA)",
+    "Coplanar(U,ABCD)",
+    "Coplanar(V,EFGH)",
+    "Coplanar(W,AEFB)",
+    "Coplanar(X,ADHE)",
+    "Coplanar(Y,BCGF)",
+    "Coplanar(Z,CDHG)",
+    "Coplanar(R,ABGH)"
+  ],
+  "text_cdl": [
+    "Cuboid(ABCDEFGH)",
+    "Equal(LengthOfLine(CD),9)",
+    "Equal(LengthOfLine(BC),9)",
+    "Equal(LengthOfLine(AB),19)"
+  ],
+  "image_cdl": [
+    "Cuboid(ABCDEFGH)",
+    "Rectangle(ABGH)",
+    "Equal(LengthOfLine(CD),9)",
+    "Equal(LengthOfLine(BC),9)",
+    "Equal(LengthOfLine(AC),z)"
+  ],
+  "goal_cdl": "Value(AreaOfQuadrilateral(ABGH))",
+  "problem_answer": "191.9",
+  "problem_type": [
+    "Solid Geometry"
+  ],
+  "complexity_level": "Level 2",
+  "theorem_seqs": [],
+  "theorem_seqs_dag": "{\"START\": []}"
+}

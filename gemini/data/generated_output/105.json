@@ -1,0 +1,15 @@
+{
+  "problem_id": 105,
+  "annotation": "The user wants to find the volume of a composite solid. The solid is a cuboid with a pyramid removed from it. The dimensions of the cuboid are given as length 15 cm, width 9 cm, and height 8 cm. The pyramid that is removed has the top face of the cuboid as its base and its apex at the center of the bottom face of the cuboid. Therefore, the base of the pyramid is a 15x9 rectangle, and its height is 8 cm. The volume of the composite solid is the volume of the cuboid minus the volume of the pyramid.",
+  "source": "SolidGeo",
+  "problem_text_en": "A pyramid has been removed from a solid, as shown in the figure. The height of the solid is 8cm. Find the volume of this composite solid.",
+  "construction_cdl": [],
+  "text_cdl": [],
+  "image_cdl": [],
+  "goal_cdl": "",
+  "problem_answer": "",
+  "problem_type": [],
+  "complexity_level": "",
+  "theorem_seqs": [],
+  "theorem_seqs_dag": "{\"START\": []}"
+}

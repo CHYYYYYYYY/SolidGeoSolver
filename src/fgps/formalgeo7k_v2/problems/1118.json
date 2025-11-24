@@ -1,0 +1,33 @@
+{
+  "problem_id": 1118,
+  "annotation": "ShiyuShen_2025-08-23",
+  "annotation_img": "ShiyuShen_2025-08-23",
+  "source": "SolidGeo",
+  "problem_text_cn": "图中给出了一个圆柱体的尺寸信息：高度为90毫米，半径为105毫米。图中所有尺寸单位均为毫米。请计算该圆柱体的表面积，答案保留两位小数。",
+  "problem_text_en": "The figure shows a cylinder with height of 90 mm and radius of 105 mm. All measurements in the diagram are in mm.\n\nCalculate the surface area of the cylinder, rounding your answer to two decimal places.",
+  "problem_img": "images\\142.png",
+  "construction_cdl": [
+    "Shape(PQ,QP)",
+    "Cocircular(P)",
+    "Cocircular(Q)"
+  ],
+  "text_cdl": [
+    "Cylinder(P,Q)",
+    "Equal(HeightOfCylinder(P,Q),90)",
+    "Equal(RadiusOfCircle(P),105)"
+  ],
+  "image_cdl": [
+    "Cylinder(O,P)",
+    "IsCentreOfCircle(P,P)",
+    "IsCentreOfCircle(Q,Q)",
+    "Equal(HeightOfCylinder(P,Q),90)",
+    "Equal(RadiusOfCircle(P),105)"
+  ],
+  "goal_cdl": "Value(Add(AreaOfCircle(P),AreaOfCircle(Q),LateralareaOfCylinder(P,Q)))",
+  "problem_answer": "128522.12",
+  "theorem_seqs": [],
+  "theorem_seqs_dag": {
+    "START": []
+  }
+}
+

@@ -1,0 +1,34 @@
+{
+  "problem_id": 1206,
+  "annotation": "",
+  "annotation_img": "",
+  "source": "SolidGeo",
+  "problem_text_cn": "一个圆柱体的底面直径为7米，高度为14米。求该圆柱体体积的一半。",
+  "problem_text_en": "A cylinder has a base diameter of 7 m and a height of 14 m. Find half of the volume of the cylinder.",
+  "problem_img": [
+    "images\\293.jpg"
+  ],
+  "construction_cdl": [
+    "Shape(PQ,QP)",
+    "Cocircular(Q)",
+    "Cocircular(P)"
+  ],
+  "text_cdl": [],
+  "image_cdl": [
+    "IsCentreOfCircle(Q,Q)",
+    "Equal(DiameterOfCircle(P),7)",
+    "Cylinder(P,Q)",
+    "Equal(HeightOfCylinder(P,Q),14)",
+    "IsCentreOfCircle(P,P)"
+  ],
+  "goal_cdl": "Value(Mul(1/2,VolumeOfCylinder(P,Q)))",
+  "problem_answer": "269.39",
+  "problem_type": [
+    "Measurement of Solid Geometric Forms"
+  ],
+  "complexity_level": "Level 1",
+  "theorem_seqs": [],
+  "theorem_seqs_dag": {
+    "START": []
+  }
+}
