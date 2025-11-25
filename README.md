@@ -43,7 +43,7 @@ Hilbert-Geo/
 │   ├── run.py            # Execution & Auto-Solver Scripts
 │   ├── enhanced_search.py # Enhanced Search Capabilities
 │   ├── utils.py          # Utility Functions
-│   └── formalgeo7k_v2/   # Dataset Directory (Legacy naming, includes new datasets)
+│   └── Hilbert-Geo/   # Dataset Directory (Legacy naming, includes new datasets)
 │       ├── problems/     # Problem Files (JSON format with CDL)
 │       ├── images/       # Problem Diagrams
 │       └── gdl/          # GDL Definitions (Predicates & Theorems)
@@ -77,7 +77,7 @@ Solve a specific problem by entering its ID (pid).
 
 ```bash
 cd src/fgps
-python run.py --func run --dataset_name formalgeo7k_v2
+python run.py --func run --dataset_name 
 ```
 *Example input:* `<pid>: 113`
 
@@ -86,7 +86,7 @@ Automatically attempt to solve all problems in the dataset to reproduce results.
 
 ```bash
 cd src/fgps
-python run.py --func auto_run --dataset_name formalgeo7k_v2
+python run.py --func auto_run --dataset_name 
 ```
 
 #### 3. Advanced Search Configuration
@@ -95,16 +95,16 @@ Use `search.py` to customize search algorithms and parameters (e.g., for ablatio
 ```bash
 cd src/fgps
 python search.py \
-    --dataset_name formalgeo7k_v2 \
+    --dataset_name  \
     --method fw \
     --strategy bfs \
-    --max_depth 1500 \
-    --timeout 60
+    --max_depth 150000 \
+    --timeout 6000
 ```
 
 **Arguments:**
-*   `--method`: Search direction (`fw` for Forward, `bw` for Backward).
-*   `--strategy`: Search algorithm (`bfs`, `dfs`, `rs` for Random, `bs` for Beam Search).
+*   `--method`: Search direction.
+*   `--strategy`: Search algorithm.
 *   `--max_depth`: Maximum search depth.
 *   `--timeout`: Timeout in seconds per problem.
 *   `--beam_size`: Beam size (for Beam Search).
