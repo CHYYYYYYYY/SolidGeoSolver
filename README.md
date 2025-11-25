@@ -17,8 +17,8 @@ Geometric problem solving is a typical multimodal reasoning challenge. While sig
 **Hilbert-Geo** addresses this by:
 1.  **Unified Framework**: The first unified formal language framework for solid geometry, featuring an extensive predicate library and a dedicated theorem bank.
 2.  **Parse2Reason Method**:
-    *   **Parsing Step**: Utilizes **Conditional Description Language (CDL)** to formally represent both problem descriptions (natural text) and diagrams (visual images).
-    *   **Reasoning Step**: Leverages formal CDL and the theorem bank to perform relational inference and algebraic computation, generating strictly correct, verifiable, and human-readable reasoning processes.
+    *   **Parsing Step**: Utilizes **formal Language** to formally represent both problem descriptions (natural text) and diagrams (visual images).
+    *   **Reasoning Step**: Leverages formal language and the theorem bank to perform relational inference and algebraic computation, generating strictly correct, verifiable, and human-readable reasoning processes.
 3.  **Generalizability**: Applicable to both plane and solid geometry.
 
 ## ✨ Key Features
