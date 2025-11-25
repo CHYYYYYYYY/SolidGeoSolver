@@ -97,7 +97,7 @@ Use `search.py` to customize search algorithms and parameters (e.g., for ablatio
 ```bash
 cd src/fgps
 python search.py \
-    --dataset_name  \
+    --dataset_name Hilbert-Geo\
     --method fw \
     --strategy bfs \
     --max_depth 150000 \
