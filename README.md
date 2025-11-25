@@ -40,18 +40,18 @@ The core implementation is located in the `src/` directory.
 
 ```
 Hilbert-Geo/
-├── src/fgps/              # Main Package (Solver Implementation)
-│   ├── search.py         # Search Algorithms (Forward/Backward, BFS/DFS/Beam)
-│   ├── run.py            # Execution & Auto-Solver Scripts
-│   ├── enhanced_search.py # Enhanced Search Capabilities
-│   ├── utils.py          # Utility Functions
-│   └── Hilbert-Geo/   # Dataset Directory (Legacy naming, includes new datasets)
-│       ├── problems/     # Problem Files (JSON format with CDL)
-│       ├── images/       # Problem Diagrams
-│       └── gdl/          # GDL Definitions (Predicates & Theorems)
+├── src/fgps/ 
+│   ├── search.py
+│   ├── run.py
+│   ├── enhanced_search.py
+│   ├── utils.py
+│   └── Hilbert-Geo/ 
+│       ├── problems/
+│       ├── images/
+│       └── gdl/
 │
-├── formalgeo/             # FormalGeo Core Library (Engine, Parser, Solver)
-└── gemini/                # AI Model Evaluation & Parsing Tools
+├── formalgeo/
+└── gemini/
 ```
 
 ## 🚀 Quick Start
