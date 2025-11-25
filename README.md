@@ -3,6 +3,8 @@
 [![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
+"Arithmetical symbols are written figures, and geometrical figures are painted formulas." — David Hilbert
+
 **Hilbert-Geo** is a unified formal language framework designed to solve both plane and solid geometric problems through neural-symbolic reasoning. To bridge the gap in solid geometry reasoning, which involves complex 3D spatial diagrams, we introduce the **Parse2Reason** method.
 
 This repository contains the implementation of the Hilbert-Geo framework, including the reasoning engine, formal language definitions, and evaluation tools.
