@@ -1,5 +1,5 @@
 # Hilbert-Geo: Solving Solid Geometric Problems by Neural-Symbolic Reasoning
-![logo](assets/logo.png)
+![logo](logo.png)
 [![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
