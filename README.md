@@ -128,32 +128,3 @@ Logs are saved in `src/fgps` by default. Change the log directory:
 ```bash
 python search.py --path_logs /path/to/logs
 ```
-
-## ❓ FAQ
-
-**Q: How do I choose a search strategy?**
-- **BFS**: Finds the shortest proof path but consumes more memory.
-- **DFS**: Memory-efficient but may explore very deep paths.
-- **BS (Beam Search)**: Balances between quality and efficiency; requires tuning `beam_size`.
-
-**Q: How can I improve the success rate?**
-1. Increase `max_depth`.
-2. Increase `timeout`.
-3. Try Backward Search (`--method bw`).
-
-## 🤝 Contribution
-
-Contributions are welcome! Please fork the repository and submit a Pull Request.
-
-## 📄 License
-
-This project is licensed under the MIT License. The dataset in `src/fgps/formalgeo7k_v2` may have its own license.
-
-## 🙏 Acknowledgments
-
-- [FormalGeo](https://github.com/FormalGeo) Framework
-- FormalGeo Development Team
-
----
-
-**Note**: This project is for research and educational purposes.
