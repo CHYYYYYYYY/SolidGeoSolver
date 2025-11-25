@@ -27,7 +27,7 @@ Geometric problem solving is a typical multimodal reasoning challenge. While sig
 *   **Extensive Datasets**:
     *   **SolidFGeo2k**: A curated dataset of solid geometry problems with formal annotations.
     *   **MathVerse-solid**: A subset of MathVerse with formal annotations.
-    *   **PlaneFGeo3k**: A dataset of plane geometry problems demonstrating generalizability.
+    *   **PlaneFGeo3k**: A dataset of plane geometry problems with formal annotations.
 *   **SOTA Performance**:
     *   **77.3%** accuracy on SolidFGeo2k.
     *   **84.1%** on MathVerse-Solid (subset), significantly outperforming leading MLLMs like Gemini-2.5-pro (54.2%) and GPT-5 (62.9%).
