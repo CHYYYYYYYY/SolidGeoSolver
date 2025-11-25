@@ -25,8 +25,9 @@ Geometric problem solving is a typical multimodal reasoning challenge. While sig
 *   **Neural-Symbolic Reasoning**: Combines the perceptual power of neural models (for parsing) with the rigorous logic of symbolic engines (for reasoning).
 *   **Parse2Reason Pipeline**: A two-step approach ensuring high accuracy and interpretability.
 *   **Extensive Datasets**:
-    *   **SolidFGeo2k**: A curated dataset of 2,000+ solid geometry problems with formal annotations.
-    *   **PlaneFGeo3k**: A dataset of 3,000+ plane geometry problems demonstrating generalizability.
+    *   **SolidFGeo2k**: A curated dataset of solid geometry problems with formal annotations.
+    *   **MathVerse-solid**: A subset of MathVerse with formal annotations.
+    *   **PlaneFGeo3k**: A dataset of plane geometry problems demonstrating generalizability.
 *   **SOTA Performance**:
     *   **77.3%** accuracy on SolidFGeo2k.
     *   **84.1%** on MathVerse-Solid (subset), significantly outperforming leading MLLMs like Gemini-2.5-pro (54.2%) and GPT-5 (62.9%).
