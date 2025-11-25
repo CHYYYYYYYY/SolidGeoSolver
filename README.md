@@ -1,56 +1,60 @@
-# SolidGeoSolver
+# Hilbert-Geo: Solving Solid Geometric Problems by Neural-Symbolic Reasoning
 
 [![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
-SolidGeoSolver is an automated geometric problem-solving system based on the FormalGeo framework. It formally represents geometric problems and automatically solves them using various search strategies. The project also integrates AI models for generating Condition Description Language (CDL).
+**Hilbert-Geo** is a unified formal language framework designed to solve both plane and solid geometric problems through neural-symbolic reasoning. To bridge the gap in solid geometry reasoning, which involves complex 3D spatial diagrams, we introduce the **Parse2Reason** method.
+
+This repository contains the implementation of the Hilbert-Geo framework, including the reasoning engine, formal language definitions, and evaluation tools.
+
+## 📄 Abstract
+
+Geometric problem solving is a typical multimodal reasoning challenge. While significant progress has been made in plane geometry, solid geometry remains difficult due to 3D spatial diagrams and complex reasoning requirements. 
+
+**Hilbert-Geo** addresses this by:
+1.  **Unified Framework**: The first unified formal language framework for solid geometry, featuring an extensive predicate library and a dedicated theorem bank.
+2.  **Parse2Reason Method**:
+    *   **Parsing Step**: Utilizes **Conditional Description Language (CDL)** to formally represent both problem descriptions (natural text) and diagrams (visual images).
+    *   **Reasoning Step**: Leverages formal CDL and the theorem bank to perform relational inference and algebraic computation, generating strictly correct, verifiable, and human-readable reasoning processes.
+3.  **Generalizability**: Applicable to both plane and solid geometry.
 
 ## ✨ Key Features
 
-- 🔍 **Multiple Search Strategies**: Supports both Forward Search and Backward Search.
-- 🎯 **Diverse Search Algorithms**: Includes Breadth-First Search (BFS), Depth-First Search (DFS), Random Search (RS), and Beam Search (BS).
-- 📊 **FormalGeo7k_v2 Dataset**: Built-in dataset containing 1,810 geometric problems with full formal representation.
-- 🔧 **Flexible Configuration**: Supports multi-process parallel searching with customizable depth, timeout, and beam size.
-- 🤖 **AI Integration**: (Optional) Tools for CDL generation using LLMs like Gemini and ChatGPT.
+*   **Neural-Symbolic Reasoning**: Combines the perceptual power of neural models (for parsing) with the rigorous logic of symbolic engines (for reasoning).
+*   **Parse2Reason Pipeline**: A two-step approach ensuring high accuracy and interpretability.
+*   **Extensive Datasets**:
+    *   **SolidFGeo2k**: A curated dataset of 2,000+ solid geometry problems with formal annotations.
+    *   **PlaneFGeo3k**: A dataset of 3,000+ plane geometry problems demonstrating generalizability.
+*   **SOTA Performance**:
+    *   **77.3%** accuracy on SolidFGeo2k.
+    *   **84.1%** on MathVerse-Solid (subset), significantly outperforming leading MLLMs like Gemini-2.5-pro (54.2%) and GPT-5 (62.9%).
+    *   **80.2%** accuracy on PlaneFGeo3k.
 
 ## 📁 Project Structure
 
 The core implementation is located in the `src/` directory.
 
 ```
-SolidGeoSolver/
-├── src/fgps/              # Main Package
-│   ├── search.py         # Search Algorithms Implementation
+Hilbert-Geo/
+├── src/fgps/              # Main Package (Solver Implementation)
+│   ├── search.py         # Search Algorithms (Forward/Backward, BFS/DFS/Beam)
 │   ├── run.py            # Execution & Auto-Solver Scripts
 │   ├── enhanced_search.py # Enhanced Search Capabilities
-│   ├── utils.py          # Utility Functions & Argument Parsing
-│   └── formalgeo7k_v2/   # Dataset Directory
-│       ├── problems/     # Problem Files (JSON format)
+│   ├── utils.py          # Utility Functions
+│   └── formalgeo7k_v2/   # Dataset Directory (Legacy naming, includes new datasets)
+│       ├── problems/     # Problem Files (JSON format with CDL)
 │       ├── images/       # Problem Diagrams
-│       └── gdl/          # Geometric Description Language Definitions
+│       └── gdl/          # GDL Definitions (Predicates & Theorems)
 │
 ├── formalgeo/             # FormalGeo Core Library (Engine, Parser, Solver)
-└── gemini/                # (Optional) AI Model Evaluation Tools
+└── gemini/                # AI Model Evaluation & Parsing Tools
 ```
-
-### `src/fgps/` Details
-
-This directory contains the core logic for the problem solver:
-
-- **`search.py`**: The heart of the solver. It implements the search strategies (Forward/Backward) and algorithms (BFS, DFS, RS, BS). It handles the state space search to find a sequence of theorems that proves the target goal.
-- **`run.py`**: The entry point for running the solver. It supports two modes:
-    - `run`: Interactive mode for solving a single problem.
-    - `auto_run`: Batch mode for solving all problems in the dataset automatically.
-- **`formalgeo7k_v2/`**: The dataset directory.
-    - **`problems/`**: Contains JSON files for each problem. Each file describes the problem's construction (CDL), text (CDL), and goal.
-    - **`gdl/`**: Contains `predicate_GDL.json` and `theorem_GDL.json`, defining the fundamental geometric predicates and theorems used by the solver.
 
 ## 🚀 Quick Start
 
 ### Prerequisites
-
-- Python 3.8+
-- pip
+*   Python 3.8+
+*   pip
 
 ### Installation
 
@@ -67,31 +71,24 @@ pip install formalgeo psutil func-timeout sympy
 All commands should be executed from the `src/fgps` directory.
 
 #### 1. Interactive Solver
-
 Solve a specific problem by entering its ID (pid).
 
 ```bash
 cd src/fgps
 python run.py --func run --dataset_name formalgeo7k_v2
 ```
+*Example input:* `<pid>: 113`
 
-Example input:
-```
-<pid>: 113
-```
-
-#### 2. Batch Solver
-
-Automatically attempt to solve all problems in the dataset.
+#### 2. Batch Solver (Evaluation)
+Automatically attempt to solve all problems in the dataset to reproduce results.
 
 ```bash
 cd src/fgps
 python run.py --func auto_run --dataset_name formalgeo7k_v2
 ```
 
-#### 3. Advanced Search
-
-Use `search.py` to customize search algorithms and parameters.
+#### 3. Advanced Search Configuration
+Use `search.py` to customize search algorithms and parameters (e.g., for ablation studies).
 
 ```bash
 cd src/fgps
@@ -104,27 +101,37 @@ python search.py \
 ```
 
 **Arguments:**
-- `--method`: Search direction (`fw` for Forward, `bw` for Backward).
-- `--strategy`: Search algorithm (`bfs`, `dfs`, `rs`, `bs`).
-- `--max_depth`: Maximum search depth.
-- `--timeout`: Timeout in seconds for a single problem.
-- `--beam_size`: Beam size (only for Beam Search).
-- `--process_count`: Number of parallel processes.
+*   `--method`: Search direction (`fw` for Forward, `bw` for Backward).
+*   `--strategy`: Search algorithm (`bfs`, `dfs`, `rs` for Random, `bs` for Beam Search).
+*   `--max_depth`: Maximum search depth.
+*   `--timeout`: Timeout in seconds per problem.
+*   `--beam_size`: Beam size (for Beam Search).
+*   `--process_count`: Number of parallel processes.
 
 ## 🔧 Configuration
 
 ### Dataset Path
-
 The default dataset path is `src/fgps`. You can specify a custom path:
-
 ```bash
 python run.py --path_datasets /path/to/datasets
 ```
 
 ### Logging
-
 Logs are saved in `src/fgps` by default. Change the log directory:
-
 ```bash
 python search.py --path_logs /path/to/logs
 ```
+
+## 📄 Citation
+
+If you find this work useful in your research, please cite our paper:
+
+```bibtex
+@article{xu2025hilbert,
+  title={Hilbert-Geo: Solving Solid Geometric Problems by Neural-Symbolic Reasoning},
+  author={Xu, Ruoran and Cheng, Haoyu and Dong, Bin and Wang, Qiufeng},
+  journal={CVPR Conference Submission},
+  year={2026}
+}
+```
+
