@@ -45,7 +45,7 @@ class GeometrySolver:
         """
         加载问题数据
         
-        :param problem_data: 包含问题描述的字典，需包含construction_cdl、text_cdl、goal_cdl等字段
+        :param problem_data
         """
         try:
             parsed_problem = parse_problem_cdl(problem_data)
