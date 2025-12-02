@@ -75,9 +75,9 @@ data/*.jsonl
 *.jpg
 *.jpeg
 *.svg
-!src/fgps/formalgeo7k_v2/images*/
-!src/fgps/formalgeo7k_v2/images7k*/
-!src/fgps/formalgeo7k_v2/gdl/pic/
+!src/fgps/formalgeo/images*/
+!src/fgps/formalgeo/images*/
+!src/fgps/formalgeo/gdl/pic/
 !gemini/images/
 !figures/*.pdf
 
