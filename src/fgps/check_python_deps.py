@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-检查FGPS项目所需的Python依赖包
+检查所需的Python依赖包
 """
 
 import sys
