@@ -1,4 +1,4 @@
-# Solving Solid Geometric Problems by Neural-Symbolic Reasoning
+# Solving Solid Geometric Problems
 <img src="logo.png" alt="logo" width="300" style="display: block; margin: 0 auto;">  
 
 [![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/)
