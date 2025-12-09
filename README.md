@@ -69,7 +69,7 @@ Hilbert-Geo/
 pip install -r requirements.txt
 
 # Or install manually
-pip install formalgeo psutil func-timeout sympy
+pip install hilbert-geo psutil func-timeout sympy
 ```
 
 ### Usage
@@ -102,8 +102,8 @@ python search.py \
     --dataset_name Hilbert-Geo\
     --method fw \
     --strategy bfs \
-    --max_depth 150000 \
-    --timeout 6000
+    --max_depth xxx \
+    --timeout xxx
 ```
 
 **Arguments:**
@@ -111,7 +111,7 @@ python search.py \
 *   `--strategy`: Search algorithm.
 *   `--max_depth`: Maximum search depth.
 *   `--timeout`: Timeout in seconds per problem.
-*   `--beam_size`: Beam size (for Beam Search).
+*   `--beam_size`: Beam size.
 *   `--process_count`: Number of parallel processes.
 
 ## 🔧 Configuration
@@ -136,7 +136,7 @@ If you find this work useful in your research, please cite our paper:
 @article{xu2025hilbert,
   title={Solving Solid Geometric Problems by Neural-Symbolic Reasoning},
   author={Xu, Ruoran and Cheng, Haoyu and Dong, Bin and Wang, Qiufeng},
-  journal={a Conference Submission},
+  journal={Conference Submission},
   year={2026}
 }
 ```
