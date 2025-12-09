@@ -1,4 +1,4 @@
-# Hilbert-Geo: Solving Solid Geometric Problems by Neural-Symbolic Reasoning
+# Solving Solid Geometric Problems by Neural-Symbolic Reasoning
 <img src="logo.png" alt="logo" width="300" style="display: block; margin: 0 auto;">  
 
 [![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/)
@@ -6,7 +6,7 @@
 
 "Arithmetical symbols are written figures, and geometrical figures are painted formulas." — David Hilbert
 
-**Hilbert-Geo** is a unified formal language framework designed to solve both plane and solid geometric problems through neural-symbolic reasoning. To bridge the gap in solid geometry reasoning, which involves complex 3D spatial diagrams, we introduce the **Parse2Reason** method.
+It is a unified formal language framework designed to solve both plane and solid geometric problems through neural-symbolic reasoning. To bridge the gap in solid geometry reasoning, which involves complex 3D spatial diagrams, we introduce the **Parse2Reason** method.
 
 This repository contains the implementation of the Hilbert-Geo framework, including the reasoning engine, formal language definitions, and evaluation tools.
 
@@ -132,9 +132,9 @@ If you find this work useful in your research, please cite our paper:
 
 ```bibtex
 @article{xu2025hilbert,
-  title={Hilbert-Geo: Solving Solid Geometric Problems by Neural-Symbolic Reasoning},
+  title={Solving Solid Geometric Problems by Neural-Symbolic Reasoning},
   author={Xu, Ruoran and Cheng, Haoyu and Dong, Bin and Wang, Qiufeng},
-  journal={CVPR Conference Submission},
+  journal={a Conference Submission},
   year={2026}
 }
 ```
