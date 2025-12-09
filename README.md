@@ -4,7 +4,7 @@
 [![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
-# ⚠️ dependent package is undergoing review on the PyPI platform.
+# ⚠️ dependent package is undergoing review on PyPI.
 
 "Arithmetical symbols are written figures, and geometrical figures are painted formulas." — David Hilbert
 
