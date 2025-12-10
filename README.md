@@ -16,7 +16,7 @@ This repository contains the implementation of the Hilbert-Geo framework, includ
 
 Geometric problem solving is a typical multimodal reasoning challenge. While significant progress has been made in plane geometry, solid geometry remains difficult due to 3D spatial diagrams and complex reasoning requirements. 
 
-**Hilbert-Geo** addresses this by:
+
 1.  **Unified Framework**: The first unified formal language framework for solid geometry, featuring an extensive predicate library and a dedicated theorem bank.
 2.  **Parse2Reason Method**:
     *   **Parsing Step**: Utilizes **formal Language** to formally represent both problem descriptions (natural text) and diagrams (visual images).
@@ -47,7 +47,7 @@ Hilbert-Geo/
 │   ├── run.py
 │   ├── enhanced_search.py
 │   ├── utils.py
-│   └── Hilbert-Geo/ 
+│   └── HilbertGeo/ 
 │       ├── problems/
 │       ├── images/
 │       └── gdl/
@@ -69,7 +69,7 @@ Hilbert-Geo/
 pip install -r requirements.txt
 
 # Or install manually
-pip install hilbert-geo psutil func-timeout sympy
+pip install hilbergeo psutil func-timeout sympy
 ```
 
 ### Usage
