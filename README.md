@@ -10,7 +10,7 @@
 
 It is a unified formal language framework designed to solve both plane and solid geometric problems through neural-symbolic reasoning. To bridge the gap in solid geometry reasoning, which involves complex 3D spatial diagrams, we introduce the **Parse2Reason** method.
 
-This repository contains the implementation of the Hilbert-Geo framework, including the reasoning engine, formal language definitions, and evaluation tools.
+This repository contains the implementation of the framework, including the reasoning engine, formal language definitions, and evaluation tools.
 
 ## 📄 Abstract
 
@@ -47,7 +47,7 @@ Hilbert-Geo/
 │   ├── run.py
 │   ├── enhanced_search.py
 │   ├── utils.py
-│   └── HilbertGeo/ 
+│   └── ******/ 
 │       ├── problems/
 │       ├── images/
 │       └── gdl/
@@ -69,7 +69,7 @@ Hilbert-Geo/
 pip install -r requirements.txt
 
 # Or install manually
-pip install hilbergeo psutil func-timeout sympy
+pip install ****** psutil func-timeout sympy
 ```
 
 ### Usage
