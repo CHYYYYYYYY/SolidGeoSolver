@@ -6,8 +6,6 @@
 
 # ⚠️ dependent package is undergoing review on PyPI.
 
-"Arithmetical symbols are written figures, and geometrical figures are painted formulas." — David Hilbert
-
 It is a unified formal language framework designed to solve both plane and solid geometric problems through neural-symbolic reasoning. To bridge the gap in solid geometry reasoning, which involves complex 3D spatial diagrams, we introduce the **Parse2Reason** method.
 
 This repository contains the implementation of the framework, including the reasoning engine, formal language definitions, and evaluation tools.
@@ -133,7 +131,7 @@ python search.py --path_logs /path/to/logs
 If you find this work useful in your research, please cite our paper:
 
 ```bibtex
-@article{xu2025hilbert,
+@article{xu2025,
   title={Solving Solid Geometric Problems by Neural-Symbolic Reasoning},
   author={Xu, Ruoran and Cheng, Haoyu and Dong, Bin and Wang, Qiufeng},
   journal={Conference Submission},
