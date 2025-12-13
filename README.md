@@ -39,7 +39,7 @@ Geometric problem solving is a typical multimodal reasoning challenge. While sig
 The core implementation is located in the `src/` directory.
 
 ```
-Hilbert-Geo/
+
 ├── src/fgps/ 
 │   ├── search.py
 │   ├── run.py
@@ -97,7 +97,7 @@ Use `search.py` to customize search algorithms and parameters (e.g., for ablatio
 ```bash
 cd src/fgps
 python search.py \
-    --dataset_name Hilbert-Geo\
+    --dataset_name ***\
     --method fw \
     --strategy bfs \
     --max_depth xxx \
