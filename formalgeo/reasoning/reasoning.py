@@ -152,7 +152,7 @@ class GeometrySolver:
         show_solution(self.problem)
     
     def get_history(self):
-        """获取求解历史"""
+        """获取历史"""
         return self.solving_history
     
     def copy(self):
