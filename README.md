@@ -4,7 +4,6 @@
 [![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
-# ⚠️ dependent package is undergoing review on PyPI.
 
 It is a unified formal language framework designed to solve both plane and solid geometric problems through neural-symbolic reasoning. To bridge the gap in solid geometry reasoning, which involves complex 3D spatial diagrams, we introduce the **Parse2Reason** method.
 
