@@ -9,6 +9,10 @@ import shutil
 import random
 
 
+def _dataset_engine_version(dataset_info):
+    return dataset_info.get("hilbert_geo_version", dataset_info.get("formalgeo_version", "-"))
+
+
 def get_remote_datasets():
     response = requests.get("https://raw.githubusercontent.com/FormalGeo/FormalGeo/main/datasets.json")
     if response.status_code == 200:
@@ -40,7 +44,7 @@ def show_available_datasets(datasets_path):
         for dataset in local_datasets:
             print(text.format("local", "-",
                               dataset,
-                              local_datasets[dataset]["formalgeo_version"],
+                              _dataset_engine_version(local_datasets[dataset]),
                               local_datasets[dataset]["gdl_name"],
                               local_datasets[dataset]["gdl_version"],
                               local_datasets[dataset]["release_datetime"],
@@ -57,7 +61,7 @@ def show_available_datasets(datasets_path):
                 status = "old"
             print(text.format("local", status,
                               dataset,
-                              local_datasets[dataset]["formalgeo_version"],
+                              _dataset_engine_version(local_datasets[dataset]),
                               local_datasets[dataset]["gdl_name"],
                               local_datasets[dataset]["gdl_version"],
                               local_datasets[dataset]["release_datetime"],
@@ -65,7 +69,7 @@ def show_available_datasets(datasets_path):
         else:
             print(text.format("local", "-",
                               dataset,
-                              local_datasets[dataset]["formalgeo_version"],
+                              _dataset_engine_version(local_datasets[dataset]),
                               local_datasets[dataset]["gdl_name"],
                               local_datasets[dataset]["gdl_version"],
                               local_datasets[dataset]["release_datetime"],
@@ -74,7 +78,7 @@ def show_available_datasets(datasets_path):
     for dataset in remote_datasets:
         print(text.format("remote", "-",
                           dataset,
-                          remote_datasets[dataset]["formalgeo_version"],
+                          _dataset_engine_version(remote_datasets[dataset]),
                           remote_datasets[dataset]["gdl_name"],
                           remote_datasets[dataset]["gdl_version"],
                           remote_datasets[dataset]["release_datetime"],
@@ -236,5 +240,5 @@ class DatasetLoader:
 
 if __name__ == '__main__':
     show_available_datasets("D:/Projects/released")
-    # download_dataset("formalgeo7k_v2", "D:/Projects/released")
-    # remove_dataset("formalgeo7k_v2", "D:/Projects/released")
+    # download_dataset("hilbert_geo7k_v2", "D:/Projects/released")
+    # remove_dataset("hilbert_geo7k_v2", "D:/Projects/released")
