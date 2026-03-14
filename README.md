@@ -1,7 +1,8 @@
 <p align="center">
-  <h2 style="display: inline; font-size: 18px;"> 
-    <img src="./logo.png" alt="Logo" style="width: 35px; vertical-align: middle; margin-right: 8px;"> 
-    Hilbert-Geo: Solving Solid Geometric Problems by Neural-Symbolic Reasoning
+  <h1 style="display: inline-block; font-size: 24px; text-align: center;"> 
+    <img src="./logo.png" alt="Logo" style="width: 45px; vertical-align: middle; margin-right: 10px;"> 
+    Hilbert-Geo: Solving Solid Geometric Problems<br>
+    by Neural-Symbolic Reasoning
   </h1>
 </p>
 
