@@ -38,9 +38,9 @@ SolidGeoSolver/
 ```
 
 - `api/` contains prompt-and-call helpers for model APIs.
-- `core/hilbert_geo/` is the renamed FormalGeo package.
-- `core/gdl/` and `core/files/t_info.json` keep the predicate bank, theorem bank, and theorem metadata with the core code.
-- `data/hilbert_geo7k_v2/` contains a 1k sample subset for repository display and quick testing.
+- `core/hilbert_geo/` is the package.
+- `core/gdl/` and `core/files/t_info.json` keep the predicate library, theorem bank, and theorem metadata with the core code.
+- `data/hilbert_geo_v2/` contains sample subset for repository display and quick testing.
 
 ## Quick Start
 
@@ -72,7 +72,7 @@ By default:
 
 - The Python package name is now `hilbert_geo`.
 - The repository display name used in docs is `Hilbert-Geo`.
-- The sample dataset folder is renamed to `hilbert_geo7k_v2` and only includes the first 1000 problems.
+- The sample dataset folder is renamed to `hilbert_geo_v2` and only includes the first 1000 problems.
 
 ## ✍️ Citation
 If you use our work and are inspired by our work, please consider cite us (soon):
