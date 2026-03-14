@@ -1,6 +1,6 @@
 <p align="center">
-  <h1 style="display: inline;">
-    <img src="./logo.png" alt="Logo" style="width: 50px; vertical-align: middle; margin-right: 10px;">
+  <h1 style="display: inline; font-size: 18px;"> 
+    <img src="./logo.png" alt="Logo" style="width: 35px; vertical-align: middle; margin-right: 8px;"> 
     Hilbert-Geo: Solving Solid Geometric Problems by Neural-Symbolic Reasoning
   </h1>
 </p>
@@ -14,10 +14,10 @@
 
 
 
-## 🔥 News
+## News
 
-<div style="max-height: 350px; overflow-y: auto; border: 1px solid #e0e0e0; border-radius: 8px; padding: 10px 15px; background-color: #fafafa;" markdown="1">
-- *2026.02*: &nbsp;🎉🎉 Our paper "Hilbert-Geo: Solving Solid Geometric Problems by Neural-Symbolic Reasoning" was accepted by CVPR2026.
+<div style="max-height: 350px; overflow-y: auto; border: 1px solid #e0e0e0; border-radius: 8px; padding: 10px 15px; background-color: #fafafa; font-size: 12px;" markdown="1">
+- *2026.02*: &nbsp;🎉🎉 Our paper "Hilbert-Geo: Solving Solid Geometric Problems by Neural-Symbolic Reasoning" was accepted by *CVPR2026*.
 </div>
 
 ## Structure
