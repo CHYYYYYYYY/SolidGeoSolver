@@ -73,3 +73,17 @@ By default:
 - The Python package name is now `hilbert_geo`.
 - The repository display name used in docs is `Hilbert-Geo`.
 - The sample dataset folder is renamed to `hilbert_geo7k_v2` and only includes the first 1000 problems.
+
+## ✍️ Citation
+If you use our work and are inspired by our work, please consider cite us (soon):
+```
+@inproceedings{xu2026hilbert,
+  title={Hilbert-Geo: Solving Solid Geometric Problems by Neural-Symbolic Reasoning},
+  author={Xu, Ruoran and Cheng, Haoyu and Bin, Dong and Wang, Qiufeng},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+  pages={XXXX--XXXX},
+  year={2026},
+  doi={10.XXXX/CVPR2026.XXXXXX},
+  url={https://openaccess.thecvf.com/CVPR2026}
+}
+```
