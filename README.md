@@ -1,5 +1,17 @@
-# Hilbert-Geo
-[logo.png]
+<p align="center">
+  <h1 style="display: inline;">
+    <img src="./logo.png" alt="Logo" style="width: 50px; vertical-align: middle; margin-right: 10px;">
+    Hilbert-Geo: Solving Solid Geometric Problems by Neural-Symbolic Reasoning
+  </h1>
+</p>
+
+<p align="center">
+  <a href="https://github.com/CHYYYYYYYY/SolidGeoSolver">🌐 Homepage</a> •
+  <a href="https://github.com/CHYYYYYYYY/SolidGeoSolver">🥇 Leaderboard</a> •
+  <a href="https://github.com/CHYYYYYYYY/SolidGeoSolver">📖 Paper</a> •
+  <a href="https://github.com/CHYYYYYYYY/SolidGeoSolver">🤗 Data</a>
+</p>
+
 
 # 🔥 News
 
