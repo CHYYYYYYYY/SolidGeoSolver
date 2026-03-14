@@ -1,140 +1,58 @@
-# Solving Solid Geometric Problems
-<img src="logo.png" alt="logo" width="300" style="display: block; margin: 0 auto;">  
+# Hilbert-Geo
 
-[![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/)
-[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+This repository is reorganized into three main parts so the reasoning core, model APIs, and sample data are no longer mixed together.
 
+## Structure
 
-It is a unified formal language framework designed to solve both plane and solid geometric problems through neural-symbolic reasoning. To bridge the gap in solid geometry reasoning, which involves complex 3D spatial diagrams, we introduce the **Parse2Reason** method.
-
-This repository contains the implementation of the framework, including the reasoning engine, formal language definitions, and evaluation tools.
-
-## 📄 Abstract
-
-Geometric problem solving is a typical multimodal reasoning challenge. While significant progress has been made in plane geometry, solid geometry remains difficult due to 3D spatial diagrams and complex reasoning requirements. 
-
-
-1.  **Unified Framework**: The first unified formal language framework for solid geometry, featuring an extensive predicate library and a dedicated theorem bank.
-2.  **Parse2Reason Method**:
-    *   **Parsing Step**: Utilizes **formal Language** to formally represent both problem descriptions (natural text) and diagrams (visual images).
-    *   **Reasoning Step**: Leverages formal language and the theorem bank to perform relational inference and algebraic computation, generating strictly correct, verifiable, and human-readable reasoning processes.
-3.  **Generalizability**: Applicable to both plane and solid geometry.
-
-## ✨ Key Features
-
-*   **Neural-Symbolic Reasoning**: Combines the perceptual power of neural models (for parsing) with the rigorous logic of symbolic engines (for reasoning).
-*   **Parse2Reason Pipeline**: A two-step approach ensuring high accuracy and interpretability.
-*   **Extensive Datasets**:
-    *   **SolidFGeo2k**: A curated dataset of solid geometry problems with formal annotations.
-    *   **MathVerse-solid**: A subset of MathVerse with formal annotations.
-    *   **PlaneFGeo3k**: A dataset of plane geometry problems with formal annotations.
-*   **SOTA Performance**:
-    *   **77.3%** accuracy on SolidFGeo2k.
-    *   **84.1%** on MathVerse-Solid (subset), significantly outperforming leading MLLMs like Gemini-2.5-pro (54.2%) and GPT-5 (62.9%).
-    *   **80.2%** accuracy on PlaneFGeo3k.
-
-## 📁 Project Structure
-
-The core implementation is located in the `src/` directory.
-
+```text
+SolidGeoSolver/
+├── api/
+│   ├── base.py
+│   ├── claude_api.py
+│   ├── gemini_api.py
+│   └── openai_api.py
+├── core/
+│   ├── fgps/
+│   ├── gdl/
+│   ├── files/
+│   └── hilbert_geo/
+└── data/
+    └── formalgeo7k_v2/
 ```
 
-├── src/fgps/ 
-│   ├── search.py
-│   ├── run.py
-│   ├── enhanced_search.py
-│   ├── utils.py
-│   └── ******/ 
-│       ├── problems/
-│       ├── images/
-│       └── gdl/
-│
-├── formalgeo/
-└── gemini/
-```
+- `api/` contains prompt-and-call helpers for model APIs.
+- `core/hilbert_geo/` is the renamed FormalGeo package.
+- `core/gdl/` and `core/files/t_info.json` keep the predicate bank, theorem bank, and theorem metadata with the core code.
+- `data/formalgeo7k_v2/` contains a 1k sample subset for repository display and quick testing.
 
-## 🚀 Quick Start
+## Quick Start
 
-### Prerequisites
-*   Python 3.8+
-*   pip
-
-### Installation
+Install dependencies:
 
 ```bash
-# Install core dependencies
 pip install -r requirements.txt
-
-# Or install manually
-pip install ****** psutil func-timeout sympy
 ```
 
-### Usage
-
-All commands should be executed from the `src/fgps` directory.
-
-#### 1. Interactive Solver
-Solve a specific problem by entering its ID (pid).
+Run the interactive solver:
 
 ```bash
-cd src/fgps
-python run.py --func run --dataset_name 
+python core/fgps/run.py --func run
 ```
-*Example input:* `<pid>: 113`
 
-#### 2. Batch Solver (Evaluation)
-Automatically attempt to solve all problems in the dataset to reproduce results.
+Run search:
 
 ```bash
-cd src/fgps
-python run.py --func auto_run --dataset_name 
+python core/fgps/search.py --func search --method fw --strategy bfs
 ```
 
-#### 3. Advanced Search Configuration
-Use `search.py` to customize search algorithms and parameters (e.g., for ablation studies).
+By default:
 
-```bash
-cd src/fgps
-python search.py \
-    --dataset_name ***\
-    --method fw \
-    --strategy bfs \
-    --max_depth xxx \
-    --timeout xxx
-```
+- datasets are loaded from `data/`
+- logs are written to `core/fgps/`
+- GDL and theorem metadata are loaded from `core/` when they are not present in the dataset folder
 
-**Arguments:**
-*   `--method`: Search direction.
-*   `--strategy`: Search algorithm.
-*   `--max_depth`: Maximum search depth.
-*   `--timeout`: Timeout in seconds per problem.
-*   `--beam_size`: Beam size.
-*   `--process_count`: Number of parallel processes.
+## Notes
 
-## 🔧 Configuration
-
-### Dataset Path
-The default dataset path is `src/fgps`. You can specify a custom path:
-```bash
-python run.py --path_datasets /path/to/datasets
-```
-
-### Logging
-Logs are saved in `src/fgps` by default. Change the log directory:
-```bash
-python search.py --path_logs /path/to/logs
-```
-
-## 📄 Citation
-
-If you find this work useful in your research, please cite our paper:
-
-```bibtex
-@article{xu2025,
-  title={Solving Solid Geometric Problems by Neural-Symbolic Reasoning},
-  author={Xu, Ruoran and Cheng, Haoyu and Dong, Bin and Wang, Qiufeng},
-  journal={Conference Submission},
-  year={2026}
-}
-```
-
+- The Python package name is now `hilbert_geo`.
+- The repository display name used in docs is `Hilbert-Geo`.
+- The sample dataset keeps the original folder name `formalgeo7k_v2` for compatibility, but only includes the first 1000 problems.
