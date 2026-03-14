@@ -44,7 +44,7 @@ SolidGeoSolver/
 
 ## Quick Start
 
-Install dependencies:
+Install dependencies, you may need to manually download hilbertgeo in requirement.txt at present:
 
 ```bash
 pip install -r requirements.txt
