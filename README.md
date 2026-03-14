@@ -3,7 +3,7 @@
     <img src="./logo.png" alt="Logo" style="width: 45px; vertical-align: middle; margin-right: 10px;"> 
     Hilbert-Geo: Solving Solid Geometric Problems<br>
     <span style="display: block; text-align: center; margin-left: -55px; padding-top: 4px;">
-      by Neural-Symbolic Reasoning
+              by Neural-Symbolic Reasoning
     </span>
   </h1>
 </p>
