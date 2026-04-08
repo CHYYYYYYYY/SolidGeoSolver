@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/PremiLab-Math/Hilbert-Geo"> 🏷️ New Repositories
+  <a href="https://github.com/PremiLab-Math/Hilbert-Geo"> 🏷️ New Repository
 </p>
 
 ## News
