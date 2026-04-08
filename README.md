@@ -9,14 +9,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/CHYYYYYYYY/SolidGeoSolver">🌐 Homepage</a> •
-  <a href="https://github.com/CHYYYYYYYY/SolidGeoSolver">🥇 Leaderboard</a> •
-  <a href="https://github.com/CHYYYYYYYY/SolidGeoSolver">📖 Paper</a> •
-  <a href="https://github.com/CHYYYYYYYY/SolidGeoSolver">🤗 Data</a>
-</p>
-
-<p align="center">
-  <a href="https://github.com/PremiLab-Math/Hilbert-Geo"> 🏷️ New
+  <a href="https://github.com/PremiLab-Math/Hilbert-Geo"> 🏷️ New Repositories
 </p>
 
 ## News
