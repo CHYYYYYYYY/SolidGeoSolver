@@ -15,7 +15,9 @@
   <a href="https://github.com/CHYYYYYYYY/SolidGeoSolver">🤗 Data</a>
 </p>
 
-New <a href="https://github.com/PremiLab-Math/Hilbert-Geo">
+<p align="center">
+  <a href="https://github.com/PremiLab-Math/Hilbert-Geo"> 🏷️ New
+</p>
 
 ## News
 
