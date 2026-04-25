@@ -1,3 +1,4 @@
+
 __all__ = [
     "method", "strategy", "get_args", "check_search", "check_run"
 ]
