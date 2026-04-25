@@ -1,7 +1,3 @@
-# Copyright (C) 2022-2024 Hilbert-Geo Development Team
-# Author: Xiaokai Zhang
-# Contact: formalgeo@gmail.com
-
 """
 'Problem' preserves all details of the problem-solving process, ensures the correctness and
 consistency of the problem input conditions, and implements automatic diagram construction,

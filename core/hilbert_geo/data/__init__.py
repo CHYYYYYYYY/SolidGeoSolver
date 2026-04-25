@@ -1,7 +1,3 @@
-# Copyright (C) 2022-2024 Hilbert-Geo Development Team
-# Author: Xiaokai Zhang
-# Contact: formalgeo@gmail.com
-
 """Download and Management of Datasets and Formal Systems."""
 
 __all__ = [
