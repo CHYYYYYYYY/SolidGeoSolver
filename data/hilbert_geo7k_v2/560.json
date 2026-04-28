@@ -1,0 +1,32 @@
+{
+  "problem_id": 560,
+  "annotation": "RuoranXu_2025-08-10",
+  "annotation_img": "RuoranXu_2025-08-10",
+  "source": "SolidGeo",
+  "problem_text_cn": "求所示圆柱体，PQ垂直于平面Q吗吗。",
+  "problem_text_en": "Find the cylinder shown. Is PQ perpendicular to the plane Q?",
+  "problem_img": [
+    "images\\560.jpg"
+  ],
+  "construction_cdl": [
+    "Shape(PQ,QP)",
+    "Cocircular(P)",
+    "Cocircular(Q)",
+    "Coplanar(P)",
+    "Coplanar(Q)"
+  ],
+  "text_cdl": [
+    "Cylinder(P,Q)"
+  ],
+  "image_cdl": [
+    "Cylinder(P,Q)",
+    "IsCentreOfCircle(P,P)",
+    "IsCentreOfCircle(Q,Q)"
+  ],
+  "goal_cdl": "Relation(PerpendicularBetweenLineAndPlane(PQ,Q))",
+  "problem_answer": "0",
+  "theorem_seqs": [],
+  "theorem_seqs_dag": {
+    "START": []
+  }
+}

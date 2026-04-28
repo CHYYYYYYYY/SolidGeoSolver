@@ -1,0 +1,41 @@
+{
+  "problem_id": 386,
+  "annotation": "AI_Assistant_2025-01-01",
+  "annotation_img": "AI_Assistant_2025-01-01",
+  "source": "SolidGeo",
+  "problem_text_cn": "",
+  "problem_text_en": "\"The figure shows a rectangular box with edge lengths $AB=3$ cm, $BF=3$ cm, and $BC=4$ cm. Connect $BD$ and find the length of $BD$.\" A. $6 \\mathrm{~cm}$\n B. $3 \\mathrm{~cm}$\n C. $4 \\mathrm{~cm}$\n D. $5 \\mathrm{~cm}$\n",
+  "problem_img": [
+    "images\\386.jpg"
+  ],
+  "construction_cdl": [
+    "Shape(ABCDEFGH)",
+    "Shape(AB,BA)",
+    "Shape(BC,CB)",
+    "Shape(BF,FB)",
+    "Shape(BD,DB)",
+    "Coplanar(U,ABCD)",
+    "Coplanar(V,EFGH)"
+  ],
+  "text_cdl": [
+    "Equal(LengthOfLine(AB),3)",
+    "Equal(LengthOfLine(BF),3)",
+    "Equal(LengthOfLine(BC),4)"
+  ],
+  "image_cdl": [
+    "Cuboid(ABCDEFGH)",
+    "Equal(LengthOfLine(AB),3)",
+    "Equal(LengthOfLine(BC),4)",
+    "Equal(LengthOfLine(BF),3)"
+  ],
+  "goal_cdl": "Value(LengthOfLine(BD))",
+  "problem_answer": "5",
+  "problem_type": [
+    "Spatial Metric Relations"
+  ],
+  "complexity_level": "Level 1",
+  "theorem_seqs": [],
+  "theorem_seqs_dag": {
+    "START": []
+  }
+}

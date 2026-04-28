@@ -1,0 +1,42 @@
+{
+  "problem_id": 389,
+  "annotation": "AI_Assistant_2025-01-01",
+  "annotation_img": "AI_Assistant_2025-01-01",
+  "source": "SolidGeo",
+  "problem_text_cn": "",
+  "problem_text_en": "\"What is the area of the front view of a cone with a slant height of 10 and a lateral area of $60\\pi$ when unfolded?\" A. 32\n B. 48\n C. 64\n D. 96\n",
+  "problem_img": [
+    "images\\389.jpg"
+  ],
+  "construction_cdl": [
+    "Shape(AB,BA)",
+    "Shape(AC,CA)",
+    "Shape(BC,CB)",
+    "Cocircular(A)",
+    "Cocircular(B)",
+    "Coplanar(U,A)",
+    "Coplanar(V,B)"
+  ],
+  "text_cdl": [
+    "Equal(BusbarOfCone(A,B),10)",
+    "Equal(LateralareaOfCone(A,B),60)"
+  ],
+  "image_cdl": [
+    "Cone(A,B)",
+    "Equal(RadiusOfCircle(A),6)",
+    "Equal(BusbarOfCone(A,B),10)",
+    "Equal(HeightOfCone(A,B),8)",
+    "Equal(LengthOfLine(AC),6)",
+    "Equal(LengthOfLine(BC),10)"
+  ],
+  "goal_cdl": "Value(AreaOfTriangle(ABC))",
+  "problem_answer": "48",
+  "problem_type": [
+    "Planar Unfolding and Configuration"
+  ],
+  "complexity_level": "Level 2",
+  "theorem_seqs": [],
+  "theorem_seqs_dag": {
+    "START": []
+  }
+}

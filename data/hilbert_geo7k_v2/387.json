@@ -1,0 +1,35 @@
+{
+  "problem_id": 387,
+  "annotation": "AI_Assistant_2025-01-01",
+  "annotation_img": "AI_Assistant_2025-01-01",
+  "source": "SolidGeo",
+  "problem_text_cn": "",
+  "problem_text_en": "\"What is the lateral surface area of this geometric solid, given its three views shown in the figure and the provided data in the figure?\" A. $3 \\pi$\n B. $4 \\pi$\n C. $2 \\pi$\n D. $6 \\pi$\n",
+  "problem_img": [
+    "images\\387.jpg"
+  ],
+  "construction_cdl": [
+    "Shape(AB,BA)",
+    "Cocircular(A)",
+    "Cocircular(B)",
+    "Coplanar(U,A)",
+    "Coplanar(V,B)"
+  ],
+  "text_cdl": [],
+  "image_cdl": [
+    "Cone(A,B)",
+    "Equal(RadiusOfCircle(A),1)",
+    "Equal(HeightOfCone(A,B),1.732)",
+    "Equal(BusbarOfCone(A,B),2)"
+  ],
+  "goal_cdl": "Value(LateralareaOfCone(A,B))",
+  "problem_answer": "2",
+  "problem_type": [
+    "Multi-view Projection"
+  ],
+  "complexity_level": "Level 2",
+  "theorem_seqs": [],
+  "theorem_seqs_dag": {
+    "START": []
+  }
+}

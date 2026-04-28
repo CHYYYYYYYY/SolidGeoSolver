@@ -1,0 +1,34 @@
+{
+  "problem_id": 390,
+  "annotation": "AI_Assistant_2025-01-01",
+  "annotation_img": "AI_Assistant_2025-01-01",
+  "source": "SolidGeo",
+  "problem_text_cn": "",
+  "problem_text_en": "\"What is the lateral area of the solid shown in the three views below, given the data in the diagram? (Express your answer in terms of $\\pi$.)\" A. $16\\pi \\mathrm{cm}^{2}$\n B. $20\\pi \\mathrm{cm}^{2}$\n C. $24\\pi \\mathrm{cm}^{2}$\n D. $28\\pi \\mathrm{cm}^{2}$\n",
+  "problem_img": [
+    "images\\390.jpg"
+  ],
+  "construction_cdl": [
+    "Shape(AB,BA)",
+    "Cocircular(A)",
+    "Cocircular(B)",
+    "Coplanar(U,A)",
+    "Coplanar(V,B)"
+  ],
+  "text_cdl": [],
+  "image_cdl": [
+    "Cylinder(A,B)",
+    "Equal(RadiusOfCircle(A),2)",
+    "Equal(HeightOfCylinder(A,B),6)"
+  ],
+  "goal_cdl": "Value(LateralareaOfCylinder(A,B))",
+  "problem_answer": "24",
+  "problem_type": [
+    "Multi-view Projection"
+  ],
+  "complexity_level": "Level 2",
+  "theorem_seqs": [],
+  "theorem_seqs_dag": {
+    "START": []
+  }
+}

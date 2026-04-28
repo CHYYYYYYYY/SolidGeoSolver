@@ -1,0 +1,50 @@
+{
+  "problem_id": 364,
+  "annotation": "AI_Assistant_2025-01-01",
+  "annotation_img": "AI_Assistant_2025-01-01",
+  "source": "SolidGeo",
+  "problem_text_cn": "",
+  "problem_text_en": "A rectangular section was cut out of a rectangular block as shown in the diagram. Find the decrease percentage of the surface area.\n<image1> A. Less than $12.5 \\%$\n B. $12.5 \\%$\n C. More than $12.5 \\%$, but less than $25 \\%$\n D. $25 \\%$\n E. More than $25 \\%$\n",
+  "problem_img": [
+    "images\\364.jpg"
+  ],
+  "construction_cdl": [
+    "Shape(AB,BC,CD,DA)",
+    "Shape(EF,FG,GH,HE)",
+    "Shape(AE,EF,FB,BA)",
+    "Shape(BC,CG,GF,FB)",
+    "Shape(CD,DH,HG,GC)",
+    "Shape(DA,AE,EH,HD)",
+    "Shape(IJ,JK,KL,LI)",
+    "Shape(MN,NO,OP,PM)",
+    "Shape(IM,MN,NJ,JI)",
+    "Shape(JN,NO,OK,KJ)",
+    "Shape(KO,OP,PL,LK)",
+    "Shape(LI,IM,MP,PL)",
+    "Coplanar(U,ABCD)",
+    "Coplanar(V,EFGH)",
+    "Coplanar(W,IJKL)",
+    "Coplanar(X,MNOP)"
+  ],
+  "text_cdl": [],
+  "image_cdl": [
+    "Cuboid(ABCDEFGH)",
+    "Cuboid(IJKLMNOP)",
+    "Equal(LengthOfLine(AB),12)",
+    "Equal(LengthOfLine(BC),8)",
+    "Equal(LengthOfLine(AE),6)",
+    "Equal(LengthOfLine(IJ),3)",
+    "Equal(LengthOfLine(JK),5)",
+    "Equal(LengthOfLine(IM),6)"
+  ],
+  "goal_cdl": "Value(Mul(Div(Sub(AreaOfCuboid(ABCDEFGH),AreaOfCuboid(IJKLMNOP)),AreaOfCuboid(ABCDEFGH)),100))",
+  "problem_answer": "12.5",
+  "problem_type": [
+    "Composite Solid Structures"
+  ],
+  "complexity_level": "Level 2",
+  "theorem_seqs": [],
+  "theorem_seqs_dag": {
+    "START": []
+  }
+}

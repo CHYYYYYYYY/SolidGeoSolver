@@ -1,0 +1,37 @@
+{
+  "problem_id": 547,
+  "annotation": "RuoranXu_2025-07-18",
+  "annotation_img": "RuoranXu_2025-07-18",
+  "source": "SolidGeo",
+  "problem_text_cn": "如图，两全等正方形ABCD,CDEF相互垂直。AB=2=EF,求AF长度.",
+  "problem_text_en": "As shown in the diagram, two congruent squares ABCD and CDEF are perpendicular to each other. AB=2=EF,Find the length of AF.",
+  "problem_img": [
+    "images\\547.jpg"
+  ],
+  "construction_cdl": [
+    "Shape(CD,DE,EF,FC)",
+    "Shape(AD,DC,CA)",
+    "Shape(AB,BC,CA)",
+    "Shape(AC,CF,FA)",
+    "Coplanar(U,ABCD)",
+    "Coplanar(V,DEFC)",
+    "Coplanar(W,ACF)"
+  ],
+  "text_cdl": [
+    "Square(ABCD)",
+    "Square(CDEF)",
+    "PerpendicularBetweenPlane(U,V)",
+    "Equal(LengthOfLine(AB),2)",
+    "Equal(LengthOfLine(EF),2)"
+  ],
+  "image_cdl": [
+    "Square(ABCD)",
+    "Square(CDEF)"
+  ],
+  "goal_cdl": "Value(LengthOfLine(AF))",
+  "problem_answer": "2*sqrt(3)",
+  "theorem_seqs": [],
+  "theorem_seqs_dag": {
+    "START": []
+  }
+}

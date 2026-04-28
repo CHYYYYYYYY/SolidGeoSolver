@@ -1,0 +1,36 @@
+{
+  "problem_id": 538,
+  "annotation": "RuoranXu_2025-07-18",
+  "annotation_img": "RuoranXu_2025-07-18",
+  "source": "SolidGeo",
+  "problem_text_cn": "如图，平面U平行于平面V，平面U垂直于平面W，证明平面V垂直于平面W.",
+  "problem_text_en": "As shown in the figure, plane U is parallel to plane V, and plane U is perpendicular to plane W. Prove that plane V is perpendicular to plane W.",
+  "problem_img": [
+    "images\\538.jpg"
+  ],
+  "construction_cdl": [
+    "Coplanar(V)",
+    "Coplanar(U)",
+    "Coplanar(W)"
+  ],
+  "text_cdl": [
+    "Plane(U)",
+    "Plane(V)",
+    "Plane(W)",
+    "ParallelBetweenPlane(U,V)",
+    "PerpendicularBetweenPlane(U,W)"
+  ],
+  "image_cdl": [
+    "Plane(U)",
+    "Plane(V)",
+    "Plane(W)"
+  ],
+  "goal_cdl": "Relation(PerpendicularBetweenPlane(V,W))",
+  "problem_answer": "0",
+  "theorem_seqs": [
+    "transitivity_between_plane_and_plane(2,V,U,W)"
+  ],
+  "theorem_seqs_dag": {
+    "START": []
+  }
+}

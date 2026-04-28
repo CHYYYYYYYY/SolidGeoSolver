@@ -1,0 +1,30 @@
+{
+  "problem_id": 568,
+  "annotation": "RuoranXu_2025-08-08",
+  "annotation_img": "RuoranXu_2025-08-08",
+  "source": "SolidGeo",
+  "problem_text_cn": "如图是一个圆锥，高度为2，母线为3，求表面积。",
+  "problem_text_en": "As shown in the figure, it is a cone with a height of 2 and a generatrix of 3. Find the surface area.",
+  "problem_img": [
+    "images\\568.jpg"
+  ],
+  "construction_cdl": [
+    "Shape(OP,PO)",
+    "Cocircular(O)"
+  ],
+  "text_cdl": [
+    "Cone(O,P)",
+    "Equal(HeightOfCone(O),2)",
+    "Equal(BusbarOfCone(O,P),3)"
+  ],
+  "image_cdl": [
+    "Cone(O,P)",
+    "IsCentreOfCircle(O,O)"
+  ],
+  "goal_cdl": "Value(Add(LateralareaOfCylinder(O,P),AreaOfCircle(O)))",
+  "problem_answer": "36.78",
+  "theorem_seqs": [],
+  "theorem_seqs_dag": {
+    "START": []
+  }
+}

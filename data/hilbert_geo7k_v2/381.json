@@ -1,0 +1,37 @@
+{
+  "problem_id": 381,
+  "annotation": "AI_Assistant_2025-01-01",
+  "annotation_img": "AI_Assistant_2025-01-01",
+  "source": "SolidGeo",
+  "problem_text_cn": "",
+  "problem_text_en": "The volume of the cylinder shown is $45\\pi$ cubic cm. What is the height in centimeters of the cylinder? <image1>",
+  "problem_img": [
+    "images\\381.jpg"
+  ],
+  "construction_cdl": [
+    "Shape(AB,BA)",
+    "Shape(HH,HH)",
+    "Cocircular(A)",
+    "Cocircular(B)",
+    "Coplanar(U,A)",
+    "Coplanar(V,B)"
+  ],
+  "text_cdl": [
+    "Equal(VolumeOfCylinder(A,B),45)"
+  ],
+  "image_cdl": [
+    "Cylinder(A,B)",
+    "Equal(RadiusOfCircle(A),3)",
+    "Equal(Mul(9,LengthOfLine(HH)),45)"
+  ],
+  "goal_cdl": "Value(LengthOfLine(HH))",
+  "problem_answer": "5",
+  "problem_type": [
+    "Measurement of Solid Geometric Forms"
+  ],
+  "complexity_level": "Level 1",
+  "theorem_seqs": [],
+  "theorem_seqs_dag": {
+    "START": []
+  }
+}

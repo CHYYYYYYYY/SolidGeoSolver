@@ -1,0 +1,27 @@
+{
+  "problem_id": 554,
+  "annotation": "RuoranXu_2025-07-18",
+  "annotation_img": "RuoranXu_2025-07-18",
+  "source": "SolidGeo",
+  "problem_text_cn": "如图，一球体半径为3√2，求其体积",
+  "problem_text_en": "As shown in the figure, a sphere with a radius of 3√2, find its volume",
+  "problem_img": [
+    "images\\554.jpg"
+  ],
+  "construction_cdl": [
+    "Cospherical(A)"
+  ],
+  "text_cdl": [
+    "Sphere(A)",
+    "Equal(RadiusOfSphere(A),3*sqrt(2))"
+  ],
+  "image_cdl": [
+    "Sphere(A)"
+  ],
+  "goal_cdl": "Value(VolumeOfSphere(A))",
+  "problem_answer": "319.84",
+  "theorem_seqs": [],
+  "theorem_seqs_dag": {
+    "START": []
+  }
+}

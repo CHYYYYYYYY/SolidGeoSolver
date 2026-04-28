@@ -1,0 +1,35 @@
+{
+  "problem_id": 449,
+  "annotation": "AI_Assistant_2025-10-02",
+  "annotation_img": "AI_Assistant_2025-10-02",
+  "source": "SolidGeo",
+  "problem_text_cn": "",
+  "problem_text_en": "Find the surface area of the rectangular prism.",
+  "problem_img": [
+    "images\\449.jpg"
+  ],
+  "construction_cdl": [
+    "Shape(AB,BC,CD,DA)",
+    "Shape(EF,FG,GH,HE)",
+    "Shape(AE,BF,CG,DH)",
+    "Coplanar(U,ABCD)",
+    "Coplanar(V,EFGH)"
+  ],
+  "text_cdl": [],
+  "image_cdl": [
+    "Cuboid(ABCDEFGH)",
+    "Equal(LengthOfLine(AB),9)",
+    "Equal(LengthOfLine(BC),11)",
+    "Equal(LengthOfLine(AE),8)"
+  ],
+  "goal_cdl": "Value(AreaOfCuboid(ABCDEFGH))",
+  "problem_answer": "518",
+  "problem_type": [
+    "Measurement of Solid Geometric Forms"
+  ],
+  "complexity_level": "Level 1",
+  "theorem_seqs": [],
+  "theorem_seqs_dag": {
+    "START": []
+  }
+}

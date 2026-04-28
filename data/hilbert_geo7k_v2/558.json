@@ -1,0 +1,32 @@
+{
+  "problem_id": 558,
+  "annotation": "RuoranXu_2025-08-10",
+  "annotation_img": "RuoranXu_2025-08-10",
+  "source": "SolidGeo",
+  "problem_text_cn": "求所示圆柱体，上下表面平行吗。",
+  "problem_text_en": "Find out if the upper and lower surfaces of the shown cylinder are parallel.",
+  "problem_img": [
+    "images\\558.jpg"
+  ],
+  "construction_cdl": [
+    "Shape(PQ,QP)",
+    "Cocircular(P)",
+    "Cocircular(Q)",
+    "Coplanar(P)",
+    "Coplanar(Q)"
+  ],
+  "text_cdl": [
+    "Cylinder(P,Q)"
+  ],
+  "image_cdl": [
+    "Cylinder(P,Q)",
+    "IsCentreOfCircle(P,P)",
+    "IsCentreOfCircle(Q,Q)"
+  ],
+  "goal_cdl": "Relation(ParallelBetweenPlane(P,Q))",
+  "problem_answer": "0",
+  "theorem_seqs": [],
+  "theorem_seqs_dag": {
+    "START": []
+  }
+}

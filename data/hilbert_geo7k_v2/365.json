@@ -1,0 +1,53 @@
+{
+  "problem_id": 365,
+  "annotation": "AI_Assistant_2025-01-01",
+  "annotation_img": "AI_Assistant_2025-01-01",
+  "source": "SolidGeo",
+  "problem_text_cn": "",
+  "problem_text_en": "In a box-shaped water tank with dimensions $4 \\mathrm{~m} \\times 2 \\mathrm{~m} \\times 1 \\mathrm{~m}$, the height of the water is $25 \\mathrm{~cm}$. The tank is then turned on its side (see picture on the right). How high is the water in the tank now?\n<image1> A. $25 \\mathrm{~cm}$\n B. $50 \\mathrm{~cm}$\n C. $75 \\mathrm{~cm}$\n D. $1 \\mathrm{~m}$\n E. $1.25 \\mathrm{~m}$\n",
+  "problem_img": [
+    "images\\365.jpg"
+  ],
+  "construction_cdl": [
+    "Shape(AB,BC,CD,DA)",
+    "Shape(EF,FG,GH,HE)",
+    "Shape(AE,EF,FB,BA)",
+    "Shape(BC,CG,GF,FB)",
+    "Shape(CD,DH,HG,GC)",
+    "Shape(DA,AE,EH,HD)",
+    "Shape(IJ,JK,KL,LI)",
+    "Shape(MN,NO,OP,PM)",
+    "Shape(IM,MN,NJ,JI)",
+    "Shape(JN,NO,OK,KJ)",
+    "Shape(KO,OP,PL,LK)",
+    "Shape(LI,IM,MP,PL)",
+    "Shape(QR,RQ)",
+    "Coplanar(U,ABCD)",
+    "Coplanar(V,EFGH)",
+    "Coplanar(W,IJKL)",
+    "Coplanar(X,MNOP)"
+  ],
+  "text_cdl": [
+    "Equal(LengthOfLine(AB),4)",
+    "Equal(LengthOfLine(BC),2)",
+    "Equal(LengthOfLine(AE),1)"
+  ],
+  "image_cdl": [
+    "Cuboid(ABCDEFGH)",
+    "Cuboid(IJKLMNOP)",
+    "Equal(LengthOfLine(IJ),2)",
+    "Equal(LengthOfLine(JK),4)",
+    "Equal(LengthOfLine(IM),1)",
+    "Equal(Mul(4,2,0.25),Mul(2,1,LengthOfLine(QR)))"
+  ],
+  "goal_cdl": "Value(LengthOfLine(QR))",
+  "problem_answer": "1",
+  "problem_type": [
+    "Composite Solid Structures"
+  ],
+  "complexity_level": "Level 2",
+  "theorem_seqs": [],
+  "theorem_seqs_dag": {
+    "START": []
+  }
+}

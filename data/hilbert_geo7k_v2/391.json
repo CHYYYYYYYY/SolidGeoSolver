@@ -1,0 +1,41 @@
+{
+  "problem_id": 391,
+  "annotation": "AI_Assistant_2025-01-01",
+  "annotation_img": "AI_Assistant_2025-01-01",
+  "source": "SolidGeo",
+  "problem_text_cn": "",
+  "problem_text_en": "\"What is the lateral area of the regular triangular prism shown in the three views below?\" A. $6 \\sqrt{3} \\mathrm{~cm}^{2}$\n B. $8 \\sqrt{3} \\mathrm{~cm}^{2}$\n C. $12 \\sqrt{3} \\mathrm{~cm}^{2}$\n D. $14 \\sqrt{3} \\mathrm{~cm}^{2}$\n",
+  "problem_img": [
+    "images\\391.jpg"
+  ],
+  "construction_cdl": [
+    "Shape(ABCDEF)",
+    "Shape(AB,BA)",
+    "Shape(BC,CB)",
+    "Shape(CA,AC)",
+    "Shape(DE,ED)",
+    "Shape(EF,FE)",
+    "Shape(FD,DF)",
+    "Shape(LA,AL)",
+    "Coplanar(U,ABC)",
+    "Coplanar(V,DEF)"
+  ],
+  "text_cdl": [],
+  "image_cdl": [
+    "Equal(LengthOfLine(AB),1.732)",
+    "Equal(LengthOfLine(BC),1.732)",
+    "Equal(LengthOfLine(CA),1.732)",
+    "Equal(LengthOfLine(AD),4)",
+    "Equal(Mul(Mul(3,LengthOfLine(AB)),LengthOfLine(AD)),LengthOfLine(LA))"
+  ],
+  "goal_cdl": "Value(LengthOfLine(LA))",
+  "problem_answer": "12",
+  "problem_type": [
+    "Measurement of Solid Geometric Forms"
+  ],
+  "complexity_level": "Level 1",
+  "theorem_seqs": [],
+  "theorem_seqs_dag": {
+    "START": []
+  }
+}

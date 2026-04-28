@@ -1,0 +1,37 @@
+{
+  "problem_id": 376,
+  "annotation": "AI_Assistant_2025-01-01",
+  "annotation_img": "AI_Assistant_2025-01-01",
+  "source": "SolidGeo",
+  "problem_text_cn": "",
+  "problem_text_en": "The solid shown was formed by cutting a right circular cylinder in half. If the base has a radius of 6 cm and the height is 10 cm, what is the total surface area, in terms of $\\pi$, of the solid? <image1>",
+  "problem_img": [
+    "images\\376.jpg"
+  ],
+  "construction_cdl": [
+    "Shape(AB,BA)",
+    "Cocircular(A)",
+    "Cocircular(B)",
+    "Coplanar(U,A)",
+    "Coplanar(V,B)"
+  ],
+  "text_cdl": [
+    "Equal(RadiusOfCircle(A),6)",
+    "Equal(HeightOfCylinder(A,B),10)"
+  ],
+  "image_cdl": [
+    "Cylinder(A,B)",
+    "Equal(RadiusOfCircle(A),6)"
+  ],
+  "goal_cdl": "Value(LateralareaOfCylinder(A,B))",
+  "problem_answer": "422",
+  "problem_type": [
+    "Measurement of Solid Geometric Forms",
+    "Composite Solid Structures"
+  ],
+  "complexity_level": "Level 2",
+  "theorem_seqs": [],
+  "theorem_seqs_dag": {
+    "START": []
+  }
+}

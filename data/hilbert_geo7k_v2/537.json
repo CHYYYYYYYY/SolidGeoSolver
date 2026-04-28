@@ -1,0 +1,35 @@
+{
+  "problem_id": 537,
+  "annotation": "RuoranXu_2025-07-18",
+  "annotation_img": "RuoranXu_2025-07-18",
+  "source": "SolidGeo",
+  "problem_text_cn": "如图.平面W垂直平面V吗.",
+  "problem_text_en": "As shown in the figure. Is plane W perpendicular to plane V?",
+  "problem_img": [
+    "images\\537.jpg"
+  ],
+  "construction_cdl": [
+    "Coplanar(V)",
+    "Coplanar(U)",
+    "Coplanar(W)"
+  ],
+  "text_cdl": [
+    "Plane(U)",
+    "Plane(V)",
+    "Plane(W)"
+  ],
+  "image_cdl": [
+    "Plane(U)",
+    "Plane(V)",
+    "Plane(W)",
+    "PerpendicularBetweenPlane(U,V)",
+    "PerpendicularBetweenPlane(V,W)",
+    "PerpendicularBetweenPlane(W,U)"
+  ],
+  "goal_cdl": "Relation(PerpendicularBetweenPlane(W,V))",
+  "problem_answer": "0",
+  "theorem_seqs": [],
+  "theorem_seqs_dag": {
+    "START": []
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "problem_id": 502,
+  "annotation": "AI_Assistant_2025-09-30",
+  "annotation_img": "AI_Assistant_2025-09-30",
+  "source": "SolidGeo",
+  "problem_text_cn": "",
+  "problem_text_en": "Combine three cubes with edge lengths of $3 \\mathrm{~cm}, 4 \\mathrm{~cm},$ and $5 \\mathrm{~cm}$ respectively into the shape shown in the figure.\n\nQuestion: What is the total surface area exposed to the outside? (The entire solid shape is placed on the ground.)\n\n<ImageHere>",
+  "problem_img": [
+    "images\\502.jpg"
+  ],
+  "construction_cdl": [
+    "Shape(AB,BC,CD,DA)",
+    "Shape(EF,FG,GH,HE)",
+    "Shape(IJ,JK,KL,LI)",
+    "Shape(MN,NO,OP,PM)",
+    "Shape(QR,RS,ST,TQ)",
+    "Shape(UV,VW,WX,XU)",
+    "Shape(SA,AS)",
+    "Coplanar(U1,ABCD)",
+    "Coplanar(V1,EFGH)",
+    "Coplanar(U2,IJKL)",
+    "Coplanar(V2,MNOP)",
+    "Coplanar(U3,QRST)",
+    "Coplanar(V3,UVWX)"
+  ],
+  "text_cdl": [
+    "Equal(LengthOfLine(AB),3)",
+    "Equal(LengthOfLine(EF),4)",
+    "Equal(LengthOfLine(IJ),5)"
+  ],
+  "image_cdl": [
+    "Cuboid(ABCDEFGH)",
+    "Cuboid(IJKLMNOP)",
+    "Cuboid(QRSTUVWX)",
+    "Equal(LengthOfLine(AB),3)",
+    "Equal(LengthOfLine(EF),4)",
+    "Equal(LengthOfLine(IJ),5)",
+    "Equal(LengthOfLine(SA),Sub(Sub(Sub(Add(Add(SurfaceAreaOfQuadrangularPrism(ABCD,EFGH),SurfaceAreaOfQuadrangularPrism(IJKL,MNOP)),SurfaceAreaOfQuadrangularPrism(QRST,UVWX)),Mul(2,Mul(LengthOfLine(AB),LengthOfLine(AB)))),Mul(2,Mul(LengthOfLine(EF),LengthOfLine(EF)))),Mul(LengthOfLine(IJ),LengthOfLine(IJ))))"
+  ],
+  "goal_cdl": "Value(LengthOfLine(SA))",
+  "problem_answer": "225",
+  "problem_type": [
+    "Composite Solid Structures",
+    "Measurement of Solid Geometric Forms"
+  ],
+  "complexity_level": "Level 2",
+  "theorem_seqs": [],
+  "theorem_seqs_dag": {
+    "START": []
+  }
+}

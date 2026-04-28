@@ -1,0 +1,44 @@
+{
+  "problem_id": 534,
+  "annotation": "RuoranXu_2025-07-18",
+  "annotation_img": "RuoranXu_2025-07-18",
+  "source": "SolidGeo",
+  "problem_text_cn": "如图，平面U平行于平面V，平面V平行于平面W，平面W平行于平面X.证明平面U平行于平面X.",
+  "problem_text_en": "As shown in the figure, plane U is parallel to plane V. Plane V is parallel to plane W, and plane W is parallel to plane X. Prove that plane U is parallel to plane X.",
+  "problem_img": [
+    "images\\534.jpg"
+  ],
+  "construction_cdl": [
+    "Coplanar(V)",
+    "Coplanar(U)",
+    "Coplanar(W)",
+    "Coplanar(X)"
+  ],
+  "text_cdl": [
+    "Plane(U)",
+    "Plane(V)",
+    "Plane(W)",
+    "Plane(x)",
+    "ParallelBetweenPlane(U,V)",
+    "ParallelBetweenPlane(V,W)",
+    "ParallelBetweenPlane(W,X)"
+  ],
+  "image_cdl": [
+    "Plane(U)",
+    "Plane(V)",
+    "Plane(W)",
+    "Plane(X)",
+    "ParallelBetweenPlane(U,V)",
+    "ParallelBetweenPlane(V,W)",
+    "ParallelBetweenPlane(W,X)"
+  ],
+  "goal_cdl": "Relation(ParallelBetweenPlane(U,X))",
+  "problem_answer": "0",
+  "theorem_seqs": [
+    "transitivity_between_plane_and_plane(1,U,V,W)",
+    "transitivity_between_plane_and_plane(1,U,W,X)"
+  ],
+  "theorem_seqs_dag": {
+    "START": []
+  }
+}

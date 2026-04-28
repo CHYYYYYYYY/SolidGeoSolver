@@ -1,0 +1,44 @@
+{
+  "problem_id": 533,
+  "annotation": "RuoranXu_2025-07-18",
+  "annotation_img": "RuoranXu_2025-07-18",
+  "source": "SolidGeo",
+  "problem_text_cn": "如图，相邻两平面两两平行，证明外层两平面相互平行.",
+  "problem_text_en": "As shown in the figure, two adjacent planes are parallel to each other, which proves that the two outer planes are parallel to each other.",
+  "problem_img": [
+    "images\\533.jpg"
+  ],
+  "construction_cdl": [
+    "Coplanar(V)",
+    "Coplanar(U)",
+    "Coplanar(W)",
+    "Coplanar(X)"
+  ],
+  "text_cdl": [
+    "Plane(U)",
+    "Plane(V)",
+    "Plane(W)",
+    "Plane(X)",
+    "ParallelBetweenPlane(U,V)",
+    "ParallelBetweenPlane(V,W)",
+    "ParallelBetweenPlane(W,X)"
+  ],
+  "image_cdl": [
+    "Plane(U)",
+    "Plane(V)",
+    "Plane(W)",
+    "Plane(X)",
+    "ParallelBetweenPlane(U,V)",
+    "ParallelBetweenPlane(V,W)",
+    "ParallelBetweenPlane(W,X)"
+  ],
+  "goal_cdl": "Relation(ParallelBetweenPlane(U,X))",
+  "problem_answer": "0",
+  "theorem_seqs": [
+    "transitivity_between_plane_and_plane(1,U,V,W)",
+    "transitivity_between_plane_and_plane(1,U,W,X)"
+  ],
+  "theorem_seqs_dag": {
+    "START": []
+  }
+}

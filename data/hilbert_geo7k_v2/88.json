@@ -1,0 +1,22 @@
+{
+  "problem_id": 88,
+  "annotation": "",
+  "annotation_img": "",
+  "source": "SolidGeo",
+  "problem_text_cn": "",
+  "problem_text_en": "A square pyramid is shown with the following dimensions. The height of the square pyramid is 5x+7. Length L is the side of the base of the pyramid.\n\nFind an expression for L, in terms of the variable, x.",
+  "problem_img": "images\\88.png",
+  "construction_cdl": [],
+  "text_cdl": [],
+  "image_cdl": [],
+  "goal_cdl": "",
+  "problem_answer": "frac{5\\left(5x+7\\right)}{2x+3}",
+  "problem_type": [
+    "Measurement of Solid Geometric Forms"
+  ],
+  "complexity_level": "Level 1",
+  "theorem_seqs": [],
+  "theorem_seqs_dag": {
+    "START": []
+  }
+}

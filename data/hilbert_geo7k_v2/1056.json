@@ -1,0 +1,24 @@
+{
+  "problem_id": 1056,
+  "annotation": "",
+  "annotation_img": "",
+  "source": "SolidGeo",
+  "problem_text_cn": "",
+  "problem_text_en": " A. 24\n B. 30\n C. 34\n D. 38\n",
+  "problem_img": [
+    "images\\355.jpg"
+  ],
+  "construction_cdl": [],
+  "text_cdl": [],
+  "image_cdl": [],
+  "goal_cdl": "",
+  "problem_answer": "C",
+  "problem_type": [
+    "Planar Unfolding and Configuration"
+  ],
+  "complexity_level": "Level 2",
+  "theorem_seqs": [],
+  "theorem_seqs_dag": {
+    "START": []
+  }
+}

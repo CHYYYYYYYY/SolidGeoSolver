@@ -1,0 +1,46 @@
+{
+  "problem_id": 378,
+  "annotation": "AI_Assistant_2025-01-01",
+  "annotation_img": "AI_Assistant_2025-01-01",
+  "source": "SolidGeo",
+  "problem_text_cn": "",
+  "problem_text_en": "A rectangular box is 4 cm thick, and its square bases measure 16 cm by 16 cm. What is the distance, in centimeters, from the center point $P$ of one square base to corner $Q$ of the opposite base? Express your answer in simplest terms.\n\n<image1>",
+  "problem_img": [
+    "images\\378.jpg"
+  ],
+  "construction_cdl": [
+    "Shape(AB,BC,CD,DA)",
+    "Shape(EF,FG,GH,HE)",
+    "Shape(AE,EF,FB,BA)",
+    "Shape(BC,CG,GF,FB)",
+    "Shape(CD,DH,HG,GC)",
+    "Shape(DA,AE,EH,HD)",
+    "Shape(PQ,QP)",
+    "Coplanar(U,ABCD)",
+    "Coplanar(V,EFGH)",
+    "Coplanar(W,AEFB)",
+    "Coplanar(X,BCGF)",
+    "Coplanar(Y,CDHG)",
+    "Coplanar(Z,DAEH)"
+  ],
+  "text_cdl": [
+    "Equal(LengthOfLine(AB),16)",
+    "Equal(LengthOfLine(BC),16)",
+    "Equal(LengthOfLine(AE),4)"
+  ],
+  "image_cdl": [
+    "Cuboid(ABCDEFGH)",
+    "Point(P)",
+    "Point(Q)"
+  ],
+  "goal_cdl": "Value(LengthOfLine(PQ))",
+  "problem_answer": "12",
+  "problem_type": [
+    "Spatial Metric Relations"
+  ],
+  "complexity_level": "Level 2",
+  "theorem_seqs": [],
+  "theorem_seqs_dag": {
+    "START": []
+  }
+}

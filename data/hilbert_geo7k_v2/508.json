@@ -1,0 +1,28 @@
+{
+  "problem_id": 508,
+  "annotation": "RuoranXu_2025-07-18",
+  "annotation_img": "RuoranXu_2025-07-18",
+  "source": "SolidGeo",
+  "problem_text_cn": "如图，AB、CD 相互平行，CD 在平面 U 上。证明 AB 平行平面 U.",
+  "problem_text_en": "As shown in the figure, AB and CD are parallel to each other, and CD is on the plane U. Prove that AB is parallel to plane U.",
+  "problem_img": [
+    "images\\508.jpg"
+  ],
+  "construction_cdl": [
+    "Shape(AB,BA)",
+    "Shape(CD,DC)",
+    "Coplanar(U,CD)"
+  ],
+  "text_cdl": [
+    "ParallelBetweenLine (AB,CD)"
+  ],
+  "image_cdl": [
+    "ParallelBetweenLine (AB,CD)"
+  ],
+  "goal_cdl": "Relation(ParallelBetweenLineAndPlane(AB,U))",
+  "problem_answer": "0",
+  "theorem_seqs": [],
+  "theorem_seqs_dag": {
+    "START": []
+  }
+}

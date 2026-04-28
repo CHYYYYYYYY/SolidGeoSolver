@@ -1,0 +1,29 @@
+{
+  "problem_id": 504,
+  "annotation": "RuoranXu_2025-07-18",
+  "annotation_img": "RuoranXu_2025-07-18",
+  "source": "SolidGeo",
+  "problem_text_cn": "如图，AB垂直于BC，BC在平面U上,AB在平面V上。证明平面V垂直平面U.",
+  "problem_text_en": "As shown in the figure,AB is perpendicular to BC, BC is on plane U, and AB is on plane V. Prove that plane V is perpendicular to plane U.",
+  "problem_img": [
+    "images\\504.jpg"
+  ],
+  "construction_cdl": [
+    "Shape(AB,BC,CA)",
+    "Coplanar(U,BC)",
+    "Coplanar(V,AB)"
+  ],
+  "text_cdl": [
+    "PerpendicularBetweenLine(AB,CB)"
+  ],
+  "image_cdl": [],
+  "goal_cdl": "Relation(PerpendicularBetweenPlane(V,U))",
+  "problem_answer": "0",
+  "theorem_seqs": [
+    "perpendicular_judgment_between_line_and_plane(AB,CB,U)",
+    "perpendicular_judgment_between_plane_and_plane(AB,U,V)"
+  ],
+  "theorem_seqs_dag": {
+    "START": []
+  }
+}
