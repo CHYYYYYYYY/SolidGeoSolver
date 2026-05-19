@@ -28,8 +28,6 @@ SolidGeoSolver/
 ├── api/
 │   ├── base.py
 │   ├── claude_api.py
-│   ├── gemini_api.py
-│   └── openai_api.py
 ├── core/
 │   ├── fgps/
 │   ├── gdl/
