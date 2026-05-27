@@ -1,0 +1,7184 @@
+{
+  "0":{
+    "question":"The perpendicular height of the solid figure is 12m.\n\nHence, find the length of the diameter of the solid figure's base.",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\1.jpg"
+    ],
+    "answer":"diameter $=10 \\mathrm{~m}$",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":428
+  },
+  "1":{
+    "question":"The diagram shows a solid figure with a slant height of 13 m. The radius of the base of the solid figure is denoted by $r$.\n\nFind the value of $r$.",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\2.jpg"
+    ],
+    "answer":"$r=5$",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms",
+      "Spatial Metric Relations"
+    ],
+    "complexity_level":"Level 2",
+    "source":"MathVerse",
+    "qa_id":433
+  },
+  "2":{
+    "question":"A square prism has sides of length 11cm, 11cm and 15cm as shown.\n\nNow, we want to find $y$, the length of the diagonal $DF$.\n\nCalculate $y$ to two decimal places.",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\3.jpg"
+    ],
+    "answer":"$y=21.61$",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":436
+  },
+  "3":{
+    "question":"A triangular divider has been placed into a box, as shown in the diagram. The box has sides of length 12cm, 12cm and 17cm. \n\nCalculate the area of the triangular divider correct to two decimal places.",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\4.jpg"
+    ],
+    "answer":"Area $=124.85 \\mathrm{~cm}^{2}$",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":441
+  },
+  "4":{
+    "question":"Find the volume of a concrete pipe with length 13 metres. Write your answer correct to two decimal places.",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\5.jpg"
+    ],
+    "answer":"Volume $=1633.63 \\mathrm{~m}^{3}$",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":448
+  },
+  "5":{
+    "question":"A hollow cylindrical pipe has the dimensions shown in the figure. The outer diameter is 2.1 centimeters. The inner diameter is 1.8 centimeters. The length is 13 centimeters.\n\nThe pipe is made of a particularly strong metal.\n\nCalculate the weight of the pipe if 1 (cm)^3 of the metal weighs 5.3g , giving your answer correct to one decimal place.",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\6.jpg"
+    ],
+    "answer":"Weight $=63.3 \\mathrm{~g}$",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":451
+  },
+  "6":{
+    "question":"The figure shows a cylinder with height of 8 centimeters and radius of 6 centimeters. The volume of a cylinder is given by $V=\\pi r^2h$. \n\nFind the volume of the cylinder, rounding your answer to two decimal places.",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\7.jpg"
+    ],
+    "answer":"Volume $=904.78 \\mathrm{~cm}^{3}$",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":456
+  },
+  "7":{
+    "question":"The radius of cylinder in figure is 5 centimeters. Find the volume of the figure shown, correct to two decimal places.",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\8.jpg"
+    ],
+    "answer":"Volume $=883.57 \\mathrm{~cm}^{3}$",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":462
+  },
+  "8":{
+    "question":"Find the volume of the cone shown. The perpendicular height is 6 centimeters and radius is 2 centimeters.\n\nRound your answer to two decimal places.",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\9.jpg"
+    ],
+    "answer":"Volume $=25.13 \\mathrm{~cm}^{3}$",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":466
+  },
+  "9":{
+    "question":"Find the volume of the cone shown. The slant height is 8 centimeters and radius is 2 centimeters. \n\nRound your answer to two decimal places.",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\10.jpg"
+    ],
+    "answer":"Volume $=32.45 \\mathrm{~cm}^{3}$",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":471
+  },
+  "10":{
+    "question":"A cone is sliced in half to produce the solid shown. The diameter is 3 centimeters.\n\nFind the volume of the solid, correct to two decimal places.",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\11.jpg"
+    ],
+    "answer":"Volume $=10.45 \\mathrm{~cm}^{3}$",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":477
+  },
+  "11":{
+    "question":"Find the volume of the solid figure pictured here. The radius is 4.1 centimeters.\n\n(Give your answer correct to 1 decimal place.)",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\12.jpg"
+    ],
+    "answer":"220.0 \\mathrm{~cm}^{3}",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":483
+  },
+  "12":{
+    "question":"Find the volume of the cone pictured. The perpendicular height is 6.\n\n(Give your answer correct to 2 decimal places.)",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\13.jpg"
+    ],
+    "answer":"56.55 units $^{3}$",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":487
+  },
+  "13":{
+    "question":"Find the volume of the sphere shown. The radius is 3 centimeters.\n\nRound your answer to two decimal places.",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\14.jpg"
+    ],
+    "answer":"Volume $=113.10 \\mathrm{~cm}^{3}$",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":491
+  },
+  "14":{
+    "question":"Find the volume of the sphere shown. The diameter is 4 centimeters.\n\nRound your answer to two decimal places.",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\15.jpg"
+    ],
+    "answer":"Volume $=33.51 \\mathrm{~cm}^{3}$",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":496
+  },
+  "15":{
+    "question":"The diameter of large solid figure is 12 centimeters. Find the volume of the solid.\n\nRound your answer to two decimal places.",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\16.jpg"
+    ],
+    "answer":"Volume $=508.94 \\mathrm{~cm}^{3}$",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":503
+  },
+  "16":{
+    "question":"The radius of the sphere is 8.8 centimeters. Find the volume of the sphere, giving your answer correct to two decimal places.",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\17.jpg"
+    ],
+    "answer":"Volume $=2854.54 \\mathrm{~cm}^{3}$",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":506
+  },
+  "17":{
+    "question":"The radius of the sphere is 22.36 millimeters. Find the volume of the sphere shown, giving your answer correct to two decimal places.",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\18.jpg"
+    ],
+    "answer":"Volume $=46827.83 \\mathrm{~mm}^{3}$",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":511
+  },
+  "18":{
+    "question":"Find the volume of the following hemisphere.\n\nRound your answer to three decimal places.",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\19.jpg"
+    ],
+    "answer":"Volume $=452.389$ cubic units",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":517
+  },
+  "19":{
+    "question":"Find the volume of the following hemisphere.\n\nRound your answer to three decimal places.",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\20.jpg"
+    ],
+    "answer":"Volume $=34159.095 \\mathrm{~cm}^{3}$",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":522
+  },
+  "20":{
+    "question":"Consider the following solid figure with a height of 35 cm. Find the surface area of the solid figure.\n\nRound your answer to two decimal places.",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\21.jpg"
+    ],
+    "answer":"Surface Area $=2827.43 \\mathrm{~cm}^{2}$",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":528
+  },
+  "21":{
+    "question":"The following solid figure has a base radius of 21 m.\n\nFind the surface area.\n\nGive your answer to the nearest two decimal places.",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\22.jpg"
+    ],
+    "answer":"Surface Area $=9236.28 \\mathrm{~m}^{2}$",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":533
+  },
+  "22":{
+    "question":"Find the surface area of the given cylinder. The height is 80 and radius is 98. All measurements in the diagram are in mm.\n\nRound your answer to two decimal places.",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\23.jpg"
+    ],
+    "answer":"Surface Area $=109603.88 \\mathrm{~mm}^{2}$",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":536
+  },
+  "23":{
+    "question":"The diagram shows a water trough. The height is 2.49 m.\n\nFind the surface area of the outside of this water trough.\n\nRound your answer to two decimal places.",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\24.jpg"
+    ],
+    "answer":"Surface Area $=9.86 \\mathrm{~m}^{2}$",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":543
+  },
+  "24":{
+    "question":"Find the height $h$ mm of this closed solid figure if its surface area (S) is 27288(mm)^2.\n\nRound your answer to the nearest whole number.",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\25.jpg"
+    ],
+    "answer":"$h=58$",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":548
+  },
+  "25":{
+    "question":"A cylinder has a surface area of 54105(mm)^2 and a radius of 79 mm.\n\nWhat must the height $h$ mm of the cylinder be?\n\nRound your answer to the nearest whole number.",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\26.jpg"
+    ],
+    "answer":"$h=30$",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":551
+  },
+  "26":{
+    "question":"Find the surface area of the cylinder shown. The height is 10 cm and radius is 6 cm.\n\nGive your answer to the nearest two decimal places.",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\27.jpg"
+    ],
+    "answer":"Surface Area $=603.19 \\mathrm{~cm}^{2}$",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":556
+  },
+  "27":{
+    "question":"Consider the solid pictured and answer the following:\n\nHence what is the total surface area? The outer radius is 11 cm, inner radius is 10 cm and length 24 cm.\n\nGive your answer to the nearest two decimal places.",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\28.jpg"
+    ],
+    "answer":"$\\mathrm{SA}=3298.67 \\mathrm{~cm}^{2}$",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":561
+  },
+  "28":{
+    "question":"Write an equation for the surface area of the above cylinder if the length is $L$. You must factorise this expression fully.",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\29.jpg"
+    ],
+    "answer":"Surface area $=2 \\pi(R+r)(L+R-r)$ square units",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":567
+  },
+  "29":{
+    "question":"Find the surface area of the sphere shown. The radius is 11 cm.\n\nRound your answer to two decimal places.",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\30.jpg"
+    ],
+    "answer":"Surface Area $=1520.53 \\mathrm{~cm}^{2}$",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":571
+  },
+  "30":{
+    "question":"Find the surface area of the solid figure shown.\n\nRound your answer to two decimal places.",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\31.jpg"
+    ],
+    "answer":"Surface Area $=254.47 \\mathrm{~cm}^{2}$",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":578
+  },
+  "31":{
+    "question":"Find the surface area of the following solid figure.\n\nRound your answer to two decimal places.",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\32.jpg"
+    ],
+    "answer":"Surface Area $=39647.77 \\mathrm{~mm}^{2}$",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":583
+  },
+  "32":{
+    "question":"What is the area of the circular base of the solid figure?\n\nRound your answer to three decimal places.",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\33.jpg"
+    ],
+    "answer":"Area $=113.097$ units $^{2}$",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":588
+  },
+  "33":{
+    "question":"Find the total surface area.\n\nRound your answer to three decimal places.",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\34.jpg"
+    ],
+    "answer":"Surface Area $=603.186$ units $^{2}$",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":593
+  },
+  "34":{
+    "question":"Find the surface area of the following hemisphere. The radius is 74.74 m,\n\nRound your answer to two decimal places.",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\35.jpg"
+    ],
+    "answer":"Surface Area $=52647.45$ units $^{2}$",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":596
+  },
+  "35":{
+    "question":"The top one has a radius of 5mm. We wish to find the surface area of the entire solid. Note that an area is called 'exposed' if it is not covered by the other object.\nWhat is the exposed surface area of the bottom solid figure? Give your answer correct to two decimal places.",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\36.jpg"
+    ],
+    "answer":"S.A. of rectangular prism $=4371.46 \\mathrm{~mm}^{2}$",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Composite Solid Structures"
+    ],
+    "complexity_level":"Level 2",
+    "source":"MathVerse",
+    "qa_id":603
+  },
+  "36":{
+    "question":"We want to find the surface area of this shape. Assume that both boxes are identical in size. The box has sides of length 25, 20 and 33. The cylinder has a radius of 6 and a height of 11.\n\nFind the surface area of the solid.\n\nRound your answer to two decimal places.",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\37.jpg"
+    ],
+    "answer":"Surface Area $=8128.50$ units $^{2}$",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Composite Solid Structures"
+    ],
+    "complexity_level":"Level 2",
+    "source":"MathVerse",
+    "qa_id":606
+  },
+  "37":{
+    "question":"Find the surface area of the composite figure shown, which consists of a cone and a hemisphere joined at their bases. The radius is 4 cm. The perpendicular height of cone is 10cm.\n\nRound your answer to two decimal places.",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\38.jpg"
+    ],
+    "answer":"Surface Area $=235.87 \\mathrm{~cm}^{2}$",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Composite Solid Structures"
+    ],
+    "complexity_level":"Level 2",
+    "source":"MathVerse",
+    "qa_id":611
+  },
+  "38":{
+    "question":"We wish to find the surface area of the shape given, consisting of a hemisphere and a cylinder. The radius is 10.55 mm. The height of cylinder is 33.1 mm.\n\nHence find the total surface area of the shape, correct to two decimal places.",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\39.jpg"
+    ],
+    "answer":"Total S.A. $=3222.80 \\mathrm{~mm}^{2}$",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms",
+      "Composite Solid Structures"
+    ],
+    "complexity_level":"Level 2",
+    "source":"MathVerse",
+    "qa_id":616
+  },
+  "39":{
+    "question":"A solid with a radius of 2.5cm and a height of 10cm contains balls. What is the surface area of each ball? Give your answer correct to one decimal place.",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\40.jpg"
+    ],
+    "answer":"Surface area $=78.5 \\mathrm{~cm}^{2}$",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Composite Solid Structures"
+    ],
+    "complexity_level":"Level 2",
+    "source":"MathVerse",
+    "qa_id":623
+  },
+  "40":{
+    "question":"Let us find the surface area of the solid given (constructed by removing a hemisphere from a cylinder). The radius is 15 cm. The height of cylinder is 22 cm.\n\nHence, find the total surface area of the shape.\n\nGive our answer to two decimal places.",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\41.jpg"
+    ],
+    "answer":"Total surface area $=4194.03 \\mathrm{~cm}^{2}$",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Composite Solid Structures"
+    ],
+    "complexity_level":"Level 2",
+    "source":"MathVerse",
+    "qa_id":626
+  },
+  "41":{
+    "question":"Find the solid surface area if the side length is 14.2 and the radius is half that.",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\42.jpg"
+    ],
+    "answer":"S.A. $=1209.84$",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":633
+  },
+  "42":{
+    "question":"A solid figure has one side of length 14cm as shown.\n\nIf the size of \\angle DFH is \\theta °, find theta to two decimal places.",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\43.jpg"
+    ],
+    "answer":"11.83",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Spatial Metric Relations"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":638
+  },
+  "43":{
+    "question":"The following is a right pyramid on a square base with side length 12cm. \n\nNow, if the size of \\angle VAW is \\theta °, find \\theta  to two decimal places.",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\44.jpg"
+    ],
+    "answer":"68.34",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Spatial Metric Relations"
+    ],
+    "complexity_level":"Level 2",
+    "source":"MathVerse",
+    "qa_id":642
+  },
+  "44":{
+    "question":"All edges of the following cube are 7 cm long.Find z, the size of \\angle AGH, correct to 2 decimal places.",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\45.jpg"
+    ],
+    "answer":"54.74",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Spatial Metric Relations"
+    ],
+    "complexity_level":"Level 2",
+    "source":"MathVerse",
+    "qa_id":647
+  },
+  "45":{
+    "question":"A triangular prism has as dimensions those labelled on the diagram. The AB edge has length of 10. The BC edge has length of 3. The CF edge has length of 15. The EX edge and FX edge have the equal length. Find z, the size of \\angle BXC, correct to 2 decimal places.",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\46.jpg"
+    ],
+    "answer":"10.74",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Spatial Metric Relations"
+    ],
+    "complexity_level":"Level 2",
+    "source":"MathVerse",
+    "qa_id":651
+  },
+  "46":{
+    "question":"This box is to have a divider placed in as shown. The box has sides of length 19 cm, 10 cm and 7 cm.\nCalculate the area of the divider correct to two decimal places, using your rounded answer from the previous part.",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\47.jpg"
+    ],
+    "answer":"75.15 \\mathrm{m}^2",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Composite Solid Structures"
+    ],
+    "complexity_level":"Level 2",
+    "source":"MathVerse",
+    "qa_id":656
+  },
+  "47":{
+    "question":"All the sloping edges of the square pyramid are 12 cm long. The CN edge and DN edge have the equal length.\nFind Y, the size of \\angle PNM, correct to two decimal places.",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\48.jpg"
+    ],
+    "answer":"69.30",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Spatial Metric Relations"
+    ],
+    "complexity_level":"Level 2",
+    "source":"MathVerse",
+    "qa_id":662
+  },
+  "48":{
+    "question":"This triangular prism shaped box labelled ABCDEF needs a diagonal support inserted as shown. Find the length AF of this support.\nHence, find the length of AF in terms of AB, BD and DF.",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\49.jpg"
+    ],
+    "answer":"\\sqrt{AB^2+BD^2+DF^2}",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Spatial Metric Relations"
+    ],
+    "complexity_level":"Level 2",
+    "source":"MathVerse",
+    "qa_id":666
+  },
+  "49":{
+    "question":"This box is to have a divider placed in as shown. The box has sides of length 9cm, 9cm and 19cm.\nCalculate the area of the divider correct to two decimal places, using your rounded answer from the previous part.",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\50.jpg"
+    ],
+    "answer":"94.59 \\mathrm{m}^2",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Composite Solid Structures"
+    ],
+    "complexity_level":"Level 2",
+    "source":"MathVerse",
+    "qa_id":671
+  },
+  "50":{
+    "question":"A soft drink can has a height of 13 cm and a radius of 3 cm. Find L, the length of the longest straw that can fit into the can (so that the straw is not bent and fits entirely inside the can).\n\nGive your answer rounded down to the nearest cm, to ensure it fits inside the can.",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\51.jpg"
+    ],
+    "answer":"14",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms",
+      "Spatial Metric Relations"
+    ],
+    "complexity_level":"Level 2",
+    "source":"MathVerse",
+    "qa_id":676
+  },
+  "51":{
+    "question":"Find the volume of the solid figure shown. The height is 13 cm.\n\nRound your answer to two decimal places.",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\52.jpg"
+    ],
+    "answer":"Volume $=367.57 \\mathrm{~cm}^{3}$",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":683
+  },
+  "52":{
+    "question":"Calculate the volume of the solid. Correct to one decimal place.",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\53.jpg"
+    ],
+    "answer":"Volume $=70.7 \\mathrm{~cm}^{3}$",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":688
+  },
+  "53":{
+    "question":"Calculate the volume of the half cylinder correct to one decimal place. The height is 9 cm and diameter is 6 cm.",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\54.jpg"
+    ],
+    "answer":"Volume $=127.2 \\mathrm{~cm}^{3}$",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":691
+  },
+  "54":{
+    "question":"Calculate the volume of the solid with a diameter of 6 cm. Correct to one decimal place.",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\55.jpg"
+    ],
+    "answer":"Volume $=169.6 \\mathrm{~cm}^{3}$",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":698
+  },
+  "55":{
+    "question":"Find the volume of the solid with a diameter of 8 cm.\n\nRounding to two decimal places.",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\56.jpg"
+    ],
+    "answer":"Volume $=502.65 \\mathrm{~cm}^{3}$",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":703
+  },
+  "56":{
+    "question":"Calculate the volume of the solid. The height is 15 cm.\n\nRound your answer to one decimal place.",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\57.jpg"
+    ],
+    "answer":"Volume $=577.3 \\mathrm{~cm}^{3}$",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":708
+  },
+  "57":{
+    "question":"A 13 cm concrete cylindrical pipe has an outer radius of 6 cm and an inner radius of 4 cm as shown. Find the volume of concrete required to make the pipe, correct to two decimal places.",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\58.jpg"
+    ],
+    "answer":"Volume $=816.81 \\mathrm{~cm}^{3}$",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":711
+  },
+  "58":{
+    "question":"The weight of an empty glass jar is 250g. The height (h) is 26 cm.\n\nCalculate its total weight when it is filled with water, correct to 2 decimal places.",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\59.jpg"
+    ],
+    "answer":"Weight $=18.63 \\mathrm{~kg}$",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":718
+  },
+  "59":{
+    "question":"The cylindrical glass has radius of 4 cm.\n\nIf Xavier drinks 4 glasses for 7 days, , how many litres of water would he drink altogether?\n\nRound your answer to one decimal place.",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\60.jpg"
+    ],
+    "answer":"Weekly water intake $=15.5$ Litres",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 2",
+    "source":"MathVerse",
+    "qa_id":723
+  },
+  "60":{
+    "question":"The solid is 3 cm thick. Calculate the volume of the solid, correct to one decimal places.",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\61.jpg"
+    ],
+    "answer":"Volume $=89.1 \\mathrm{~cm}^{3}$",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":728
+  },
+  "61":{
+    "question":"Find the volume of the figure shown, correct to two decimal places. The height of both solid figures is 2 cm.",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\62.jpg"
+    ],
+    "answer":"Volume $=609.47 \\mathrm{~cm}^{3}$",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":733
+  },
+  "62":{
+    "question":"Find the volume of the figure shown. The top and bottom cylinder are the same size with a radius of 8 cm and height of 2 cm. The middle cylinder has a diameter of 3 cm and height of 10 cm.\n\nRound your answer to two decimal places.",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\63.jpg"
+    ],
+    "answer":"Volume $=874.93 \\mathrm{~cm}^{3}$",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms",
+      "Composite Solid Structures"
+    ],
+    "complexity_level":"Level 2",
+    "source":"MathVerse",
+    "qa_id":736
+  },
+  "63":{
+    "question":"The radius of hole is 2cm. Find the volume of the solid, correct to two decimal places.",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\64.jpg"
+    ],
+    "answer":"Volume $=944.07 \\mathrm{~cm}^{3}$",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":743
+  },
+  "64":{
+    "question":"Find the total surface area of the solid with a side length equal to 6 cm.",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\65.jpg"
+    ],
+    "answer":"216.\\mathrm{cm}^2",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":748
+  },
+  "65":{
+    "question":"Find the surface area of the rectangular prism with length equal to 12 m.",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\66.jpg"
+    ],
+    "answer":"288 \\mathrm{m}^2",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":752
+  },
+  "66":{
+    "question":"Find the surface area of the triangular prism shown. The height is 21 cm. The base is an isosceles triangle.",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\67.jpg"
+    ],
+    "answer":"768 \\mathrm{cm}^2",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":757
+  },
+  "67":{
+    "question":"Find the surface area of the solid figure shown. The height is 20 cm.",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\68.jpg"
+    ],
+    "answer":"528 \\mathrm{cm}^2",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":763
+  },
+  "68":{
+    "question":"Find the surface area of the trapezoidal prism. The bottom face has edges of 18cm and 8cm.",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\69.jpg"
+    ],
+    "answer":"338 \\mathrm{cm}^2",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":767
+  },
+  "69":{
+    "question":"Find the surface area of this prism. The thickness of the prism is 3cm.",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\70.jpg"
+    ],
+    "answer":"534 \\mathrm{cm}^2",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":772
+  },
+  "70":{
+    "question":"Find the surface area of the following solid prism. The right rectangle surface has one edge of 10cm.\n\nGive your answer to the nearest one decimal place.",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\71.jpg"
+    ],
+    "answer":"577.0 \\mathrm{cm}^2",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":778
+  },
+  "71":{
+    "question":"Find the total surface area of the solid figure shown.",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\72.jpg"
+    ],
+    "answer":"608 \\mathrm{cm}^2",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":783
+  },
+  "72":{
+    "question":"Find the surface area of the figure shown. The height is 3 cm.\n\nGive your answer to the nearest two decimal places.",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\73.jpg"
+    ],
+    "answer":"200.49 \\mathrm{cm}^2",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":788
+  },
+  "73":{
+    "question":"Find the surface area of the figure shown. The two marked edges have the same length. The top rectangular prism has sides length of 12cm, 1cm and 1cm. The bottom rectangular prism has sides length of 7cm, 4cm and 1cm.",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\74.jpg"
+    ],
+    "answer":"120 \\mathrm{cm}^2",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Composite Solid Structures"
+    ],
+    "complexity_level":"Level 2",
+    "source":"MathVerse",
+    "qa_id":791
+  },
+  "74":{
+    "question":"Find the surface area of the solid figure. The height is 6 cm.\n\nRound your answer to one decimal place.",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\75.jpg"
+    ],
+    "answer":"256.2 \\mathrm{m}^2",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":798
+  },
+  "75":{
+    "question":"Find the surface area of the solid shown. The radius is 3cm.\n\nRound your answer to two decimal places.",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\76.jpg"
+    ],
+    "answer":"122.52 \\mathrm{cm}^2",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":803
+  },
+  "76":{
+    "question":"The solid figure has a diameter of 4cm. Find the surface area of the solid formed, correct to two decimal places.",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\77.jpg"
+    ],
+    "answer":"91.11 \\mathrm{cm}^2",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":808
+  },
+  "77":{
+    "question":"Find the surface area of the pyramid. The perpendicular height is 8mm.\n\nRound your answer to two decimal places.",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\78.jpg"
+    ],
+    "answer":"288.6 \\mathrm{m}^2",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":812
+  },
+  "78":{
+    "question":"Find the surface area of the solid figure given. The slant height is 13.7cm.\n\nGive your answer correct to 2 decimal places.",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\79.jpg"
+    ],
+    "answer":"651.82 \\mathrm{cm}^2",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":818
+  },
+  "79":{
+    "question":"Find the surface area of the solid figure shown.\n\nRound your answer to two decimal places.",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\80.jpg"
+    ],
+    "answer":"323.10 \\mathrm{m}^2",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":823
+  },
+  "80":{
+    "question":"Find the surface area of the figure shown, rounded to two decimal places. The height is 12 cm.",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\81.jpg"
+    ],
+    "answer":"520.55 \\mathrm{cm}^2",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":828
+  },
+  "81":{
+    "question":"Assume that both boxes are identical in size. The middle cylinder has radius of 6 and height of 11.\nFind the surface area of the solid.\n\nRound your answer to two decimal places.",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\82.jpg"
+    ],
+    "answer":"8128.50 \\text { units }^2",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Composite Solid Structures"
+    ],
+    "complexity_level":"Level 2",
+    "source":"MathVerse",
+    "qa_id":832
+  },
+  "82":{
+    "question":"Given the following square pyramid. The length of the base is 10cm.\nFind the volume of the square pyramid.",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\83.jpg"
+    ],
+    "answer":"200 \\mathrm{cm}^3",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":837
+  },
+  "83":{
+    "question":"Consider the two similar spheres shown. The smaller sphere has radius $3$ cm while the larger sphere has a radius of 12 cm.\n\n\nFind the volume of Sphere A, in simplest exact form.",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\84.jpg"
+    ],
+    "answer":"36\\pi \\mathrm{cm}^3",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":841
+  },
+  "84":{
+    "question":"Consider the two solids shown. The larger solid has a radius of 12 cm.\nWhat is the ratio of the volume of solid A to solid B?",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\85.jpg"
+    ],
+    "answer":"1:64",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":848
+  },
+  "85":{
+    "question":"Two similar cylinders as shown in the figure, the larger cylinder has volumes of 5760\\mathrm{cm}^3.\n\n\nFind the fully simplified ratio of the volume of the larger cylinder to the volume of the smaller cylinder.",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\86.jpg"
+    ],
+    "answer":"100",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":852
+  },
+  "86":{
+    "question":"Consider the solid shown with its height is 12m.\n\nWrite a fully expanded and simplified expression for the volume of the solid.",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\87.jpg"
+    ],
+    "answer":"12x^2+144x+384 \\mathrm{m}^3",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":858
+  },
+  "87":{
+    "question":"A square pyramid is shown with the following dimensions. The height of the square pyramid is 5x+7. Length L is the side of the base of the pyramid.\n\nFind an expression for L, in terms of the variable, x.",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\88.jpg"
+    ],
+    "answer":"\\frac{5\\left(5x+7\\right)}{2x+3} units",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":861
+  },
+  "88":{
+    "question":"As shown in the figure, the height of the cylindrical water tank is 3x. The cylindrical water tank is leaking at a constant rate of 3\\pi x litres per second (where x is a fixed unknown). If the water tank was initially full, calculate the amount of water remaining after \\left(2x+2\\right)^2 seconds. Give your simplified answer in expanded form.",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\89.jpg"
+    ],
+    "answer":"63\\pi x^3+66\\pi x^2+15\\pi x litres",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 2",
+    "source":"MathVerse",
+    "qa_id":867
+  },
+  "89":{
+    "question":"Consider the cube shown. Its length of side is $x+4$.\n\nFind the polynomial that represents the volume of the cube.",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\90.jpg"
+    ],
+    "answer":"$x^{3}+12 x^{2}+48 x+64$ ",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":871
+  },
+  "90":{
+    "question":"The volume of a cylinder is given by $V=\\pi r^{2} h$. The radius of its circle face is 6cm. The height of it is 8cm. \n\nFind the volume of the cylinder shown, rounding your answer to two decimal places.",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\91.jpg"
+    ],
+    "answer":"Volume $=904.78 \\mathrm{~cm}^{3}$",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":876
+  },
+  "91":{
+    "question":"Find the volume of the solid shown. The height of the solid is 2cm.",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\92.jpg"
+    ],
+    "answer":"$299 \\mathrm{~cm}^{3}$",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":883
+  },
+  "92":{
+    "question":"As shown in the figure, the height of the solid is 10cm. Calculate the volume of the solid in the figure.",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\93.jpg"
+    ],
+    "answer":"$1690cm^2$",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":888
+  },
+  "93":{
+    "question":"Each side length of the cube is equal to 12cm. Find the volume of the cube shown.",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\94.jpg"
+    ],
+    "answer":"$144cm^3$",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":891
+  },
+  "94":{
+    "question":"As shown in the figure, the height of the solid is 3cm. Find the volume of the solid.",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\95.jpg"
+    ],
+    "answer":"48 \\mathrm{cm}^3",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":898
+  },
+  "95":{
+    "question":"As shown in the figure, the height of the solid is 8cm. Find the volume of the solid.",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\96.jpg"
+    ],
+    "answer":"32 \\mathrm{cm}^3",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":903
+  },
+  "96":{
+    "question":"As shown in the figure, the height of the prism is 2cm. Find the volume of the solid.",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\97.jpg"
+    ],
+    "answer":"32 \\mathrm{cm}^3",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":908
+  },
+  "97":{
+    "question":"As shown in the figure, the height of the solid is 9cm. Find the volume of the solid shown.",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\98.jpg"
+    ],
+    "answer":"270 \\mathrm{cm}^3",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":913
+  },
+  "98":{
+    "question":"As shown in the figure, the height of the base is 14cm. Find the volume of the prism.",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\99.jpg"
+    ],
+    "answer":"399 \\mathrm{cm}^3",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":917
+  },
+  "99":{
+    "question":"As shown in the figure, 2 of segments are cylinders on each side of the solid with radius of 11. Calculate the volume of the solid. Round your answer to one decimal place.",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\100.jpg"
+    ],
+    "answer":"1608.5",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Composite Solid Structures"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":923
+  },
+  "100":{
+    "question":"As the solid shown in the figure, the seven marked edges have the same length. The height of the prism of 16 cm. Find the volume of the composite solid shown.",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\101.jpg"
+    ],
+    "answer":"3136 \\mathrm{cm}^3",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Composite Solid Structures"
+    ],
+    "complexity_level":"Level 2",
+    "source":"MathVerse",
+    "qa_id":927
+  },
+  "101":{
+    "question":"The length and width of the base of the pyramid in the figure are 3cm and 9cm respectively. Find the volume of the pyramid to one decimal place.",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\102.jpg"
+    ],
+    "answer":"125.3 \\mathrm{cm}^3",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":931
+  },
+  "102":{
+    "question":"The height of the right pyramid is 7mm, the length of its base's side is 11mm. Find the exact volume of the right pyramid pictured.",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\103.jpg"
+    ],
+    "answer":"\\frac{847}{3} \\mathrm{mm}^3",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":936
+  },
+  "103":{
+    "question":"As shown in the figure, the solid is constructed by a cone and semi-sphere. The radius of the cone is 3cm and its height is 12cm. Find the volume of the composite figure shown, correct to two decimal places.",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\104.jpg"
+    ],
+    "answer":"169.65 \\mathrm{cm}^3",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Composite Solid Structures"
+    ],
+    "complexity_level":"Level 2",
+    "source":"MathVerse",
+    "qa_id":941
+  },
+  "104":{
+    "question":"A pyramid has been removed from a solid, as shown in the figure. The height of the solid is 8cm. Find the volume of this composite solid.",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\105.jpg"
+    ],
+    "answer":"720 \\mathrm{cm}^3",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Composite Solid Structures"
+    ],
+    "complexity_level":"Level 2",
+    "source":"MathVerse",
+    "qa_id":948
+  },
+  "105":{
+    "question":"Find the height h mm of this closed cylinder if its surface area (S) is $27288$mm2.\n\nRound your answer to the nearest whole number.",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\106.jpg"
+    ],
+    "answer":"58",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":952
+  },
+  "106":{
+    "question":"A cylinder has a surface area of 54105 \\mathrm{mm}^2 and a radius of 79 mm.\n\nWhat must the height h mm of the cylinder be?\n\nRound your answer to the nearest whole number.",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\107.jpg"
+    ],
+    "answer":"30",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":956
+  },
+  "107":{
+    "question":"A wedding cake consists of three cylinders stacked on top of each other. The top layer has a height of 20 cm, the middle layer has a radius double this, and the same height and the bottom layer has a radius three times as big, and is twice as high.\n\nAll the sides and top surfaces are to be covered in icing, but not the bottom.\n\nWhat is the surface area of the cake that needs to be iced?\n\nGive your answer to the nearest cm2.",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\108.jpg"
+    ],
+    "answer":"33929 \\mathrm{cm}^2",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Composite Solid Structures"
+    ],
+    "complexity_level":"Level 2",
+    "source":"MathVerse",
+    "qa_id":962
+  },
+  "108":{
+    "question":"A solid is shown with the following dimensions. Height of the solid is 6x+9.\n\nFind an expression for the length L of the base of the solid in terms of the variable, x.",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\109.jpg"
+    ],
+    "answer":"24 units",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":968
+  },
+  "109":{
+    "question":"The volume of a cylinder that fits exactly into a sphere is given by the formula:\n\nV=\\frac{1}{4}\\pi h\\left(4r^2-h^2\\right)\n\nwhere r is the radius of the sphere and h is the height of the cylinder.\n\nWhat is the radius of the sphere if the volume of the cylinder is 13.75\\pi cm3 and the height of the cylinder is 5 cm?",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\110.jpg"
+    ],
+    "answer":"3",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms",
+      "Composite Solid Structures"
+    ],
+    "complexity_level":"Level 2",
+    "source":"MathVerse",
+    "qa_id":971
+  },
+  "110":{
+    "question":"A soft drink can has a height of 13 cm and a radius of 3 cm. Find L, the length of the longest straw that can fit into the can (so that the straw is not bent and fits entirely inside the can). Give your answer rounded down to the nearest cm, to ensure it fits inside the can.",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\111.jpg"
+    ],
+    "answer":"14",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Spatial Metric Relations"
+    ],
+    "complexity_level":"Level 2",
+    "source":"MathVerse",
+    "qa_id":976
+  },
+  "111":{
+    "question":"Consider the solid below. Lengths of BC is 4.\nFind the length of CX correct to two decimal places.",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\112.jpg"
+    ],
+    "answer":"15.81",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Spatial Metric Relations"
+    ],
+    "complexity_level":"Level 2",
+    "source":"MathVerse",
+    "qa_id":983
+  },
+  "112":{
+    "question":"All edges of the following cube are 7 cm long.\n\nFind the exact length of AG in simplest surd form.",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\113.jpg"
+    ],
+    "answer":"\\sqrt{147}",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":986
+  },
+  "113":{
+    "question":"The following is a solid on a square base with side length 16cm. A right solid has its apex aligned directly above the centre of its base.\n\nFind the length of VW, the perpendicular height of the solid correct to two decimal places.",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\114.jpg"
+    ],
+    "answer":"23.41",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":993
+  },
+  "114":{
+    "question":"A solid has dimensions as labelled on the diagram. The height is 5.\nFind the length of AG. Leave your answer in surd form.",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\115.jpg"
+    ],
+    "answer":"\\sqrt{122}",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Spatial Metric Relations"
+    ],
+    "complexity_level":"Level 2",
+    "source":"MathVerse",
+    "qa_id":998
+  },
+  "115":{
+    "question":"Consider the following figure. The height of the solid is 16cm.\n\nUse Pythagoras' Theorem to find the unknown height $x$ in the solid shown.",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\116.jpg"
+    ],
+    "answer":"$x=8 \\mathrm{~cm}$",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":1003
+  },
+  "116":{
+    "question":"In the cylindrical tube shown above, the circumference of the circular base is 32 . If the tube is cut along $\\overline{A B}$ and laid out flat to make a rectangle, what is the length of $\\overline{A C}$ to the nearest whole number? A. 24\n B. 30\n C. 34\n D. 38\n",
+    "choices":[
+      "24",
+      "30",
+      "34",
+      "38"
+    ],
+    "image":[
+      "images\\117.jpg"
+    ],
+    "answer":"C",
+    "solution":[
+
+    ],
+    "answer_type":"choice",
+    "problem_type":[
+      "Planar Unfolding and Configuration"
+    ],
+    "complexity_level":"Level 2",
+    "source":"MathVerse",
+    "qa_id":1007
+  },
+  "117":{
+    "question":"The figure above shows a triangular prism whose base is a equilateral triangle with side lengths $x$ and height $\\sqrt{3} x$. If the volume of the prism is $\\frac{81}{4}$, what is the value of $x$ ? A. 3\n B. 4\n C. 5\n D. 6\n",
+    "choices":[
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "image":[
+      "images\\118.jpg"
+    ],
+    "answer":"A",
+    "solution":[
+
+    ],
+    "answer_type":"choice",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":1011
+  },
+  "118":{
+    "question":"In the figure shown above, the left container has radius of 3. If all the water in the right container is poured into the left container, the water level rises from $h$ inches to $(h+x)$ inches. Which of the following is the best approximation of the value of $x$ ? A. 3\n B. 3.4\n C. 3.8\n D. 4.2\n",
+    "choices":[
+      "3",
+      "3.4",
+      "3.8",
+      "4.2"
+    ],
+    "image":[
+      "images\\119.jpg"
+    ],
+    "answer":"D",
+    "solution":[
+
+    ],
+    "answer_type":"choice",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 2",
+    "source":"MathVerse",
+    "qa_id":1018
+  },
+  "119":{
+    "question":"Find the length of the diameter of the cone's base.",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\120.jpg"
+    ],
+    "answer":"diameter $=10 \\mathrm{~m}$",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":429
+  },
+  "120":{
+    "question":"The radius of the base of the cone is denoted by $r$.\n\nFind the value of $r$.",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\121.jpg"
+    ],
+    "answer":"$r=5$",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms",
+      "Spatial Metric Relations"
+    ],
+    "complexity_level":"Level 2",
+    "source":"MathVerse",
+    "qa_id":434
+  },
+  "121":{
+    "question":"We want to find $y$, the length of the diagonal $DF$.\n\nCalculate $y$ to two decimal places.",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\122.jpg"
+    ],
+    "answer":"$y=21.61$",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":439
+  },
+  "122":{
+    "question":"Calculate the area of the triangular divider correct to two decimal places.",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\123.jpg"
+    ],
+    "answer":"Area $=124.85 \\mathrm{~cm}^{2}$",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":444
+  },
+  "123":{
+    "question":"Find the volume of a concrete pipe. Write your answer correct to two decimal places.",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\124.jpg"
+    ],
+    "answer":"Volume $=1633.63 \\mathrm{~m}^{3}$",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":449
+  },
+  "124":{
+    "question":"The cylindrical pipe is made of a particularly strong metal.\n\nCalculate the weight of the pipe if 1 (cm)$^3$ of the metal weighs 5.3g , giving your answer correct to one decimal place.",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\125.jpg"
+    ],
+    "answer":"Weight $=63.3 \\mathrm{~g}$",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":454
+  },
+  "125":{
+    "question":"Find the volume of the cylinder, rounding your answer to two decimal places.",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\126.jpg"
+    ],
+    "answer":"Volume $=904.78 \\mathrm{~cm}^{3}$",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":459
+  },
+  "126":{
+    "question":"Find the volume of the cylinder shown, correct to two decimal places.",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\127.jpg"
+    ],
+    "answer":"Volume $=883.57 \\mathrm{~cm}^{3}$",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":464
+  },
+  "127":{
+    "question":"Find the volume of the cone shown. \n\nRound your answer to two decimal places.",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\128.jpg"
+    ],
+    "answer":"Volume $=25.13 \\mathrm{~cm}^{3}$",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":469
+  },
+  "128":{
+    "question":"Find the volume of the cone shown. \n\nRound your answer to two decimal places.",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\129.jpg"
+    ],
+    "answer":"Volume $=32.45 \\mathrm{~cm}^{3}$",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":474
+  },
+  "129":{
+    "question":"Find the volume of the half cone, correct to two decimal places.",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\130.jpg"
+    ],
+    "answer":"Volume $=10.45 \\mathrm{~cm}^{3}$",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":479
+  },
+  "130":{
+    "question":"Find the volume of the cone pictured here.\n\n(Give your answer correct to 1 decimal place.)",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\131.jpg"
+    ],
+    "answer":"220.0 \\mathrm{~cm}^{3}",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":484
+  },
+  "131":{
+    "question":"Find the volume of the cone pictured.\n\n(Give your answer correct to 2 decimal places.)",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\132.jpg"
+    ],
+    "answer":"56.55 units $^{3}$",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":489
+  },
+  "132":{
+    "question":"Find the volume of the sphere figure shown.\n\nRound your answer to two decimal places.",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\133.jpg"
+    ],
+    "answer":"Volume $=113.10 \\mathrm{~cm}^{3}$",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":494
+  },
+  "133":{
+    "question":"Find the volume of the sphere figure shown.\n\nRound your answer to two decimal places.",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\134.jpg"
+    ],
+    "answer":"Volume $=33.51 \\mathrm{~cm}^{3}$",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":499
+  },
+  "134":{
+    "question":"Find the volume of the solid.\n\nRound your answer to two decimal places.",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\135.jpg"
+    ],
+    "answer":"Volume $=508.94 \\mathrm{~cm}^{3}$",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":504
+  },
+  "135":{
+    "question":"Find the volume of the sphere shown, giving your answer correct to two decimal places.",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\136.jpg"
+    ],
+    "answer":"Volume $=2854.54 \\mathrm{~cm}^{3}$",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":509
+  },
+  "136":{
+    "question":"Find the volume of the sphere shown, giving your answer correct to two decimal places.",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\137.jpg"
+    ],
+    "answer":"Volume $=46827.83 \\mathrm{~mm}^{3}$",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":514
+  },
+  "137":{
+    "question":"Find the volume of the following hemisphere.\n\nRound your answer to three decimal places.",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\138.jpg"
+    ],
+    "answer":"Volume $=452.389$ cubic units",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":519
+  },
+  "138":{
+    "question":"Find the volume of the following hemisphere.\n\nRound your answer to three decimal places.",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\139.jpg"
+    ],
+    "answer":"Volume $=34159.095 \\mathrm{~cm}^{3}$",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":524
+  },
+  "139":{
+    "question":"Find the surface area of the cylinder.\n\nRound your answer to two decimal places.",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\140.jpg"
+    ],
+    "answer":"Surface Area $=2827.43 \\mathrm{~cm}^{2}$",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":529
+  },
+  "140":{
+    "question":"Find the surface area of the cylinder.\n\nGive your answer to the nearest two decimal places.",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\141.jpg"
+    ],
+    "answer":"Surface Area $=9236.28 \\mathrm{~m}^{2}$",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":534
+  },
+  "141":{
+    "question":"Find the surface area of the given cylinder. All measurements in the diagram are in mm.\n\nRound your answer to two decimal places.",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\142.jpg"
+    ],
+    "answer":"Surface Area $=109603.88 \\mathrm{~mm}^{2}$",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":539
+  },
+  "142":{
+    "question":"Find the surface area of the outside of this water trough in the shape of a half cylinder.\n\nRound your answer to two decimal places.",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\143.jpg"
+    ],
+    "answer":"Surface Area $=9.86 \\mathrm{~m}^{2}$",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":544
+  },
+  "143":{
+    "question":"Find the height $h$ mm of this closed cylinder if its surface area (S) is 27288(mm)$^2$.\n\nRound your answer to the nearest whole number.",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\144.jpg"
+    ],
+    "answer":"$h=58$",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":549
+  },
+  "144":{
+    "question":"A cylinder has a surface area of 54105(mm)$^2$.\n\nWhat must the height $h$ mm of the solid figure be?\n\nRound your answer to the nearest whole number.",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\145.jpg"
+    ],
+    "answer":"$h=30$",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":554
+  },
+  "145":{
+    "question":"Find the surface area of the cylinder shown. \n\nGive your answer to the nearest two decimal places.",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\146.jpg"
+    ],
+    "answer":"Surface Area $=603.19 \\mathrm{~cm}^{2}$",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":559
+  },
+  "146":{
+    "question":"Consider the solid pictured and answer the following:\n\nHence what is the total surface area? \n\nGive your answer to the nearest two decimal places.",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\147.jpg"
+    ],
+    "answer":"$\\mathrm{SA}=3298.67 \\mathrm{~cm}^{2}$",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":564
+  },
+  "147":{
+    "question":"Write an equation for the surface area of the above cylinder. You must factorise this expression fully.",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\148.jpg"
+    ],
+    "answer":"Surface area $=2 \\pi(R+r)(L+R-r)$ square units",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":569
+  },
+  "148":{
+    "question":"Find the surface area of the sphere shown.\n\nRound your answer to two decimal places.",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\149.jpg"
+    ],
+    "answer":"Surface Area $=1520.53 \\mathrm{~cm}^{2}$",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":574
+  },
+  "149":{
+    "question":"Find the surface area of the sphere shown.\n\nRound your answer to two decimal places.",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\150.jpg"
+    ],
+    "answer":"Surface Area $=254.47 \\mathrm{~cm}^{2}$",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":579
+  },
+  "150":{
+    "question":"Find the surface area of the following sphere.\n\nRound your answer to two decimal places.",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\151.jpg"
+    ],
+    "answer":"Surface Area $=39647.77 \\mathrm{~mm}^{2}$",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":584
+  },
+  "151":{
+    "question":"What is the area of the circular base of the hemisphere?\n\nRound your answer to three decimal places.",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\152.jpg"
+    ],
+    "answer":"Area $=113.097$ units $^{2}$",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":589
+  },
+  "152":{
+    "question":"Find the total surface area of this hemisphere.\n\nRound your answer to three decimal places.",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\153.jpg"
+    ],
+    "answer":"Surface Area $=603.186$ units $^{2}$",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":594
+  },
+  "153":{
+    "question":"Find the surface area of the following hemisphere.\n\nRound your answer to two decimal places.",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\154.jpg"
+    ],
+    "answer":"Surface Area $=52647.45$ units $^{2}$",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":599
+  },
+  "154":{
+    "question":"We wish to find the surface area of the entire solid, containing a cylinder and a rectangular prism.\nNote that an area is called 'exposed' if it is not covered by the other object.\nWhat is the exposed surface area of the bottom solid figure? Give your answer correct to two decimal places.",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\155.jpg"
+    ],
+    "answer":"S.A. of rectangular prism $=4371.46 \\mathrm{~mm}^{2}$",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Composite Solid Structures"
+    ],
+    "complexity_level":"Level 2",
+    "source":"MathVerse",
+    "qa_id":604
+  },
+  "155":{
+    "question":"Assume that both boxes are identical in size. Find the surface area of the solid.\n\nRound your answer to two decimal places.",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\156.jpg"
+    ],
+    "answer":"Surface Area $=8128.50$ units $^{2}$",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Composite Solid Structures"
+    ],
+    "complexity_level":"Level 2",
+    "source":"MathVerse",
+    "qa_id":609
+  },
+  "156":{
+    "question":"Find the surface area of the composite figure shown, consisting of a cone and a hemisphere joined at their bases.\n\nRound your answer to two decimal places.",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\157.jpg"
+    ],
+    "answer":"Surface Area $=235.87 \\mathrm{~cm}^{2}$",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Composite Solid Structures"
+    ],
+    "complexity_level":"Level 2",
+    "source":"MathVerse",
+    "qa_id":614
+  },
+  "157":{
+    "question":"The shape consists of a hemisphere and a cylinder. Find the total surface area of the shape, correct to two decimal places.",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\158.jpg"
+    ],
+    "answer":"Total S.A. $=3222.80 \\mathrm{~mm}^{2}$",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms",
+      "Composite Solid Structures"
+    ],
+    "complexity_level":"Level 2",
+    "source":"MathVerse",
+    "qa_id":619
+  },
+  "158":{
+    "question":"What is the surface area of each spherical ball? Give your answer correct to one decimal place.",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\159.jpg"
+    ],
+    "answer":"Surface area $=78.5 \\mathrm{~cm}^{2}$",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Composite Solid Structures"
+    ],
+    "complexity_level":"Level 2",
+    "source":"MathVerse",
+    "qa_id":624
+  },
+  "159":{
+    "question":"The solid is constructed by removing a hemisphere from a cylinder. Find the total surface area of the shape.\n\nGive our answer to two decimal places.",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\160.jpg"
+    ],
+    "answer":"Total surface area $=4194.03 \\mathrm{~cm}^{2}$",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Composite Solid Structures"
+    ],
+    "complexity_level":"Level 2",
+    "source":"MathVerse",
+    "qa_id":629
+  },
+  "160":{
+    "question":"The solid shown is constructed by cutting out a quarter of a sphere from a cube. Find the solid surface area.",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\161.jpg"
+    ],
+    "answer":"S.A. $=1209.84$",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":634
+  },
+  "161":{
+    "question":"If the size of \\angle DFH is \\theta °, find theta to two decimal places.",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\162.jpg"
+    ],
+    "answer":"11.83",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Spatial Metric Relations"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":639
+  },
+  "162":{
+    "question":"Now, if the size of \\angle VAW is \\theta °, find \\theta  to two decimal places.",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\163.jpg"
+    ],
+    "answer":"68.34",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Spatial Metric Relations"
+    ],
+    "complexity_level":"Level 2",
+    "source":"MathVerse",
+    "qa_id":644
+  },
+  "163":{
+    "question":"Find z, the size of \\angle AGH, correct to 2 decimal places.",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\164.jpg"
+    ],
+    "answer":"54.74",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Spatial Metric Relations"
+    ],
+    "complexity_level":"Level 2",
+    "source":"MathVerse",
+    "qa_id":649
+  },
+  "164":{
+    "question":"Find z, the size of \\angle BXC, correct to 2 decimal places.",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\165.jpg"
+    ],
+    "answer":"10.74",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Spatial Metric Relations"
+    ],
+    "complexity_level":"Level 2",
+    "source":"MathVerse",
+    "qa_id":654
+  },
+  "165":{
+    "question":"Calculate the area of the divider correct to two decimal places, using your rounded answer from the previous part.",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\166.jpg"
+    ],
+    "answer":"75.15 \\mathrm{m}^2",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Composite Solid Structures"
+    ],
+    "complexity_level":"Level 2",
+    "source":"MathVerse",
+    "qa_id":659
+  },
+  "166":{
+    "question":"Find Y, the size of \\angle PNM, correct to two decimal places.",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\167.jpg"
+    ],
+    "answer":"69.30",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Spatial Metric Relations"
+    ],
+    "complexity_level":"Level 2",
+    "source":"MathVerse",
+    "qa_id":664
+  },
+  "167":{
+    "question":"Find the length of AF in terms of AB, BD and DF.",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\168.jpg"
+    ],
+    "answer":"\\sqrt{AB^2+BD^2+DF^2}",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Spatial Metric Relations"
+    ],
+    "complexity_level":"Level 2",
+    "source":"MathVerse",
+    "qa_id":669
+  },
+  "168":{
+    "question":"Calculate the area of the divider correct to two decimal places, using your rounded answer from the previous part.",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\169.jpg"
+    ],
+    "answer":"94.59 \\mathrm{m}^2",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Composite Solid Structures"
+    ],
+    "complexity_level":"Level 2",
+    "source":"MathVerse",
+    "qa_id":674
+  },
+  "169":{
+    "question":"Find L.",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\170.jpg"
+    ],
+    "answer":"14",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms",
+      "Spatial Metric Relations"
+    ],
+    "complexity_level":"Level 2",
+    "source":"MathVerse",
+    "qa_id":679
+  },
+  "170":{
+    "question":"Find the volume of the cylinder shown.\n\nRound your answer to two decimal places.",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\171.jpg"
+    ],
+    "answer":"Volume $=367.57 \\mathrm{~cm}^{3}$",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":684
+  },
+  "171":{
+    "question":"Calculate the volume of the cylinder. Correct to one decimal place.",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\172.jpg"
+    ],
+    "answer":"Volume $=70.7 \\mathrm{~cm}^{3}$",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":689
+  },
+  "172":{
+    "question":"Calculate the volume of the half cylinder. Correct to one decimal place.",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\173.jpg"
+    ],
+    "answer":"Volume $=127.2 \\mathrm{~cm}^{3}$",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":694
+  },
+  "173":{
+    "question":"Calculate the volume of the half cylinder. Correct to one decimal place.",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\174.jpg"
+    ],
+    "answer":"Volume $=169.6 \\mathrm{~cm}^{3}$",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":699
+  },
+  "174":{
+    "question":"Find the volume of the half cylinder. Rounding to two decimal places.",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\175.jpg"
+    ],
+    "answer":"Volume $=502.65 \\mathrm{~cm}^{3}$",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":704
+  },
+  "175":{
+    "question":"Calculate the volume of the halfpipe.\n\nRound your answer to one decimal place.",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\176.jpg"
+    ],
+    "answer":"Volume $=577.3 \\mathrm{~cm}^{3}$",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":709
+  },
+  "176":{
+    "question":"Find the volume of concrete required to make the pipe, correct to two decimal places.",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\177.jpg"
+    ],
+    "answer":"Volume $=816.81 \\mathrm{~cm}^{3}$",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":714
+  },
+  "177":{
+    "question":"The weight of an empty cylindrical glass jar is 250g.\n\nCalculate its total weight when it is filled with water, correct to 2 decimal places.",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\178.jpg"
+    ],
+    "answer":"Weight $=18.63 \\mathrm{~kg}$",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":719
+  },
+  "178":{
+    "question":"If Xavier drinks 4 glasses for 7 days , how many litres of water would he drink altogether?\n\nRound your answer to one decimal place.",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\179.jpg"
+    ],
+    "answer":"Weekly water intake $=15.5$ Litres",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 2",
+    "source":"MathVerse",
+    "qa_id":724
+  },
+  "179":{
+    "question":"Calculate the volume of the solid, correct to one decimal places.",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\180.jpg"
+    ],
+    "answer":"Volume $=89.1 \\mathrm{~cm}^{3}$",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":729
+  },
+  "180":{
+    "question":"Find the volume of the figure shown, correct to two decimal places.",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\181.jpg"
+    ],
+    "answer":"Volume $=609.47 \\mathrm{~cm}^{3}$",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":734
+  },
+  "181":{
+    "question":"Find the volume of the figure shown.\n\nRound your answer to two decimal places.",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\182.jpg"
+    ],
+    "answer":"Volume $=874.93 \\mathrm{~cm}^{3}$",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms",
+      "Composite Solid Structures"
+    ],
+    "complexity_level":"Level 2",
+    "source":"MathVerse",
+    "qa_id":739
+  },
+  "182":{
+    "question":"Find the volume of the solid, correct to two decimal places.",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\183.jpg"
+    ],
+    "answer":"Volume $=944.07 \\mathrm{~cm}^{3}$",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":744
+  },
+  "183":{
+    "question":"Find the total surface area of the cube. The nine marked edges have the same length.",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\184.jpg"
+    ],
+    "answer":"216.\\mathrm{cm}^2",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":749
+  },
+  "184":{
+    "question":"Find the surface area of the rectangular.",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\185.jpg"
+    ],
+    "answer":"288 \\mathrm{m}^2",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":754
+  },
+  "185":{
+    "question":"Find the surface area of the triangular prism.",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\186.jpg"
+    ],
+    "answer":"768 \\mathrm{cm}^2",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":759
+  },
+  "186":{
+    "question":"Find the surface area of the triangular prism.",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\187.jpg"
+    ],
+    "answer":"528 \\mathrm{cm}^2",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":764
+  },
+  "187":{
+    "question":"Find the surface area of the trapezoidal prism.",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\188.jpg"
+    ],
+    "answer":"338 \\mathrm{cm}^2",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":769
+  },
+  "188":{
+    "question":"Find the surface area of this prism.",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\189.jpg"
+    ],
+    "answer":"534 \\mathrm{cm}^2",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":774
+  },
+  "189":{
+    "question":"Find the surface area of the trapezoidal prism.\n\nGive your answer to the nearest one decimal place.",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\190.jpg"
+    ],
+    "answer":"577.0 \\mathrm{cm}^2",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":779
+  },
+  "190":{
+    "question":"Find the total surface area of the triangular prism.",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\191.jpg"
+    ],
+    "answer":"608 \\mathrm{cm}^2",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":784
+  },
+  "191":{
+    "question":"Find the surface area of the figure shown.\n\nGive your answer to the nearest two decimal places.",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\192.jpg"
+    ],
+    "answer":"200.49 \\mathrm{cm}^2",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":789
+  },
+  "192":{
+    "question":"Find the surface area of the figure shown. The two marked edges have the same length.",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\193.jpg"
+    ],
+    "answer":"120 \\mathrm{cm}^2",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Composite Solid Structures"
+    ],
+    "complexity_level":"Level 2",
+    "source":"MathVerse",
+    "qa_id":794
+  },
+  "193":{
+    "question":"Find the surface area of the square pyramid.\n\nRound your answer to one decimal place.",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\194.jpg"
+    ],
+    "answer":"256.2 \\mathrm{m}^2",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":799
+  },
+  "194":{
+    "question":"Find the surface area of the cone shown.\n\nRound your answer to two decimal places.",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\195.jpg"
+    ],
+    "answer":"122.52 \\mathrm{cm}^2",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":804
+  },
+  "195":{
+    "question":"Find the surface area of the solid formed, correct to two decimal places.",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\196.jpg"
+    ],
+    "answer":"91.11 \\mathrm{cm}^2",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":809
+  },
+  "196":{
+    "question":"Find the surface area of the pyramid.\n\nRound your answer to two decimal places.",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\197.jpg"
+    ],
+    "answer":"288.6 \\mathrm{m}^2",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":814
+  },
+  "197":{
+    "question":"Find the surface area of the cone given.\n\nGive your answer correct to 2 decimal places.",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\198.jpg"
+    ],
+    "answer":"651.82 \\mathrm{cm}^2",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":819
+  },
+  "198":{
+    "question":"Find the surface area of the prism shown. The marked edges are the same length.\n\nRound your answer to two decimal places.",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\199.jpg"
+    ],
+    "answer":"323.10 \\mathrm{m}^2",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":824
+  },
+  "199":{
+    "question":"Find the surface area of the figure shown, rounded to two decimal places.",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\200.jpg"
+    ],
+    "answer":"520.55 \\mathrm{cm}^2",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":829
+  },
+  "200":{
+    "question":"Find the surface area of the solid.\n\nRound your answer to two decimal places.",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\201.jpg"
+    ],
+    "answer":"8128.50 \\text { units }^2",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Composite Solid Structures"
+    ],
+    "complexity_level":"Level 2",
+    "source":"MathVerse",
+    "qa_id":834
+  },
+  "201":{
+    "question":"Given the following square pyramid.\nFind the volume of the square pyramid.",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\202.jpg"
+    ],
+    "answer":"200 \\mathrm{cm}^3",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":839
+  },
+  "202":{
+    "question":"Consider the two similar spheres shown.\n\n\nFind the volume of Sphere A, in simplest exact form.",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\203.jpg"
+    ],
+    "answer":"36\\pi \\mathrm{cm}^3",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":844
+  },
+  "203":{
+    "question":"Consider the two similar spheres shown.\nWhat is the ratio of the volume of Sphere A to Sphere B?",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\204.jpg"
+    ],
+    "answer":"1:64",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":849
+  },
+  "204":{
+    "question":"Two similar cylinders as shown in the figure, find the fully simplified ratio of the volume of the larger cylinder to the volume of the smaller cylinder.",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\205.jpg"
+    ],
+    "answer":"100",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":854
+  },
+  "205":{
+    "question":"Consider the rectangular prism shown.\n\nWrite a fully expanded and simplified expression for the volume of the prism.",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\206.jpg"
+    ],
+    "answer":"12x^2+144x+384 \\mathrm{m}^3",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":859
+  },
+  "206":{
+    "question":"A square pyramid is shown with the following dimensions.\n\nFind an expression for L, in terms of the variable, x.",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\207.jpg"
+    ],
+    "answer":"\\frac{5\\left(5x+7\\right)}{2x+3} units",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":864
+  },
+  "207":{
+    "question":"As shown in the figure, the cylindrical water tank is leaking at a constant rate of 3\\pi x litres per second (where x is a fixed unknown). If the water tank was initially full, calculate the amount of water remaining after \\left(2x+2\\right)^2 seconds. Give your simplified answer in expanded form.",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\208.jpg"
+    ],
+    "answer":"63\\pi x^3+66\\pi x^2+15\\pi x litres",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 2",
+    "source":"MathVerse",
+    "qa_id":869
+  },
+  "208":{
+    "question":"Consider the cube shown.\n\nFind the polynomial that represents the volume of the cube.",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\209.jpg"
+    ],
+    "answer":"$x^{3}+12 x^{2}+48 x+64$ ",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":874
+  },
+  "209":{
+    "question":"Find the volume of the cylinder shown, rounding your answer to two decimal places.",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\210.jpg"
+    ],
+    "answer":"Volume $=904.78 \\mathrm{~cm}^{3}$",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":879
+  },
+  "210":{
+    "question":"Find the volume of the prism shown.",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\211.jpg"
+    ],
+    "answer":"$299 \\mathrm{~cm}^{3}$",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":884
+  },
+  "211":{
+    "question":"Calculate the volume of the rectangular prism in the figure.",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\212.jpg"
+    ],
+    "answer":"$1690cm^2$",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":889
+  },
+  "212":{
+    "question":"Each side length of the cube is equal. Find the volume of the cube shown.",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\213.jpg"
+    ],
+    "answer":"$144cm^3$",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":894
+  },
+  "213":{
+    "question":"Find the volume of the rectangular prism.",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\214.jpg"
+    ],
+    "answer":"48 \\mathrm{cm}^3",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":899
+  },
+  "214":{
+    "question":"Find the volume of the triangular prism.",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\215.jpg"
+    ],
+    "answer":"32 \\mathrm{cm}^3",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":904
+  },
+  "215":{
+    "question":"Find the volume of the prism.",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\216.jpg"
+    ],
+    "answer":"32 \\mathrm{cm}^3",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":909
+  },
+  "216":{
+    "question":"Find the volume of the prism shown.",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\217.jpg"
+    ],
+    "answer":"270 \\mathrm{cm}^3",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":914
+  },
+  "217":{
+    "question":"Find the volume of the prism.",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\218.jpg"
+    ],
+    "answer":"399 \\mathrm{cm}^3",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":919
+  },
+  "218":{
+    "question":"The solid in the figure is constructed by 3 segments, 2 of segments are same cylinder on each side of the solid. Calculate the volume of the solid. Round your answer to one decimal place.",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\219.jpg"
+    ],
+    "answer":"1608.5",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Composite Solid Structures"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":924
+  },
+  "219":{
+    "question":"As the solid shown in the figure, the seven marked edges have the same length. Find the volume of the composite solid shown.",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\220.jpg"
+    ],
+    "answer":"3136 \\mathrm{cm}^3",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Composite Solid Structures"
+    ],
+    "complexity_level":"Level 2",
+    "source":"MathVerse",
+    "qa_id":929
+  },
+  "220":{
+    "question":"Find the volume of the pyramid to one decimal place.",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\221.jpg"
+    ],
+    "answer":"125.3 \\mathrm{cm}^3",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":934
+  },
+  "221":{
+    "question":"Find the exact volume of the right pyramid pictured.",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\222.jpg"
+    ],
+    "answer":"\\frac{847}{3} \\mathrm{mm}^3",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":939
+  },
+  "222":{
+    "question":"As shown in the figure, the solid is constructed by a cone and semi-sphere. Find the volume of the composite figure shown, correct to two decimal places.",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\223.jpg"
+    ],
+    "answer":"169.65 \\mathrm{cm}^3",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Composite Solid Structures"
+    ],
+    "complexity_level":"Level 2",
+    "source":"MathVerse",
+    "qa_id":944
+  },
+  "223":{
+    "question":"A pyramid has been removed from a rectangular prism, as shown in the figure. Find the volume of this composite solid.",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\224.jpg"
+    ],
+    "answer":"720 \\mathrm{cm}^3",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Composite Solid Structures"
+    ],
+    "complexity_level":"Level 2",
+    "source":"MathVerse",
+    "qa_id":949
+  },
+  "224":{
+    "question":"Find the h mm of this closed cylinder if its surface area (S) is 27288 mm$^2$.\n\nRound your answer to the nearest whole number.",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\225.jpg"
+    ],
+    "answer":"58",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":954
+  },
+  "225":{
+    "question":"A cylinder has a surface area of 54105 mm$^2$.\n\nWhat must the h mm of the cylinder be?\n\nRound your answer to the nearest whole number.",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\226.jpg"
+    ],
+    "answer":"30",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":959
+  },
+  "226":{
+    "question":"A wedding cake consists of three cylinders stacked on top of each other. The middle layer has a radius double of the top layer, and the bottom layer has a radius three times as big.\n\nAll the sides and top surfaces are to be covered in icing, but not the bottom.\n\nWhat is the surface area of the cake that needs to be iced?\n\nGive your answer to the nearest cm2.",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\227.jpg"
+    ],
+    "answer":"33929 \\mathrm{cm}^2",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Composite Solid Structures"
+    ],
+    "complexity_level":"Level 2",
+    "source":"MathVerse",
+    "qa_id":964
+  },
+  "227":{
+    "question":"A square pyramid is shown with the following dimensions.\n\nFind an expression for the length L of the base of the pyramid in terms of the variable, x.",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\228.jpg"
+    ],
+    "answer":"24 units",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":969
+  },
+  "228":{
+    "question":"Calculate the radius of the sphere shown in figure with the volume of the cylinder 13.75\\pi cm$^3$.",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\229.jpg"
+    ],
+    "answer":"3",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms",
+      "Composite Solid Structures"
+    ],
+    "complexity_level":"Level 2",
+    "source":"MathVerse",
+    "qa_id":974
+  },
+  "229":{
+    "question":"Find L. Give your answer rounded down to the nearest cm.",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\230.jpg"
+    ],
+    "answer":"14",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Spatial Metric Relations"
+    ],
+    "complexity_level":"Level 2",
+    "source":"MathVerse",
+    "qa_id":979
+  },
+  "230":{
+    "question":"Consider the triangular prism below. EX and XF have same length.\nFind the length of CX correct to two decimal places.",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\231.jpg"
+    ],
+    "answer":"15.81",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Spatial Metric Relations"
+    ],
+    "complexity_level":"Level 2",
+    "source":"MathVerse",
+    "qa_id":984
+  },
+  "231":{
+    "question":"All edges of the following cube have the same length.\n\nFind the exact length of AG in simplest surd form.",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\232.jpg"
+    ],
+    "answer":"\\sqrt{147}",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":989
+  },
+  "232":{
+    "question":"The following is a right pyramid on a square base. A right pyramid has its apex aligned directly above the centre of its base.\n\nUse your answer from part (a) to find the length of VW, the perpendicular height of the pyramid correct to two decimal places.",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\233.jpg"
+    ],
+    "answer":"23.41",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":994
+  },
+  "233":{
+    "question":"A rectangular prism has dimensions as labelled on the diagram.\nFind the length of AG. Leave your answer in surd form.",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\234.jpg"
+    ],
+    "answer":"\\sqrt{122}",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Spatial Metric Relations"
+    ],
+    "complexity_level":"Level 2",
+    "source":"MathVerse",
+    "qa_id":999
+  },
+  "234":{
+    "question":"Consider the following figure.\n\nUse Pythagoras' Theorem to find the unknown height $x$ in the triangular prism shown.",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\235.jpg"
+    ],
+    "answer":"$x=8 \\mathrm{~cm}$",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":1004
+  },
+  "235":{
+    "question":"In the cylindrical tube shown above, the circumference of the circular base is 32 . If the tube is cut along $\\overline{A B}$ and laid out flat to make a rectangle, what is the length of $\\overline{A C}$ to the nearest whole number? A. 24\n B. 30\n C. 34\n D. 38\n",
+    "choices":[
+      "24",
+      "30",
+      "34",
+      "38"
+    ],
+    "image":[
+      "images\\236.jpg"
+    ],
+    "answer":"C",
+    "solution":[
+
+    ],
+    "answer_type":"choice",
+    "problem_type":[
+      "Planar Unfolding and Configuration"
+    ],
+    "complexity_level":"Level 2",
+    "source":"MathVerse",
+    "qa_id":1009
+  },
+  "236":{
+    "question":"The figure above shows a triangular prism. If the volume of the prism is $\\frac{81}{4}$, what is the value of $x$ ? A. 3\n B. 4\n C. 5\n D. 6\n",
+    "choices":[
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "image":[
+      "images\\237.jpg"
+    ],
+    "answer":"A",
+    "solution":[
+
+    ],
+    "answer_type":"choice",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":1014
+  },
+  "237":{
+    "question":"In the figure shown above, if all the water in the rectangular container is poured into the cylinder, the water level rises from $h$ inches to $(h+x)$ inches. Which of the following is the best approximation of the value of $x$ ? A. 3\n B. 3.4\n C. 3.8\n D. 4.2\n",
+    "choices":[
+      "3",
+      "3.4",
+      "3.8",
+      "4.2"
+    ],
+    "image":[
+      "images\\238.jpg"
+    ],
+    "answer":"D",
+    "solution":[
+
+    ],
+    "answer_type":"choice",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 2",
+    "source":"MathVerse",
+    "qa_id":1019
+  },
+  "238":{
+    "question":"",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\239.jpg"
+    ],
+    "answer":"diameter $=10 \\mathrm{~m}$",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":430
+  },
+  "239":{
+    "question":"",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\240.jpg"
+    ],
+    "answer":"$r=5$",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms",
+      "Spatial Metric Relations"
+    ],
+    "complexity_level":"Level 2",
+    "source":"MathVerse",
+    "qa_id":435
+  },
+  "240":{
+    "question":"",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\241.jpg"
+    ],
+    "answer":"$y=21.61$",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":440
+  },
+  "241":{
+    "question":"",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\242.jpg"
+    ],
+    "answer":"Area $=124.85 \\mathrm{~cm}^{2}$",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":445
+  },
+  "242":{
+    "question":"",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\243.jpg"
+    ],
+    "answer":"Volume $=1633.63 \\mathrm{~m}^{3}$",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":450
+  },
+  "243":{
+    "question":"",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\244.jpg"
+    ],
+    "answer":"Weight $=63.3 \\mathrm{~g}$",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":455
+  },
+  "244":{
+    "question":"",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\245.jpg"
+    ],
+    "answer":"Volume $=904.78 \\mathrm{~cm}^{3}$",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":460
+  },
+  "245":{
+    "question":"",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\246.jpg"
+    ],
+    "answer":"Volume $=883.57 \\mathrm{~cm}^{3}$",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":465
+  },
+  "246":{
+    "question":"",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\247.jpg"
+    ],
+    "answer":"Volume $=25.13 \\mathrm{~cm}^{3}$",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":470
+  },
+  "247":{
+    "question":"",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\248.jpg"
+    ],
+    "answer":"Volume $=32.45 \\mathrm{~cm}^{3}$",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":475
+  },
+  "248":{
+    "question":"",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\249.jpg"
+    ],
+    "answer":"Volume $=10.45 \\mathrm{~cm}^{3}$",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":480
+  },
+  "249":{
+    "question":"",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\250.jpg"
+    ],
+    "answer":"220.0 \\mathrm{~cm}^{3}",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":485
+  },
+  "250":{
+    "question":"",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\251.jpg"
+    ],
+    "answer":"56.55 units $^{3}$",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":490
+  },
+  "251":{
+    "question":"",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\252.jpg"
+    ],
+    "answer":"Volume $=113.10 \\mathrm{~cm}^{3}$",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":495
+  },
+  "252":{
+    "question":"",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\253.jpg"
+    ],
+    "answer":"Volume $=33.51 \\mathrm{~cm}^{3}$",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":500
+  },
+  "253":{
+    "question":"",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\254.jpg"
+    ],
+    "answer":"Volume $=508.94 \\mathrm{~cm}^{3}$",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":505
+  },
+  "254":{
+    "question":"",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\255.jpg"
+    ],
+    "answer":"Volume $=2854.54 \\mathrm{~cm}^{3}$",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":510
+  },
+  "255":{
+    "question":"",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\256.jpg"
+    ],
+    "answer":"Volume $=46827.83 \\mathrm{~mm}^{3}$",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":515
+  },
+  "256":{
+    "question":"",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\257.jpg"
+    ],
+    "answer":"Volume $=452.389$ cubic units",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":520
+  },
+  "257":{
+    "question":"",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\258.jpg"
+    ],
+    "answer":"Volume $=34159.095 \\mathrm{~cm}^{3}$",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":525
+  },
+  "258":{
+    "question":"",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\259.jpg"
+    ],
+    "answer":"Surface Area $=2827.43 \\mathrm{~cm}^{2}$",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":530
+  },
+  "259":{
+    "question":"",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\260.jpg"
+    ],
+    "answer":"Surface Area $=9236.28 \\mathrm{~m}^{2}$",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":535
+  },
+  "260":{
+    "question":"",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\261.jpg"
+    ],
+    "answer":"Surface Area $=109603.88 \\mathrm{~mm}^{2}$",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":540
+  },
+  "261":{
+    "question":"",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\262.jpg"
+    ],
+    "answer":"Surface Area $=9.86 \\mathrm{~m}^{2}$",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":545
+  },
+  "262":{
+    "question":"",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\263.jpg"
+    ],
+    "answer":"$h=58$",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":550
+  },
+  "263":{
+    "question":"",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\264.jpg"
+    ],
+    "answer":"$h=30$",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":555
+  },
+  "264":{
+    "question":"",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\265.jpg"
+    ],
+    "answer":"Surface Area $=603.19 \\mathrm{~cm}^{2}$",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":560
+  },
+  "265":{
+    "question":"",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\266.jpg"
+    ],
+    "answer":"$\\mathrm{SA}=3298.67 \\mathrm{~cm}^{2}$",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":565
+  },
+  "266":{
+    "question":"",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\267.jpg"
+    ],
+    "answer":"Surface area $=2 \\pi(R+r)(L+R-r)$ square units",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":570
+  },
+  "267":{
+    "question":"",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\268.jpg"
+    ],
+    "answer":"Surface Area $=1520.53 \\mathrm{~cm}^{2}$",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":575
+  },
+  "268":{
+    "question":"",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\269.jpg"
+    ],
+    "answer":"Surface Area $=254.47 \\mathrm{~cm}^{2}$",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":580
+  },
+  "269":{
+    "question":"",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\270.jpg"
+    ],
+    "answer":"Surface Area $=39647.77 \\mathrm{~mm}^{2}$",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":585
+  },
+  "270":{
+    "question":"",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\271.jpg"
+    ],
+    "answer":"Area $=113.097$ units $^{2}$",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":590
+  },
+  "271":{
+    "question":"",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\272.jpg"
+    ],
+    "answer":"Surface Area $=603.186$ units $^{2}$",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":595
+  },
+  "272":{
+    "question":"",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\273.jpg"
+    ],
+    "answer":"Surface Area $=52647.45$ units $^{2}$",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":600
+  },
+  "273":{
+    "question":"",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\274.jpg"
+    ],
+    "answer":"S.A. of rectangular prism $=4371.46 \\mathrm{~mm}^{2}$",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Composite Solid Structures"
+    ],
+    "complexity_level":"Level 2",
+    "source":"MathVerse",
+    "qa_id":605
+  },
+  "274":{
+    "question":"",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\275.jpg"
+    ],
+    "answer":"Surface Area $=8128.50$ units $^{2}$",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Composite Solid Structures"
+    ],
+    "complexity_level":"Level 2",
+    "source":"MathVerse",
+    "qa_id":610
+  },
+  "275":{
+    "question":"",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\276.jpg"
+    ],
+    "answer":"Surface Area $=235.87 \\mathrm{~cm}^{2}$",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Composite Solid Structures"
+    ],
+    "complexity_level":"Level 2",
+    "source":"MathVerse",
+    "qa_id":615
+  },
+  "276":{
+    "question":"",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\277.jpg"
+    ],
+    "answer":"Total S.A. $=3222.80 \\mathrm{~mm}^{2}$",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms",
+      "Composite Solid Structures"
+    ],
+    "complexity_level":"Level 2",
+    "source":"MathVerse",
+    "qa_id":620
+  },
+  "277":{
+    "question":"",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\278.jpg"
+    ],
+    "answer":"Surface area $=78.5 \\mathrm{~cm}^{2}$",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Composite Solid Structures"
+    ],
+    "complexity_level":"Level 2",
+    "source":"MathVerse",
+    "qa_id":625
+  },
+  "278":{
+    "question":"",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\279.jpg"
+    ],
+    "answer":"Total surface area $=4194.03 \\mathrm{~cm}^{2}$",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Composite Solid Structures"
+    ],
+    "complexity_level":"Level 2",
+    "source":"MathVerse",
+    "qa_id":630
+  },
+  "279":{
+    "question":"",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\280.jpg"
+    ],
+    "answer":"S.A. $=1209.84$",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":635
+  },
+  "280":{
+    "question":"",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\281.jpg"
+    ],
+    "answer":"11.83",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Spatial Metric Relations"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":640
+  },
+  "281":{
+    "question":"",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\282.jpg"
+    ],
+    "answer":"68.34",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Spatial Metric Relations"
+    ],
+    "complexity_level":"Level 2",
+    "source":"MathVerse",
+    "qa_id":645
+  },
+  "282":{
+    "question":"",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\283.jpg"
+    ],
+    "answer":"54.74",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Spatial Metric Relations"
+    ],
+    "complexity_level":"Level 2",
+    "source":"MathVerse",
+    "qa_id":650
+  },
+  "283":{
+    "question":"",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\284.jpg"
+    ],
+    "answer":"10.74",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Spatial Metric Relations"
+    ],
+    "complexity_level":"Level 2",
+    "source":"MathVerse",
+    "qa_id":655
+  },
+  "284":{
+    "question":"",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\285.jpg"
+    ],
+    "answer":"75.15 \\mathrm{m}^2",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Composite Solid Structures"
+    ],
+    "complexity_level":"Level 2",
+    "source":"MathVerse",
+    "qa_id":660
+  },
+  "285":{
+    "question":"",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\286.jpg"
+    ],
+    "answer":"69.30",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Spatial Metric Relations"
+    ],
+    "complexity_level":"Level 2",
+    "source":"MathVerse",
+    "qa_id":665
+  },
+  "286":{
+    "question":"",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\287.jpg"
+    ],
+    "answer":"\\sqrt{AB^2+BD^2+DF^2}",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Spatial Metric Relations"
+    ],
+    "complexity_level":"Level 2",
+    "source":"MathVerse",
+    "qa_id":670
+  },
+  "287":{
+    "question":"",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\288.jpg"
+    ],
+    "answer":"94.59 \\mathrm{m}^2",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Composite Solid Structures"
+    ],
+    "complexity_level":"Level 2",
+    "source":"MathVerse",
+    "qa_id":675
+  },
+  "288":{
+    "question":"",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\289.jpg"
+    ],
+    "answer":"14",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms",
+      "Spatial Metric Relations"
+    ],
+    "complexity_level":"Level 2",
+    "source":"MathVerse",
+    "qa_id":680
+  },
+  "289":{
+    "question":"",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\290.jpg"
+    ],
+    "answer":"Volume $=367.57 \\mathrm{~cm}^{3}$",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":685
+  },
+  "290":{
+    "question":"",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\291.jpg"
+    ],
+    "answer":"Volume $=70.7 \\mathrm{~cm}^{3}$",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":690
+  },
+  "291":{
+    "question":"",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\292.jpg"
+    ],
+    "answer":"Volume $=127.2 \\mathrm{~cm}^{3}$",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":695
+  },
+  "292":{
+    "question":"",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\293.jpg"
+    ],
+    "answer":"Volume $=169.6 \\mathrm{~cm}^{3}$",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":700
+  },
+  "293":{
+    "question":"",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\294.jpg"
+    ],
+    "answer":"Volume $=502.65 \\mathrm{~cm}^{3}$",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":705
+  },
+  "294":{
+    "question":"",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\295.jpg"
+    ],
+    "answer":"Volume $=577.3 \\mathrm{~cm}^{3}$",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":710
+  },
+  "295":{
+    "question":"",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\296.jpg"
+    ],
+    "answer":"Volume $=816.81 \\mathrm{~cm}^{3}$",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":715
+  },
+  "296":{
+    "question":"",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\297.jpg"
+    ],
+    "answer":"Weight $=18.63 \\mathrm{~kg}$",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":720
+  },
+  "297":{
+    "question":"",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\298.jpg"
+    ],
+    "answer":"Weekly water intake $=15.5$ Litres",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 2",
+    "source":"MathVerse",
+    "qa_id":725
+  },
+  "298":{
+    "question":"",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\299.jpg"
+    ],
+    "answer":"Volume $=89.1 \\mathrm{~cm}^{3}$",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":730
+  },
+  "299":{
+    "question":"",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\300.jpg"
+    ],
+    "answer":"Volume $=609.47 \\mathrm{~cm}^{3}$",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":735
+  },
+  "300":{
+    "question":"",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\301.jpg"
+    ],
+    "answer":"Volume $=874.93 \\mathrm{~cm}^{3}$",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms",
+      "Composite Solid Structures"
+    ],
+    "complexity_level":"Level 2",
+    "source":"MathVerse",
+    "qa_id":740
+  },
+  "301":{
+    "question":"",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\302.jpg"
+    ],
+    "answer":"Volume $=944.07 \\mathrm{~cm}^{3}$",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":745
+  },
+  "302":{
+    "question":"",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\303.jpg"
+    ],
+    "answer":"216.\\mathrm{cm}^2",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":750
+  },
+  "303":{
+    "question":"",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\304.jpg"
+    ],
+    "answer":"288 \\mathrm{m}^2",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":755
+  },
+  "304":{
+    "question":"",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\305.jpg"
+    ],
+    "answer":"768 \\mathrm{cm}^2",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":760
+  },
+  "305":{
+    "question":"",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\306.jpg"
+    ],
+    "answer":"528 \\mathrm{cm}^2",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":765
+  },
+  "306":{
+    "question":"",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\307.jpg"
+    ],
+    "answer":"338 \\mathrm{cm}^2",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":770
+  },
+  "307":{
+    "question":"",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\308.jpg"
+    ],
+    "answer":"534 \\mathrm{cm}^2",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":775
+  },
+  "308":{
+    "question":"",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\309.jpg"
+    ],
+    "answer":"577.0 \\mathrm{cm}^2",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":780
+  },
+  "309":{
+    "question":"",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\310.jpg"
+    ],
+    "answer":"608 \\mathrm{cm}^2",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":785
+  },
+  "310":{
+    "question":"",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\311.jpg"
+    ],
+    "answer":"200.49 \\mathrm{cm}^2",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":790
+  },
+  "311":{
+    "question":"",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\312.jpg"
+    ],
+    "answer":"120 \\mathrm{cm}^2",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Composite Solid Structures"
+    ],
+    "complexity_level":"Level 2",
+    "source":"MathVerse",
+    "qa_id":795
+  },
+  "312":{
+    "question":"",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\313.jpg"
+    ],
+    "answer":"256.2 \\mathrm{m}^2",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":800
+  },
+  "313":{
+    "question":"",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\314.jpg"
+    ],
+    "answer":"122.52 \\mathrm{cm}^2",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":805
+  },
+  "314":{
+    "question":"",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\315.jpg"
+    ],
+    "answer":"91.11 \\mathrm{cm}^2",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":810
+  },
+  "315":{
+    "question":"",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\316.jpg"
+    ],
+    "answer":"288.6 \\mathrm{m}^2",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":815
+  },
+  "316":{
+    "question":"",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\317.jpg"
+    ],
+    "answer":"651.82 \\mathrm{cm}^2",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":820
+  },
+  "317":{
+    "question":"",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\318.jpg"
+    ],
+    "answer":"323.10 \\mathrm{m}^2",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":825
+  },
+  "318":{
+    "question":"",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\319.jpg"
+    ],
+    "answer":"520.55 \\mathrm{cm}^2",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":830
+  },
+  "319":{
+    "question":"",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\320.jpg"
+    ],
+    "answer":"8128.50 \\text { units }^2",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Composite Solid Structures"
+    ],
+    "complexity_level":"Level 2",
+    "source":"MathVerse",
+    "qa_id":835
+  },
+  "320":{
+    "question":"",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\321.jpg"
+    ],
+    "answer":"200 \\mathrm{cm}^3",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":840
+  },
+  "321":{
+    "question":"",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\322.jpg"
+    ],
+    "answer":"36\\pi \\mathrm{cm}^3",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":845
+  },
+  "322":{
+    "question":"",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\323.jpg"
+    ],
+    "answer":"1:64",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":850
+  },
+  "323":{
+    "question":"",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\324.jpg"
+    ],
+    "answer":"100",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":855
+  },
+  "324":{
+    "question":"",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\325.jpg"
+    ],
+    "answer":"12x^2+144x+384 \\mathrm{m}^3",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":860
+  },
+  "325":{
+    "question":"",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\326.jpg"
+    ],
+    "answer":"\\frac{5\\left(5x+7\\right)}{2x+3} units",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":865
+  },
+  "326":{
+    "question":"",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\327.jpg"
+    ],
+    "answer":"63\\pi x^3+66\\pi x^2+15\\pi x litres",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 2",
+    "source":"MathVerse",
+    "qa_id":870
+  },
+  "327":{
+    "question":"",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\328.jpg"
+    ],
+    "answer":"$x^{3}+12 x^{2}+48 x+64$ ",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":875
+  },
+  "328":{
+    "question":"",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\329.jpg"
+    ],
+    "answer":"Volume $=904.78 \\mathrm{~cm}^{3}$",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":880
+  },
+  "329":{
+    "question":"",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\330.jpg"
+    ],
+    "answer":"$299 \\mathrm{~cm}^{3}$",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":885
+  },
+  "330":{
+    "question":"",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\331.jpg"
+    ],
+    "answer":"$1690cm^2$",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":890
+  },
+  "331":{
+    "question":"",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\332.jpg"
+    ],
+    "answer":"$144cm^3$",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":895
+  },
+  "332":{
+    "question":"",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\333.jpg"
+    ],
+    "answer":"48 \\mathrm{cm}^3",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":900
+  },
+  "333":{
+    "question":"",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\334.jpg"
+    ],
+    "answer":"32 \\mathrm{cm}^3",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":905
+  },
+  "334":{
+    "question":"",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\335.jpg"
+    ],
+    "answer":"32 \\mathrm{cm}^3",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":910
+  },
+  "335":{
+    "question":"",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\336.jpg"
+    ],
+    "answer":"270 \\mathrm{cm}^3",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":915
+  },
+  "336":{
+    "question":"",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\337.jpg"
+    ],
+    "answer":"399 \\mathrm{cm}^3",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":920
+  },
+  "337":{
+    "question":"",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\338.jpg"
+    ],
+    "answer":"1608.5",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Composite Solid Structures"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":925
+  },
+  "338":{
+    "question":"",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\339.jpg"
+    ],
+    "answer":"3136 \\mathrm{cm}^3",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Composite Solid Structures"
+    ],
+    "complexity_level":"Level 2",
+    "source":"MathVerse",
+    "qa_id":930
+  },
+  "339":{
+    "question":"",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\340.jpg"
+    ],
+    "answer":"125.3 \\mathrm{cm}^3",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":935
+  },
+  "340":{
+    "question":"",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\341.jpg"
+    ],
+    "answer":"\\frac{847}{3} \\mathrm{mm}^3",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":940
+  },
+  "341":{
+    "question":"",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\342.jpg"
+    ],
+    "answer":"169.65 \\mathrm{cm}^3",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Composite Solid Structures"
+    ],
+    "complexity_level":"Level 2",
+    "source":"MathVerse",
+    "qa_id":945
+  },
+  "342":{
+    "question":"",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\343.jpg"
+    ],
+    "answer":"720 \\mathrm{cm}^3",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Composite Solid Structures"
+    ],
+    "complexity_level":"Level 2",
+    "source":"MathVerse",
+    "qa_id":950
+  },
+  "343":{
+    "question":"",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\344.jpg"
+    ],
+    "answer":"58",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":955
+  },
+  "344":{
+    "question":"",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\345.jpg"
+    ],
+    "answer":"30",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":960
+  },
+  "345":{
+    "question":"",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\346.jpg"
+    ],
+    "answer":"33929 \\mathrm{cm}^2",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Composite Solid Structures"
+    ],
+    "complexity_level":"Level 2",
+    "source":"MathVerse",
+    "qa_id":965
+  },
+  "346":{
+    "question":"",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\347.jpg"
+    ],
+    "answer":"24 units",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":970
+  },
+  "347":{
+    "question":"",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\348.jpg"
+    ],
+    "answer":"3",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms",
+      "Composite Solid Structures"
+    ],
+    "complexity_level":"Level 2",
+    "source":"MathVerse",
+    "qa_id":975
+  },
+  "348":{
+    "question":"",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\349.jpg"
+    ],
+    "answer":"14",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Spatial Metric Relations"
+    ],
+    "complexity_level":"Level 2",
+    "source":"MathVerse",
+    "qa_id":980
+  },
+  "349":{
+    "question":"",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\350.jpg"
+    ],
+    "answer":"15.81",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Spatial Metric Relations"
+    ],
+    "complexity_level":"Level 2",
+    "source":"MathVerse",
+    "qa_id":985
+  },
+  "350":{
+    "question":"",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\351.jpg"
+    ],
+    "answer":"\\sqrt{147}",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":990
+  },
+  "351":{
+    "question":"",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\352.jpg"
+    ],
+    "answer":"23.41",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":995
+  },
+  "352":{
+    "question":"",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\353.jpg"
+    ],
+    "answer":"\\sqrt{122}",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Spatial Metric Relations"
+    ],
+    "complexity_level":"Level 2",
+    "source":"MathVerse",
+    "qa_id":1000
+  },
+  "353":{
+    "question":"",
+    "choices":[
+
+    ],
+    "image":[
+      "images\\354.jpg"
+    ],
+    "answer":"$x=8 \\mathrm{~cm}$",
+    "solution":[
+
+    ],
+    "answer_type":"single-step",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":1005
+  },
+  "354":{
+    "question":" A. 24\n B. 30\n C. 34\n D. 38\n",
+    "choices":[
+      "24",
+      "30",
+      "34",
+      "38"
+    ],
+    "image":[
+      "images\\355.jpg"
+    ],
+    "answer":"C",
+    "solution":[
+
+    ],
+    "answer_type":"choice",
+    "problem_type":[
+      "Planar Unfolding and Configuration"
+    ],
+    "complexity_level":"Level 2",
+    "source":"MathVerse",
+    "qa_id":1010
+  },
+  "355":{
+    "question":" A. 3\n B. 4\n C. 5\n D. 6\n",
+    "choices":[
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "image":[
+      "images\\356.jpg"
+    ],
+    "answer":"A",
+    "solution":[
+
+    ],
+    "answer_type":"choice",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 1",
+    "source":"MathVerse",
+    "qa_id":1015
+  },
+  "356":{
+    "question":" A. 3\n B. 3.4\n C. 3.8\n D. 4.2\n",
+    "choices":[
+      "3",
+      "3.4",
+      "3.8",
+      "4.2"
+    ],
+    "image":[
+      "images\\357.jpg"
+    ],
+    "answer":"D",
+    "solution":[
+
+    ],
+    "answer_type":"choice",
+    "problem_type":[
+      "Measurement of Solid Geometric Forms"
+    ],
+    "complexity_level":"Level 2",
+    "source":"MathVerse",
+    "qa_id":1020
+  }
+}
