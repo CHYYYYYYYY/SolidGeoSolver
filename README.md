@@ -1,3 +1,5 @@
+
+
 <p align="center">
   <h1 style="display: inline-block; font-size: 24px; text-align: center; line-height: 1.5;"> 
     <img src="./logo.png" alt="Logo" style="width: 45px; vertical-align: middle; margin-right: 10px;"> 
@@ -40,7 +42,7 @@ SolidGeoSolver/
 - `api/` contains prompt-and-call helpers for model APIs.
 - `core/hilbert_geo/` is the package.
 - `core/gdl/` and `core/files/t_info.json` keep the predicate library, theorem bank, and theorem metadata with the core code.
-- `data/hilbert_geo_v2/` contains sample subset for repository display and quick testing.
+- `data/hilbert_geo7k_v2/` contains sample subset for repository display and quick testing.
 
 ## Quick Start
 
